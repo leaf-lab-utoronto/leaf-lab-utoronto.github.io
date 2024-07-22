@@ -28,41 +28,41 @@ bio: PI of LEAF Lab
 experience:
   roles:
     - role: Assistant Professor
-      institution: <a href="http://utoronto.ca">University of Toronto</a>
+      institution: <a href="http://utoronto.ca" target="_blank">University of Toronto</a>
       year: 2024 -
     - role: Senior Research Scientist
-      institution: <a href="http://waymo.com">Waymo Research</a>
+      institution: <a href="http://waymo.com" target="_blank">Waymo Research</a>
       year: 2022 - 2024
     - role: Postdoctoral Scholar
-      institution: <a href="https://rail.eecs.berkeley.edu/index.html">UC Berkeley RAIL Lab</a>
+      institution: <a href="https://rail.eecs.berkeley.edu/index.html" target="_blank">UC Berkeley RAIL Lab</a>
       year: 2019 - 2022
     - role: Research Intern
-      institution: <a href="https://rail.eecs.berkeley.edu/index.html">UC Berkeley RAIL Lab</a>
+      institution: <a href="https://rail.eecs.berkeley.edu/index.html" target="_blank">UC Berkeley RAIL Lab</a>
       year: 2018
     - role: Research Intern
-      institution: <a href="https://www.nec-labs.com/research/media-analytics/">NEC Labs Media Analytics</a>
+      institution: <a href="https://www.nec-labs.com/research/media-analytics/" target="_blank">NEC Labs Media Analytics</a>
       year: 2017
     - role: Research Intern
       institution: Uber Advanced Technologies Group
       year: 2016
     - role: Ph.D. Student Researcher
-      institution: <a href="https://www.ri.cmu.edu/">Carnegie Mellon University</a>
+      institution: <a href="https://www.ri.cmu.edu/" target="_blank">Carnegie Mellon University</a>
       year: 2014 -- 2019
 
 
 education:
   courses:
     - course: Ph.D. in Robotics
-      institution: <a href="https://www.ri.cmu.edu/">Carnegie Mellon University</a>
+      institution: <a href="https://www.ri.cmu.edu/" target="_blank">Carnegie Mellon University</a>
       year: 2014 - 2019
     - course: M.S. in Robotics
-      institution: <a href="https://www.ri.cmu.edu/">Carnegie Mellon University</a>
+      institution: <a href="https://www.ri.cmu.edu/" target="_blank">Carnegie Mellon University</a>
       year: 2013 - 2014
     - course: B.S. in Engineering
-      institution: <a href="https://www.swarthmore.edu/">Swarthmore College</a>
+      institution: <a href="https://www.swarthmore.edu/" target="_blank">Swarthmore College</a>
       year: 2008 - 2012
     - course: B.A. in Computer Science
-      institution: <a href="https://www.swarthmore.edu/">Swarthmore College</a>
+      institution: <a href="https://www.swarthmore.edu/" target="_blank">Swarthmore College</a>
       year: 2008 - 2012
 
 # Social/Academic Networking
