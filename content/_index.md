@@ -29,9 +29,9 @@ sections:
       #     foo       
       # Add your Hero text here
       text: |
-        <div style="display: flex; flex-direction: row; flex-wrap: nowrap; align-items: start">
-        <img class="avatar avatar" src="/images/nr_headshot_v1.jpg" alt="Nicholas Rhinehart">
-        <div style="align-self: top; font-size: medium; text-align: top; padding-left: 20px;">
+        <div style="display: flex; justify-content: flex-start; flex-direction: row; align-items: start; flex-wrap: wrap; width: 100%">
+        <img class="avatar avatar-circle" src="/images/nr_headshot_v1.jpg" alt="Nicholas Rhinehart" style="width: 250px; height: 100%; margin: 0;">
+        <div style="align-self: top; font-size: medium; text-align: top; padding-left: 20px; min-width: 250px; max-width: 500px">
           Welcome to the Learning, Embodied Autonomy, and Forecasting (LEAF) lab, part of the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>, <a href="https://utias.utoronto.ca" target="_blank">UTIAS</a>, and the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>. We aim to develop broadly useful autonomous systems that operate in complex, dynamic environments by advancing the algorithmic foundations of robot learning.
           <br><br>         
           Our research spans topics within <a href="./tag/robotics">robotics</a>, <a href="./tag/machine-learning">machine learning</a>, and <a href="./tag/computer-vision">computer vision</a>, and includes <a href="./tag/forecasting">forecasting</a>, <a href="./tag/imitation-learning">imitation learning</a>, <a href="./tag/reinforcement-learning">reinforcement learning</a>, <a href="./tag/reward-learning">reward learning</a>, and <a href="./tag/planning">planning</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.
