@@ -10,7 +10,7 @@ authors:
 - Gregory Kahn
 - Nicholas Rhinehart
 - Sergey Levine
-tags: ["autonomous navigation", "computer vision", "machine learning", "planning", "robotics"]
+tags: ["autonomous driving", "computer vision", "machine learning", "planning", "robotics"]
 categories: []
 date: '2021-01-01'
 lastmod: 2024-07-15T15:34:52-04:00

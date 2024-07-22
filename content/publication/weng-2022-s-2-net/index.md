@@ -40,4 +40,5 @@ abstract: ''
 publication: '*European Conference on Computer Vision*'
 publication_short: '**ECCV**'
 url_pdf: https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870541.pdf
+url_doi: https://link.springer.com/chapter/10.1007/978-3-031-19812-0_32
 ---

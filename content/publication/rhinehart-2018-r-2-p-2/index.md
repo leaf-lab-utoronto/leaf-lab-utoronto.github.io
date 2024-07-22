@@ -9,7 +9,7 @@ authors:
 - Nicholas Rhinehart
 - Kris M. Kitani
 - Paul Vernaza
-tags: ["imitation learning", "forecasting", "generative models", "machine learning", "reward learning"]
+tags: ["autonomous driving", "imitation learning", "forecasting", "generative models", "machine learning", "reward learning"]
 categories: []
 date: '2018-01-01'
 lastmod: 2024-07-15T15:34:46-04:00

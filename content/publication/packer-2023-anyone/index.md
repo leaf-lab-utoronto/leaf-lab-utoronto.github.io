@@ -41,4 +41,5 @@ abstract: ''
 publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
 url_pdf: https://proceedings.mlr.press/v205/packer23a/packer23a.pdf
+url_doi: https://openreview.net/forum?id=2CSj965d9O4
 ---

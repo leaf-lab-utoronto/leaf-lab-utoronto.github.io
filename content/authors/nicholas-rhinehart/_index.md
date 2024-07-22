@@ -28,10 +28,10 @@ bio: PI of LEAF Lab
 experience:
   roles:
     - role: Assistant Professor
-      institution: <a href="http://utoronto.ca" target="_blank">University of Toronto</a>
+      institution: <a href="http:/robotics.utoronto.ca" target="_blank">University of Toronto</a>
       year: 2024 -
     - role: Senior Research Scientist
-      institution: <a href="http://waymo.com" target="_blank">Waymo Research</a>
+      institution: <a href="https://waymo.com/research/" target="_blank">Waymo Research</a>
       year: 2022 - 2024
     - role: Postdoctoral Scholar
       institution: <a href="https://rail.eecs.berkeley.edu/index.html" target="_blank">UC Berkeley RAIL Lab</a>
