@@ -28,6 +28,7 @@ sections:
       #   label: >-
       #     foo       
       # Add your Hero text here
+      # <div style="display: flex; justify-content: flex-start; flex-direction: row; align-items: start; flex-wrap: wrap; width: 100%">
       text: |
         <div style="display: flex; justify-content: flex-start; flex-direction: row; align-items: start; flex-wrap: wrap; width: 100%">
         <img class="avatar avatar-circle" src="/images/nr_headshot_v1.jpg" alt="Nicholas Rhinehart" href="author/nicholas-rhinehart/" style="width: 250px; height: 100%; margin: 0;">
@@ -65,6 +66,7 @@ sections:
     content:
       title: ''
       text: |
+        <div class="container">
         <div class="row">
         <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
           <h1 class="mb-0">Our research interests</h1>
@@ -75,7 +77,7 @@ sections:
           <h1 class="mb-0" style="visibility: hidden">Our research interests</h1>
         </div>
         <div class="row">
-        <div style="display:flex; justify-content: space-between; column-gap: 3vw; row-gap: 1vw; font-size: medium; text-align:left">
+        <div style="display:flex; justify-content: flex-start; column-gap: 3vw; row-gap: 1vw; font-size: medium; text-align:left; flex-wrap: wrap">
         <div class="research-interests">
         <h2>Fields:</h2>
         <ul>
@@ -111,6 +113,7 @@ sections:
         <li><a href="./tag/first-person-video">First-person video</a></li>
         </ul>
         </div>	
+        </div>
         </div>
         </div>
       design:
