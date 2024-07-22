@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: native
-  font_size: L
+  theme_day: theme_leaf_lab_v2
+  theme_night: theme_leaf_lab_v2
+  font: font_leaf_lab
+  font_size: S
 
 # SEO
 
@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    description: 'The website of the Learning, Embodied Autonomy, and Forecasting (LEAF) research laboratory.'
+    twitter: 'nick_rhinehart'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -37,19 +37,37 @@ header:
     align: r
     show_logo: true
     show_language: true
-    show_day_night: true
+    show_day_night: false
     show_search: true
-    highlight_active_link: true
-    logo:
-      filename: "icon.png"
+    highlight_active_link: true  
 
+# 
+i_am_a_sponsor: true
+power_ups:
+  hide_published_with: true
 # Site footer
 
 footer:
+  block: minimal
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '
+    <div class="universal-wrapper">
+    <hr style="width: 100%; background: 1px solid #1E3765"></hr>
+    <div class="row" style="display: flex; justify-content: center; flex-direction: row; column-gap: 1vw">
+      <a href="#"><img src="/images/logo.png" alt="LEAF Lab logo" style="height: 80px; width:100%"></a>
+      <div style="border-left: 1px solid #1E3765; height: 40px; margin-top: 20px; margin-bottom: 20px"></div>
+      <a href="https://robotics.utoronto.ca" target="_blank"><img src="/images/ri-logo.png" style="height: 80px; width:100%" alt="U of T Robotics Institute Logo"></a>
+      <div style="border-left: 1px solid #1E3765; height: 40px; margin-top: 20px; margin-bottom: 20px"></div>
+      <a href="https://utoronto.ca" target="_blank"><img src="/images/uot-logo.png" style="height: 80px; width:100%" alt="U of T Logo"></a>
+    </div>
+    <br><br>
+    <div class="row"><div class="col-lg-12"><h3 style="text-align:left;">Statement of Land Acknowledgement</h3>
+    <p style="text-align: left;">We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and the Mississaugas of the Credit. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
+      <br><a href="https://indigenous.utoronto.ca/about/land-acknowledgement/">Read more about this Statement of Land Acknowledgement.</a>
+    </p><br>
+    <p style="text-align: left">© {year} Nick Rhinehart.</p></div></div></div>'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -117,4 +135,4 @@ extensions:
 
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: mla
