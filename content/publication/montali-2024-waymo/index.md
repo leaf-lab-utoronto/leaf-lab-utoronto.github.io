@@ -20,7 +20,7 @@ authors:
 
 tags: ["autonomous driving", "benchmarks", "computer vision", "forecasting", "imitation learning", "machine learning", "robotics"]
 categories: []
-date: '2024-01-01'
+date: '2023-01-01'
 lastmod: 2024-07-15T15:34:56-04:00
 featured: false
 draft: false
@@ -41,7 +41,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2024-07-15T19:34:55.794985Z'
+publishDate: '2023-07-15T19:34:55.794985Z'
 publication_types:
 - 'paper-conference'
 abstract: ''
