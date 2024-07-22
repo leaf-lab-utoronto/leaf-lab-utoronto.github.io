@@ -22,23 +22,18 @@ name = "UofT"
 
 [dark]
   # Primary
-  primary = "#bbdefb"
+  primary = "#1E3765"
+  primary_light = "#1E3765"
+  primary_dark = "#1E3765"
 
-  # link = "#bbdefb"
-  # link_hover = "#bbdefb"
-  # Primary
-  # primary = "#1E3765"
-  # primary_light = "#1E3765"
-  # primary_dark = "#1E3765"
-
-  # primary_text = "#1E3765"
+  primary_text = "#1E3765"
 
   # Menu
-  # menu_primary = "#fff"
-  # menu_text = "#1E3765"
-  # menu_text_active = "#1E3765"
-  # menu_title = "#1E3765"
+  menu_primary = "#fff"
+  menu_text = "#1E3765"
+  menu_text_active = "#1E3765"
+  menu_title = "#1E3765"
 
   # Home sections
-  # home_section_odd = "rgb(255, 255, 255)"
-  # home_section_even = "rgb(247, 247, 247)"
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "#f1f3f7"
