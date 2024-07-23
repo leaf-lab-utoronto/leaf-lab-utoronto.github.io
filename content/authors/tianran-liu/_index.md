@@ -33,7 +33,7 @@ education:
       institution: University of Ottowa
       year: 2021 - 2024
     - course: Bachelor of Engineering
-      institution: <a href="https://www.swarthmore.edu/">Anhui University</a>
+      institution: <a href="https://en.ahu.edu.cn/">Anhui University</a>
       year: 2017 - 2021
 
 # Social/Academic Networking
