@@ -38,8 +38,8 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: link
-    icon_pack: fab
+  - icon: globe
+    icon_pack: fa
     link: https://www.mohamednabail.com/
   - icon: google-scholar
     icon_pack: ai
