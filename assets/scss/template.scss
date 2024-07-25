@@ -1,6 +1,28 @@
-
 // Fixes annoying issues with layouts being different dependent on the presence of a scrollbar.
 html {overflow-y: scroll;}
+
+@media (min-width:640px) {
+  .responsive-top-padding {
+    padding-top: 3rem;
+  }
+  .page-body {
+    padding-top: 3rem;
+  }
+}
+
+// Make text underline on hover in .article-style.
+.article-style {
+  a {
+    text-decoration-line: none;
+  }
+  a:hover {
+    text-decoration-line: underline;
+  }
+}
+
+#profile {
+  padding: 0;
+}
 
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
