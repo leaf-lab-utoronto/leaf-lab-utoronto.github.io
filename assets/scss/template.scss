@@ -4,6 +4,7 @@ html {overflow-y: scroll;}
 @media (min-width:640px) {
   .responsive-top-padding {
     padding-top: 3rem;
+    margin-top: 0rem;
   }
   .page-body {
     padding-top: 3rem;
@@ -112,9 +113,11 @@ a.nav-link.active:after {
   font-size: 1rem;
   background-color: #1E3765;
   color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.btn:hover {
+.btn:hover,.btn:focus {
   color: #1E3765;
   background-color: #fff;
 }
