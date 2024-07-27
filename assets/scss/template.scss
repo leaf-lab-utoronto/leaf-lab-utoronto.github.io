@@ -166,5 +166,14 @@ hr {
   background-image: linear-gradient(to right, #ccc, #1E3765, #ccc);
 }
 
+.border-solid-1px-k { border-style: solid; border-color: black; border-width: 1px }
+
+.no-margin { margin: 0; }
+
+// Flex customization
+.gap-1 {
+  gap: 1rem;
+}
+
 // Apply red outline to all elements for debugging purposes.
 // * { outline: 1px solid red; }

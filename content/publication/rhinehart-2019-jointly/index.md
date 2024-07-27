@@ -34,4 +34,5 @@ publication_types:
 abstract: ''
 publication: ''
 url_project: https://kilthub.cmu.edu/articles/thesis/Jointly_Forecasting_and_Controlling_Behavior_by_Learning_from_High-Dimensional_Data/9934172
+# url_pdf: './paper.pdf'  
 ---
