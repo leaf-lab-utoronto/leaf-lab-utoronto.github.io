@@ -1,7 +1,7 @@
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
-<div class="d-flex flex-row align-items-start gap-1" style="flex-wrap: wrap; margin-bottom: 50px;">
+<div class="d-flex flex-row align-items-start gap-1" style="flex-wrap: wrap; margin-bottom: 3rem;">
   {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
@@ -9,12 +9,12 @@
     {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
     <a href="{{ $item.RelPermalink }}">
       <div class="img-hover-zoom border-solid-1px-k" style="min-width: 250px;">
-        <img src="{{ $image.RelPermalink }}" height="auto" width="250px" alt="{{ $item.Title }}" loading="lazy">
+        <img src="{{ $image.RelPermalink }}" height="166" width="250" alt="{{ $item.Title }}">
       </div>
     </a>
   {{ else }}
     <div class="img-hover-zoom border-solid-1px-k" style="min-width: 250px;">
-      <img src="/images/missing_publication_image.jpg" height="auto" width="250px" loading="lazy">
+      <img src="/images/missing_publication_image.jpg" height="166" width="250">
     </div>
   {{end}}
 
