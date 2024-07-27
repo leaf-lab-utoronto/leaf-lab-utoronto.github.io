@@ -24,7 +24,7 @@ sections:
             <div class="article-style responsive-top-padding">
               <div>Welcome to the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab, part of the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a> and <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>.
               <br><br>
-              We aim to develop broadly useful autonomous systems that safely operate in complex environments by advancing the algorithmic foundations of robot learning. Our research develops efficient principled algorithms with methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning. 
+              We aim to develop broadly useful autonomous systems that safely operate in complex environments by advancing the algorithmic foundations of robot learning. Our research develops efficient principled algorithms with methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.
               </div>
             </div>
           </div>
