@@ -11,7 +11,7 @@ authors:
 - Ilya Kostrikov
 - Nicholas Rhinehart
 - Sergey Levine
-tags: ["computer vision", "machine learning", "reinforcement learning", "robotics"]
+tags: ["computer vision", "machine learning", "offroad navigation", "reinforcement learning", "robotics"]
 categories: []
 date: '2022-01-01'
 lastmod: 2024-07-15T15:34:55-04:00
