@@ -13,7 +13,7 @@ sections:
           <div class="section-heading col-12 col-lg-4 d-flex flex-column align-items-center align-items-lg-start">
             <h1 class="mb-0">Welcome</h1>  
             <div id="profile" style="align-self: center">
-              <img class="avatar avatar-circle" width="270" height="270" src="/images/nr_headshot_v1.jpg" alt="Nicholas Rhinehart">
+              <img class="avatar avatar-circle" width="270" height="270" src="/images/nr_headshot_v2.jpg" alt="Nicholas Rhinehart">
               <p class="cta-btns" style="display: flex; justify-content: center; column-gap: 1vw">
                 <a href="/publication" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-book-open-reader pr-1" aria-hidden="true"></i>Read our work</a>
                 <a href="/contact" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-envelope pr-1" aria-hidden="true"></i>Contact us</a>
