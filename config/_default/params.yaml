@@ -16,7 +16,7 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
+    org_name: 'LEAF Lab, within the University of Toronto Institute for Aerospace Science'
     description: 'The website of the Learning, Embodied Autonomy, and Forecasting (LEAF) research laboratory.'
     twitter: 'nick_rhinehart'
   analytics:

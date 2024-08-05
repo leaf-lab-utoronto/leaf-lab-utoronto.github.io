@@ -3,7 +3,7 @@
 title: Nicholas Rhinehart
 
 # Full Name (for SEO)
-first_name: Nicholas
+first_name: Nick
 last_name: Rhinehart
 
 # Is this the primary user of the site?
@@ -104,7 +104,7 @@ user_groups:
   - Faculty
 ---
 <div>
-I am an Assistant Professor in the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a> and <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>.
+Hi, I'm Nick Rhinehart, an Assistant Professor in the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a> and <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>.
 <br><br>
 I lead the <a href="/">Learning, Embodied Autonomy, and Forecasting (LEAF)</a> lab. We aim to develop broadly useful autonomous systems that safely operate in complex environments by advancing the algorithmic foundations of robot learning. Our research develops efficient principled algorithms with methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning.
 <br><br>
