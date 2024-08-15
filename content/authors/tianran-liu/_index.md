@@ -23,17 +23,17 @@ organizations:
 experience:
   roles:
     - role: Ph.D. Student Researcher
-      institution: <a href="http://utoronto.ca">University of Toronto</a>
+      institution: <a href="http://utoronto.ca" target="_blank">University of Toronto</a>
       year: 2024 -
 
 
 education:
   courses:
     - course: Master of Applied Science
-      institution: University of Ottowa
+      institution: <a href="https://www.uottawa.ca/en" target="_blank">University of Ottawa</a>
       year: 2021 - 2024
     - course: Bachelor of Engineering
-      institution: <a href="https://en.ahu.edu.cn/">Anhui University</a>
+      institution: <a href="https://en.ahu.edu.cn/" target="_blank">Anhui University</a>
       year: 2017 - 2021
 
 # Social/Academic Networking
@@ -43,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:nick.rhinehart@utoronto.ca'
+    link: 'mailto:tliu157@uottawa.ca'
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

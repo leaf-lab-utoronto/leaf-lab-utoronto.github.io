@@ -69,27 +69,29 @@ html {overflow-y: scroll;}
 }
 
 // Create animated underline.
-a.nav-link:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #1E3765;
-  transition: width 0.2s ease 0s, left 0.2s ease 0s;
-  width: 0;
-}
-a.nav-link:hover:after {
-  width: 100%; 
-  left: 0; 
-}
+@media (min-width:1000px) {
+  a.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #1E3765;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+  }
+  a.nav-link:hover:after {
+    width: 100%; 
+    left: 0; 
+  }
 
-// Create active link underline.
-a.nav-link.active:after {
-  width: 100%; 
-  left: 0; 
+  // Create active link underline.
+  a.nav-link.active:after {
+    width: 100%; 
+    left: 0; 
+  }
 }
 
 
