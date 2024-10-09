@@ -22,9 +22,11 @@ sections:
           </div>
           <div class="col-12 col-lg-8">
             <div class="article-style responsive-top-padding">
-              <div>Welcome to the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab, part of the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a> and <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>.
+              <div>Welcome to the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab, part of the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a> and <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.
+              <br><br> 
+              We aim to develop broadly useful autonomous systems that efficiently and safely operate in complex environments by advancing the algorithmic foundations of robot learning. By developing learning-based systems for forecasting and control, the LEAF lab equips autonomous systems with the ability to predict and respond to real-time changes in their environment. Our research develops principled algorithms by advancing and drawing upon methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning.
               <br><br>
-              We aim to develop broadly useful autonomous systems that safely operate in complex environments by advancing the algorithmic foundations of robot learning. Our research develops efficient principled algorithms with methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.
+              Several of the LEAF lab's current research thrusts are (i) developing transferable models by learning to forecast high-dimensional data, (ii) deep learning methods for jointly forecasting and planning motion in uncertain environments,  (iii) autonomous systems that learn from a variety of sources of human data -- demonstration data, preference feedback, and others -- in order to help them perform complex tasks safely and efficiently.
               </div>
             </div>
           </div>

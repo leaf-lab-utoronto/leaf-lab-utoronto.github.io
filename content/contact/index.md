@@ -27,7 +27,7 @@ sections:
         - **Visiting PhD and MS students**: Send me an email with your CV and a description of your research interests. Please mention how your interests overlap with our past work or future direction. 
         - **PhD and MS applicants**: Apply through the department and mention my name in your application if you're interested in working together.
         - **PhD and MS students**: Send me an email with your CV and a description of your research interests. Please mention how your interests overlap with our past work or future direction. 
-        - **Undegrads at UoT looking for a thesis/capstone adviser**: Send me an email with your CV and a description of your project/research interests. Typically, I will expect you to have taken a Robotics, Machine Learning, or Computer Vision-related course.
+        - **Undergrads at UoT looking to get involved**: Send me an email with your CV and a description of your project/research interests. Typically, I will expect you to have taken a Robotics, Machine Learning, or Computer Vision-related course.
         ## Email
         - nick.rhinehart@utoronto.ca
         </div>
