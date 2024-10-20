@@ -13,6 +13,7 @@ sections:
         - Faculty
         - Researchers
         - Grad Students
+        - Undergrad Students
         - Administration
         - Visitors
         - Alumni
