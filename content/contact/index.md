@@ -24,6 +24,7 @@ sections:
         <div style="font-size: medium">
         
         ## Apply to work with us
+        - **_We are hiring_ new students to begin in Fall of 2025**: Please follow the instructions below.
         - **Visiting PhD and MS students**: Send me an email with your CV and a description of your research interests. Please mention how your interests overlap with our past work or future direction. 
         - **PhD and MS applicants**: Apply through the department and mention my name in your application if you're interested in working together.
         - **PhD and MS students**: Send me an email with your CV and a description of your research interests. Please mention how your interests overlap with our past work or future direction. 

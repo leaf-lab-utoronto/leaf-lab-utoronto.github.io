@@ -231,6 +231,9 @@
 - id: search_placeholder
   translation: Search...
 
+- id: publication_search_placeholder
+  translation: Search title, author name, topic, or venue...
+
 - id: search_results
   translation: results found
 

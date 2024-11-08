@@ -27,6 +27,8 @@ sections:
               We aim to develop broadly useful autonomous systems that efficiently and safely operate in complex environments by advancing the algorithmic foundations of robot learning. By developing learning-based systems for forecasting and control, the LEAF lab equips autonomous systems with the ability to predict and respond to real-time changes in their environment. Our research develops principled algorithms by advancing and drawing upon methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning.
               <br><br>
               Several of the LEAF lab's current research thrusts are (i) developing transferable models by learning to forecast high-dimensional data, (ii) deep learning methods for jointly forecasting and planning motion in uncertain environments,  (iii) autonomous systems that learn from a variety of sources of human data -- demonstration data, preference feedback, and others -- in order to help them perform complex tasks safely and efficiently.
+              <br><br>
+              <strong>We are hiring (including for Fall 2025)</strong>. Interested in joining our lab? Learn more <a href="/contact">here</a>.
               </div>
             </div>
           </div>
