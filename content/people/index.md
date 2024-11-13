@@ -12,8 +12,8 @@ sections:
       user_groups:
         - Faculty
         - Researchers
-        - Grad Students
-        - Undergrad Students
+        - Graduate Students
+        - Undergraduate Students
         - Administration
         - Visitors
         - Alumni

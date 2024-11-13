@@ -182,5 +182,11 @@ hr {
   gap: 1rem;
 }
 
+.hero-title {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+}
+
 // Apply red outline to all elements for debugging purposes.
 // * { outline: 1px solid red; }

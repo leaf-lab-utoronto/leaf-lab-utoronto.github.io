@@ -16,7 +16,7 @@ sections:
               <img class="avatar avatar-circle" width="270" height="270" src="/images/nr_headshot_v2.jpg" alt="Nicholas Rhinehart">
               <p class="cta-btns" style="display: flex; justify-content: center; column-gap: 1vw">
                 <a href="/publication" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-book-open-reader pr-1" aria-hidden="true"></i>Read our work</a>
-                <a href="/contact" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-envelope pr-1" aria-hidden="true"></i>Contact us</a>
+                <a href="/apply" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-flask pr-1" aria-hidden="true"></i>Join us</a>
               </p>
             </div>
           </div>
