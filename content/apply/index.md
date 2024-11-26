@@ -21,15 +21,23 @@ sections:
       #     foo       
       # Add your Hero text here
       text: |
-        <div style="font-size: medium; margin: 0 auto; min-width: 400px; max-width: 800px">
+        <div style="font-size: medium; margin: 0 auto; min-width: 300px; max-width: 800px">
         
         **We are hiring new graduate students to begin in Fall of 2025**.
         
-        We are regularly looking for excellent students and researchers to work with at many levels of experience: Postdocs, Ph.D., research-oriented Master's students, and undergraduates. Our lab is a welcoming, intellectually vibrant environment working to solve some of the most interesting and critical research problems in the fields of robot learning.
+        # Interested in the LEAF lab?
+        We are regularly looking for excellent students and researchers to work with at many levels of experience: Postdocs, Ph.D., research-oriented Master's students, and undergraduates. Our lab is a welcoming, intellectually vibrant environment working to solve some of the most interesting and critical research problems in the fields of robotics and machine learning.
         
         Please read this page first before contacting the PI directly.
         ## Prospective Ph.D. and M.A.Sc. students
-        Apply through the UTIAS <a href="https://www.utias.utoronto.ca/admissions/">graduate admissions website</a>. Mention the PI's name in your application if you're interested in working together. We encourage people with all educational backgrounds to apply.
+        Apply through the UTIAS <a href="https://www.utias.utoronto.ca/admissions/">graduate admissions website</a>. Mention the PI's name in your application if you're interested in working together.
+        
+        <strong>Ph.D. applicants</strong>: Applicants may enter the <a href="https://www.utias.utoronto.ca/doctor-of-philosophy-phd/">PhD program</a> via one of two routes: 1) following completion of an MASc degree in engineering, mathematics, physics, or chemistry; or 2) transfer from the University of Toronto MASc program. If you do not yet have a Master's degree, you should apply to the <a href="https://www.utias.utoronto.ca/master-of-applied-science/">M.A.Sc. program</a>, or, if you have an exceptional record, please discuss with me directly, as exceptions are possible (but rare). After twelve months in the M.A.Sc. program, it is possible for particularly strong students to transfer directly to the Ph.D. program.
+
+        <strong>M.A.Sc. applicants</strong>: No prior graduate training is necessary. This is a research-intensive program.
+
+        We encourage people with all educational backgrounds to apply.
+ 
         ## Current Ph.D. and M.A.Sc. students
         Send us an email with your CV and a description of your research interests. Please mention how your interests overlap with our past work or future direction. We encourage people with all educational backgrounds to apply.
         ## Visiting Ph.D. and M.A.Sc. students

@@ -11,6 +11,8 @@ html {overflow-y: scroll;}
   }
 }
 
+a { font-weight: bold;}
+
 // Make text underline on hover in .article-style.
 .article-style {
   a {
@@ -66,6 +68,11 @@ html {overflow-y: scroll;}
 //   padding-top: 0px;
 //   padding-bottom: 0px;
 //   margin-bottom: 0px;
+}
+
+// Ensure nav-links are not bold (since they're big already).
+a.nav-link {
+  font-weight: normal;
 }
 
 // Create animated underline.
