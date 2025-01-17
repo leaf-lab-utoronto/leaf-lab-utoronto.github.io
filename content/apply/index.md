@@ -60,6 +60,9 @@ sections:
         There are usually a few slots for undergraduates to work with us in the summer. If you think you might be a good fit, please let us know. Note that the best route to a summer internship is through getting involved with our lab well beforehand.
         There are also a variety of fellowships for undergraduates that we can point you to. Obtaining one of these fellowships increases your chances.
 
+        ## Part-time opportunities for undergraduates
+        We involve undergraduates to work with us during the semester. These positions are offered on a case-by-case basis depending on a variety of factors.
+
         # Remote collaborators
         We sometimes collaborate remotely with excellent students and researchers who have sufficient relevant experience. Send us an email with your CV and a description of your project/research interests. Please mention how your interests overlap with our past work or future direction. We encourage people with all educational backgrounds to apply.
         
