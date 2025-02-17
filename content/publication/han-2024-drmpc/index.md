@@ -37,6 +37,6 @@ publishDate: '2024-10-14'
 publication_types:
 - 'preprint'
 abstract: ''
-publication: '*arXiv preprint arXiv:2410.10646*'
-publication_short: '**arXiv**'
+publication: '*IEEE Robotics and Automation Letters*'
+publication_short: '**RA-L**'
 ---
