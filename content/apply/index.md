@@ -22,9 +22,7 @@ sections:
       # Add your Hero text here
       text: |
         <div style="font-size: medium; margin: 0 auto; min-width: 300px; max-width: 800px">
-        
-        **We are hiring new graduate students to begin in Fall of 2025**.
-        
+          
         # Interested in the LEAF lab?
         We are regularly looking for excellent students and researchers to work with at many levels of experience: Postdocs, Ph.D., research-oriented Master's students, and undergraduates. Our lab is a welcoming, intellectually vibrant environment working to solve some of the most interesting and critical research problems in the fields of robotics and machine learning.
         

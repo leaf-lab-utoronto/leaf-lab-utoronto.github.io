@@ -28,7 +28,7 @@ sections:
               <br><br>
               Several of the LEAF lab's current research thrusts are (i) developing transferable models by learning to forecast high-dimensional data, (ii) deep learning methods for jointly forecasting and planning motion in uncertain environments,  (iii) autonomous systems that learn from a variety of sources of human data -- demonstration data, preference feedback, and others -- in order to help them perform complex tasks safely and efficiently.
               <br><br>
-              <strong>We are hiring (including for Fall 2025)</strong>. Interested in joining our lab? Learn more <a href="/apply">here</a>.
+              Interested in joining our lab? Learn more <a href="/apply">here</a>.
               </div>
             </div>
           </div>
@@ -43,8 +43,9 @@ sections:
       filters:
         folders:
           - event
+    # See options here: https://docs.hugoblox.com/getting-started/page-builder/#listing-view
     design:
-      view: card
+      view: event_list
       columns: '2'
   - block: collection
     content:
@@ -92,6 +93,7 @@ sections:
             <ul>
             <li><a href="./tag/autonomous-driving">Autonomous driving</a></li>
             <li><a href="./tag/autonomous-exploration">Autonomous exploration</a></li>
+            <li><a href="./tag/manipulation">Manipulation</a></li>
             </ul>
             </div>
           <div>

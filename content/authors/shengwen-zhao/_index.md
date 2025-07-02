@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Shengwen(James) Zhao
+title: Shengwen Zhao
 
 # Full Name (for SEO)
-first_name: Shengwen
+first_name: Shengwen (James)
 last_name: Zhao
 
 # Is this the primary user of the site?

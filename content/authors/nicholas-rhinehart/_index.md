@@ -112,7 +112,7 @@ Hi, I'm Nick Rhinehart, an Assistant Professor at the <a href="https://utoronto.
 </ul>
 I lead the <a href="/">Learning, Embodied Autonomy, and Forecasting (LEAF)</a> lab. We aim to develop broadly useful autonomous systems that safely operate in complex environments by advancing the algorithmic foundations of robot learning. Our research develops efficient principled algorithms with methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning.
 <br><br>
-I obtained my Ph.D. in Robotics at <a href="https://www.ri.cmu.edu/" target="_blank">Carnegie Mellon University</a> with <a href="https://kriskitani.github.io/" target="_blank">Kris Kitani</a>. Previously, I was a Senior Research Scientist at <a href="https://waymo.com/research/" target="_blank">Waymo Research</a>, and a Postdoctoral Scholar with <a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank">Sergey Levine</a> in the <a href="https://bair.berkeley.edu/" target="_blank">Berkeley Artificial Intelligence Research</a> group.
+I obtained a Ph.D. in Robotics at <a href="https://www.ri.cmu.edu/" target="_blank">Carnegie Mellon University</a> with <a href="https://kriskitani.github.io/" target="_blank">Kris Kitani</a>. Previously, I was a Senior Research Scientist at <a href="https://waymo.com/research/" target="_blank">Waymo Research</a>, and a Postdoctoral Scholar with <a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank">Sergey Levine</a> in the <a href="https://bair.berkeley.edu/" target="_blank">Berkeley Artificial Intelligence Research</a> group.
 <br><br>
 Interested in joining our lab? Learn more <a href="/apply">here</a>.
 </div>

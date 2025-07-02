@@ -11,7 +11,7 @@ authors:
 - Albert Yu
 - Nicholas Rhinehart
 - Sergey Levine
-tags: ["generative models", "imitation learning", "machine learning", "robotics"]
+tags: ["generative models", "imitation learning", "machine learning", "robotics", "manipulation"]
 categories: []
 date: '2020-01-01'
 lastmod: 2024-07-15T15:34:52-04:00

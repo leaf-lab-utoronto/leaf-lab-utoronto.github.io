@@ -1,23 +1,26 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: 'DR-MPC: Deep Residual Model Predictive Control for Real-world Social Navigation'
+title: 'Residual Reward Models for Preference-based Reinforcement Learning'
 subtitle: ''
 summary: ''
 authors:
-- James R. Han
-- Hugues Thomas
-- Jian Zhang
+- Chenyang Cao
+- Miguel Rogel-García
+- Mohamed Nabail
+- Xueqian Wang
 - Nicholas Rhinehart
-- Timothy D. Barfoot
-tags: ["computer vision", "forecasting", "machine learning", "robotics", "reinforcement learning"]
+tags: ["reward learning", "machine learning", "robotics", "reinforcement learning", "manipulation"]
 categories: []
-date: '2025-02-01'
-lastmod: 2024-11-04
+date: '2025-07-01'
+lastmod: 2025-07-01
+publishDate: '2025-07-01'
 featured: false
 draft: false
 
-url_pdf: https://arxiv.org/pdf/2410.10646
+url_pdf: https://arxiv.org/pdf/2507.00611
+publication: '*arXiv:2507.00611*'
+publication_short: '**arXiv**'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -33,10 +36,8 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2025-02'
 publication_types:
-- 'article-journal'
+- 'preprint'
 abstract: ''
-publication: '*IEEE Robotics and Automation Letters*'
-publication_short: '**RA-L**'
+
 ---
