@@ -32,7 +32,7 @@ education:
     - course: Master of Electronic and Information Engineering
       institution: <a href="https://www.tsinghua.edu.cn/en/" target="_blank">Tsinghua University</a>
       year: 2022 - 2025
-    - course: Bachelor of Engineering
+    - course: Bachelor of Science
       institution: <a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a>
       year: 2018 - 2022
 
