@@ -1,22 +1,29 @@
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
+{{ $show_image := true }}
+{{ if (isset . "show_image") }}
+  {{ $show_image = .show_image }}
+{{ end }}
+
 <div class="d-flex flex-row align-items-start gap-1" style="flex-wrap: wrap; margin-bottom: 3rem;">
-  {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
-  {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
-  {{ with $resource }}
-    {{ $image := .Fill (printf "400x267 %s" $anchor) }}
-    {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-    <a href="{{ $item.RelPermalink }}">
+  {{ if $show_image }}
+    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+    {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
+    {{ with $resource }}
+      {{ $image := .Fill (printf "400x267 %s" $anchor) }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <a href="{{ $item.RelPermalink }}">
+        <div class="img-hover-zoom border-solid-1px-k" style="min-width: 250px;">
+          <img src="{{ $image.RelPermalink }}" height="166" width="250" alt="{{ $item.Title }}">
+        </div>
+      </a>
+    {{ else }}
       <div class="img-hover-zoom border-solid-1px-k" style="min-width: 250px;">
-        <img src="{{ $image.RelPermalink }}" height="166" width="250" alt="{{ $item.Title }}">
+        <img src="/images/missing_publication_image.jpg" height="166" width="250" alt="placeholder">
       </div>
-    </a>
-  {{ else }}
-    <div class="img-hover-zoom border-solid-1px-k" style="min-width: 250px;">
-      <img src="/images/missing_publication_image.jpg" height="166" width="250">
-    </div>
-  {{end}}
+    {{ end }}
+  {{ end }}
 
 <div class="pub-list-item view-citation" style="flex-basis: 200px; flex-shrink: 0; flex-grow: 10;">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
