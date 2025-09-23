@@ -1,193 +1,188 @@
-// Fixes annoying issues with layouts being different dependent on the presence of a scrollbar.
-html {overflow-y: scroll;}
+// ------------------------------------------------------------
+// Vars
+// ------------------------------------------------------------
+$brand-blue:  #1E3765;
+$accent-teal: #007894;
+$navbar-bg:   #f1f3f7;
 
-@media (min-width:640px) {
-  .responsive-top-padding {
-    padding-top: 3rem;
-    margin-top: 0rem;
-  }
-  .page-body {
-    padding-top: 3rem;
-  }
+// ------------------------------------------------------------
+// Fixes annoying issues with layouts being different dependent
+// on the presence of a scrollbar.
+// ------------------------------------------------------------
+html { overflow-y: scroll; }
+
+// ------------------------------------------------------------
+// Responsive top padding (content wrapper + page body)
+// ------------------------------------------------------------
+@media (min-width: 640px) {
+  .responsive-top-padding { padding-top: 3rem; margin-top: 0; }
+  .page-body { padding-top: 3rem; }
 }
 
-a { font-weight: bold;}
+// Custom paragraph spacing.
+p {
+  margin-top: 1em;
+  margin-bottom: 1.25em;
+}
 
+
+
+// ------------------------------------------------------------
+// Base link weight
+// ------------------------------------------------------------
+a { font-weight: bold; }
+
+// ------------------------------------------------------------
 // Make text underline on hover in .article-style.
+// ------------------------------------------------------------
 .article-style {
-  a {
-    text-decoration-line: none;
-  }
-  a:hover {
-    text-decoration-line: underline;
-  }
+  a { text-decoration-line: none; }
+  a:hover { text-decoration-line: underline; }
+  h1, h2 { margin-top: 1.5em; }
 }
 
-#profile {
-  padding: 0;
-}
-
+// ------------------------------------------------------------
 // Make page header alignment consistent with widget page header alignment
-.universal-wrapper h1 {
-  text-align: center;
-}
+// ------------------------------------------------------------
+.universal-wrapper h1 { text-align: center; }
 
+// ------------------------------------------------------------
 // Center the CTA shortcode button
-.cta-group {
-  justify-content: center;
-}
+// ------------------------------------------------------------
+.cta-group { justify-content: center; }
 
+// ------------------------------------------------------------
 // Remove the underlining of links in the hero section except when hovered.
-.wg-hero .hero-lead a {
-  text-decoration-line: none;
-}
-.wg-hero .hero-lead a:hover {
-  text-decoration-line: underline;
+// ------------------------------------------------------------
+.wg-hero .hero-lead {
+  a { text-decoration-line: none; }
+  a:hover { text-decoration-line: underline; }
 }
 
-.dropdown-menu,nav#navbar-main, li.nav-item {
+/* Make single-article pages wider */
+.article-container,
+.article-style {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// ------------------------------------------------------------
+// Navbar (top) styles
+// ------------------------------------------------------------
+nav#navbar-main {
   font-size: 18px;
   font-weight: normal;
-  background-color: #f1f3f7;
-}
-
-.navbar .dropdown-menu {
-  font-size: 16px;
-} 
-
-.dropdown-menu,nav#navbar-main {
+  background-color: $navbar-bg;
   height: 75px;
   align-items: stretch;
-}         
 
-.dropdown-menu,nav#navbar-main li.nav-item {
-  margin-right:1rem;
-  margin-left: 1rem;
-//   padding-left: 0rem;
-//   padding-right: 0rem;
-//   padding-top: 0px;
-//   padding-bottom: 0px;
-//   margin-bottom: 0px;
+  // Ensure nav-links are not bold (since they're big already).
+  a.nav-link { font-weight: normal; position: relative; }
+
+  // Spacing for items
+  li.nav-item { margin: 0 1rem; }
+
+  // Dropdown size
+  .navbar .dropdown-menu { font-size: 16px; }
 }
 
-// Ensure nav-links are not bold (since they're big already).
-a.nav-link {
-  font-weight: normal;
-}
-
-// Create animated underline.
-@media (min-width:1000px) {
-  a.nav-link:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
+// ------------------------------------------------------------
+// Create animated underline (scoped to the top navbar only).
+// ------------------------------------------------------------
+@media (min-width: 1000px) {
+  nav#navbar-main a.nav-link::after {
     content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
     position: absolute;
-    background: #1E3765;
-    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    left: 50%;
+    bottom: 0;
+    display: block;
     width: 0;
+    height: 2px;
+    background: $brand-blue;
+    transition: width 0.2s ease, left 0.2s ease;
+    // transparent bg reset
+    background-repeat: no-repeat;
   }
-  a.nav-link:hover:after {
-    width: 100%; 
-    left: 0; 
-  }
-
-  // Create active link underline.
-  a.nav-link.active:after {
-    width: 100%; 
-    left: 0; 
+  nav#navbar-main a.nav-link:hover::after,
+  nav#navbar-main a.nav-link.active::after {
+    left: 0;
+    width: 100%;
   }
 }
 
+// Keep active nav weight normal (theme sometimes bolds it)
+nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 
-.navbar .navbar-nav .nav-link.active {
-  font-weight: normal !important;
-}
+// ------------------------------------------------------------
+// Hero + sections spacing
+// ------------------------------------------------------------
+.hero-lead { max-width: 100%; }
+.home-section { padding: 30px 0; }
 
-.dropdown-menu,nav#navbar-main a.nav-link.active {
-  font-weight: normal !important;
-}
-
-.hero-lead {
-  max-width: 100%;
-}
-
-.home-section {
-  padding: 30px 0px;
-}
-
+// ------------------------------------------------------------
+// Buttons
+// ------------------------------------------------------------
 .btn {
   font-size: 1rem;
-  background-color: #1E3765;
+  background-color: $brand-blue;
   color: #fff;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+  &:hover,
+  &:focus {
+    color: $brand-blue;
+    background-color: #fff;
+  }
 }
 
-.btn:hover,.btn:focus {
-  color: #1E3765;
-  background-color: #fff;
-}
-
+// ------------------------------------------------------------
+// Article tags
+// ------------------------------------------------------------
 .article-tags {
   margin-top: 0;
-  .badge-light {
-    margin-bottom: 0;
-  }
-  // .badge-dark {
-  //   color: #fff;
-  // }
+  .badge-light { margin-bottom: 0; }
+  // .badge-dark { color: #fff; }
 }
 
-.badge-light[href]:hover {
-  color: white;
-  background: #007894;
-}
+// ------------------------------------------------------------
+// Badges
+// ------------------------------------------------------------
+.badge-light[href]:hover { color: #fff; background: $accent-teal; }
+.badge-active            { color: #fff; background: $accent-teal; }
 
-.badge-active {
-  color: white;
-  background: #007894;
-}
+// ------------------------------------------------------------
+// Typography utils
+// ------------------------------------------------------------
+.pub-title { font-weight: bold; }
+.author-highlighted { color: $brand-blue; }
 
-.pub-title {
-  font-weight: bold;
-}
+// ------------------------------------------------------------
+// Lists (research interests)
+// ------------------------------------------------------------
+// ul { padding: 0 0vw 0 0; }
+.research-interests ul { padding-left: 15px; }
+// h2 { margin: 0 0 0 0; }
 
-// .navbar-brand {
-//   margin: 0;
-//   padding: 0;
-// }
-
-.author-highlighted {
-  color: #1E3765;
-}
-
-// ul { padding: 0 0vw 0 0;}
-.research-interests ul { padding-left: 15px;}
-// h2 { margin: 0 0 0 0;}
-
+// ------------------------------------------------------------
+// Horizontal rule (gradient)
+// ------------------------------------------------------------
 hr {
   border: 0;
   height: 1px;
   background: #333;
-  background-image: linear-gradient(to right, #ccc, #1E3765, #ccc);
+  background-image: linear-gradient(to right, #ccc, $brand-blue, #ccc);
 }
 
-.border-solid-1px-k { border-style: solid; border-color: black; border-width: 1px }
+// ------------------------------------------------------------
+// Utilities
+// ------------------------------------------------------------
+.border-solid-1px-k { border: 1px solid #000; }
 
-.page-link-btn-margin { 
-  margin-bottom: 0;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0.5rem;
+.page-link-btn-margin {
+  margin: 0 0.5rem 0 0;
 }
 
-// Flex customization
-.gap-1 {
-  gap: 1rem;
-}
+.gap-1 { gap: 1rem; } // Flex customization
 
 .hero-title {
   display: flex;
@@ -195,5 +190,8 @@ hr {
   align-items: center;     /* Center vertically */
 }
 
+// ------------------------------------------------------------
+// Debug
+// ------------------------------------------------------------
 // Apply red outline to all elements for debugging purposes.
 // * { outline: 1px solid red; }
