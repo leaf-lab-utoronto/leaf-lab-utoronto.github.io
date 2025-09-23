@@ -7,7 +7,7 @@ subtitle: ''
 summary: ''
 authors:
 - Nicholas Rhinehart
-tags: ["autonomous driving", "forecasting", "generative models", "imitation learning", "planning", "reinforcement learning", "reward learning"]
+tags: ["autonomous driving", "forecasting", "generative models", "imitation learning", "model-based control", "reinforcement learning", "reward learning"]
 categories: []
 date: '2019-01-01'
 lastmod: 2024-07-15T15:34:49-04:00

@@ -13,7 +13,7 @@ authors:
 - Ali Agha-Mohammadi
 - Nicholas Rhinehart
 - Sergey Levine
-tags: ["imitation learning", "machine learning", "planning", "offroad navigation", "robotics"]
+tags: ["imitation learning", "machine learning", "model-based control", "offroad navigation", "robotics"]
 categories: []
 date: '2022-01-01'
 lastmod: 2024-07-15T15:34:54-04:00

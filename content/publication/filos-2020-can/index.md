@@ -11,7 +11,7 @@ authors:
 - Nicholas Rhinehart
 - Sergey Levine
 - Yarin Gal
-tags: ["autonomous driving", "computer vision", "imitation learning", "planning", "machine learning"]
+tags: ["autonomous driving", "computer vision", "imitation learning", "model-based control", "machine learning"]
 categories: []
 date: '2020-01-01'
 lastmod: 2024-07-15T15:34:50-04:00

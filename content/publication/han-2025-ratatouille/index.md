@@ -1,19 +1,27 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: 'Ving: Learning open-world navigation with visual goals'
+title: 'Ratatouille: Imitation Learning Ingredients for Real-world Social Robot Navigation'
+authors:
+- James R. Han
+- Mithun Vanniasinghe
+- Hshmat Sahak
+- Nicholas Rhinehart
+- Timothy D. Barfoot
+tags: ["machine learning", "robotics", "imitation learning", "social navigation"]
+date: '2025-09-21'
+lastmod: 2025-09-21
+publishDate: '2025-09-21'
+url_pdf: https://arxiv.org/pdf/2509.17204
+publication: '*arXiv:2509.17204*'
+publication_short: '**arXiv**'
+publication_types:
+- 'preprint'
+
+abstract: ''
+categories: []
 subtitle: ''
 summary: ''
-authors:
-- Dhruv Shah
-- Benjamin Eysenbach
-- Gregory Kahn
-- Nicholas Rhinehart
-- Sergey Levine
-tags: ["autonomous driving", "computer vision", "machine learning", "offroad navigation", "model-based control", "robotics"]
-categories: []
-date: '2021-01-01'
-lastmod: 2024-07-15T15:34:52-04:00
 featured: false
 draft: false
 
@@ -31,11 +39,4 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2024-07-15T19:34:52.584523Z'
-publication_types:
-- 'paper-conference'
-abstract: ''
-publication: '*IEEE International Conference on Robotics and Automation*'
-url_pdf: https://escholarship.org/content/qt93m2m6w0/qt93m2m6w0.pdf
-publication_short: '**ICRA**'
 ---

@@ -13,7 +13,7 @@ authors:
 - Rowan McAllister
 - Joseph E Gonzalez
 - Sergey Levine
-tags: ["autonomous driving", "computer vision", "forecasting", "imitation learning", "machine learning", "planning", "robotics"]
+tags: ["autonomous driving", "computer vision", "forecasting", "imitation learning", "machine learning", "model-based control", "robotics"]
 categories: []
 date: '2021-01-01'
 lastmod: 2024-07-15T15:34:53-04:00

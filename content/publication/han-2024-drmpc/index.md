@@ -10,7 +10,7 @@ authors:
 - Jian Zhang
 - Nicholas Rhinehart
 - Timothy D. Barfoot
-tags: ["computer vision", "forecasting", "machine learning", "robotics", "reinforcement learning"]
+tags: ["computer vision", "forecasting", "machine learning", "model-based control", "robotics", "reinforcement learning", "social navigation"]
 categories: []
 date: '2025-02-01'
 lastmod: 2024-11-04

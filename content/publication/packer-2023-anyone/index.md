@@ -13,7 +13,7 @@ authors:
 - Jeff He
 - Sergey Levine
 - Joseph E Gonzalez
-tags: ["autonomous driving", "computer vision", "forecasting", "generative models", "machine learning", "planning", "robotics"]
+tags: ["autonomous driving", "computer vision", "forecasting", "generative models", "machine learning", "model-based control", "robotics"]
 categories: []
 date: '2023-01-01'
 lastmod: 2024-07-15T15:34:55-04:00

@@ -84,7 +84,7 @@ sections:
             <li><a href="./tag/reinforcement-learning">Reinforcement learning</a></li>
             <li><a href="./tag/generative-models">Generative models</a></li>
             <li><a href="./tag/intrinsic-control">Intrinsic control</a></li>
-            <li><a href="./tag/planning">Planning</a></li>
+            <li><a href="./tag/model-based-control">Model-based control</a></li>
             <li><a href="./tag/reward-learning">Reward learning</a></li>
             </ul>
             </div>
@@ -94,6 +94,8 @@ sections:
             <li><a href="./tag/autonomous-driving">Autonomous driving</a></li>
             <li><a href="./tag/autonomous-exploration">Autonomous exploration</a></li>
             <li><a href="./tag/manipulation">Manipulation</a></li>
+            <li><a href="./tag/offroad-navigation">Offroad Navigation</a></li>
+            <li><a href="./tag/social-navigation">Social Navigation</a></li>
             </ul>
             </div>
           <div>

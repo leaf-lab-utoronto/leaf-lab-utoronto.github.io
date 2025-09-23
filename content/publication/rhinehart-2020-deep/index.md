@@ -8,7 +8,7 @@ authors:
 - Nicholas Rhinehart
 - Rowan McAllister
 - Sergey Levine
-tags: ["autonomous driving", "computer vision", "forecasting", "generative models", "imitation learning", "planning", "reward learning"]
+tags: ["autonomous driving", "computer vision", "forecasting", "generative models", "imitation learning", "model-based control", "reward learning"]
 categories: []
 date: '2020-01-01'
 lastmod: 2024-07-15T15:34:51-04:00
