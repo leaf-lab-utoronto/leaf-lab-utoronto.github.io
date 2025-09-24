@@ -15,8 +15,8 @@ html { overflow-y: scroll; }
 // Responsive top padding (content wrapper + page body)
 // ------------------------------------------------------------
 @media (min-width: 640px) {
-  .responsive-top-padding { padding-top: 3rem; margin-top: 0; }
-  .page-body { padding-top: 3rem; }
+  .responsive-top-padding { padding-top: 0.1rem; margin-top: 0; }
+  .page-body { padding-top: 0.1rem; }
 }
 
 // Custom paragraph spacing.
@@ -24,8 +24,6 @@ p {
   margin-top: 1em;
   margin-bottom: 1.25em;
 }
-
-
 
 // ------------------------------------------------------------
 // Base link weight
@@ -118,7 +116,15 @@ nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 // Hero + sections spacing
 // ------------------------------------------------------------
 .hero-lead { max-width: 100%; }
-.home-section { padding: 30px 0; }
+.home-section { padding: 20px 0; }
+
+// Section titles
+h1 {
+  text-decoration: underline;
+  text-decoration-color: black; 
+  text-decoration-thickness: 1px; /* thickness of the underline */
+  text-underline-offset: 10px;     /* push the line a bit lower */
+}
 
 // ------------------------------------------------------------
 // Buttons
@@ -147,6 +153,7 @@ nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 // ------------------------------------------------------------
 // Badges
 // ------------------------------------------------------------
+.badge { font-size: 80%; }
 .badge-light[href]:hover { color: #fff; background: $accent-teal; }
 .badge-active            { color: #fff; background: $accent-teal; }
 

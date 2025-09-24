@@ -11,7 +11,6 @@ sections:
       text: |
         <div class="row">
           <div class="section-heading col-12 col-lg-4 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Welcome</h1>  
             <div id="profile" style="align-self: center">
               <img class="avatar avatar-circle" width="270" height="270" src="/images/nr_headshot_v2.jpg" alt="Nicholas Rhinehart">
               <p class="cta-btns" style="display: flex; justify-content: center; column-gap: 1vw">
@@ -46,7 +45,7 @@ sections:
     # See options here: https://docs.hugoblox.com/getting-started/page-builder/#listing-view
     design:
       view: event_list
-      columns: '2'
+      columns: '1'
   - block: collection
     content:
       title: Recent publications
@@ -57,16 +56,16 @@ sections:
           - publication
     design:
       view: citation
-      columns: '2'
+      columns: '1'
   - block: markdown
     content:
       title: ''
       text: |
         <div class="row">
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Our research interests</h1>  
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Research interests</h1>
           </div>
-        <div class="col-12 col-lg-8">
+        <div class="col-12 mb-3 text-center">
           <div style="display:flex; justify-content: flex-start; column-gap: 1vw; row-gap: 1vw; font-size: medium; text-align:left; flex-wrap: wrap">
           <div class="research-interests">
             <h2>Fields:</h2>
