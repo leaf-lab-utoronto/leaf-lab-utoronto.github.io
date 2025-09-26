@@ -15,4 +15,4 @@ sections:
       title: bar
       text: foo
 ---
-Welcome to new graduate students Sebastian Aegidius, Alex Pleava, <a href="/author/chenyang-cao">Chenyang Cao</a>, and Mozhgan Pourkeshavarz!
+Welcome to new graduate students Sebastian Aegidius, <a href="/author/chenyang-cao">Chenyang Cao</a>, Alex Pleava, and <a href="/author/mozhgan-pourkeshavarz">Mozhgan Pourkeshavarz</a>!
