@@ -111,6 +111,11 @@ nav#navbar-main {
   }
 }
 
+@media (min-width: 992px) {
+  .people-widget .people-person { flex: 0 0 15%; max-width: 15%; }
+}
+
+
 // Keep active nav weight normal (theme sometimes bolds it)
 nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 
@@ -189,6 +194,8 @@ hr {
   justify-content: center; /* Center horizontally */
   align-items: center;     /* Center vertically */
 }
+
+
 
 // ------------------------------------------------------------
 // Debug
