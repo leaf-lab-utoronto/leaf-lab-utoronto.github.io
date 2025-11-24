@@ -1,5 +1,13 @@
 @font-face {
-    font-family: TradeGothicLTStdLight;
-    font-display: swap;
-    src: url("../fonts/trade_gothic_lt_std_light.otf") format("opentype");
-  }
+  font-family: "TradeGothicLTStd";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/trade_gothic_lt_std_light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TradeGothicLTStd";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/trade_gothic_lt_std_bold.otf") format("opentype");
+}

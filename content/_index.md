@@ -10,17 +10,20 @@ sections:
       title: ''
       text: |
         <div class="row">
-          <div class="section-heading col-12 col-lg-4 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Welcome</h1>  
+          <div class="section-heading col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start" style="gap: 1rem;">
+            <h1 class="mb-0" style="align-self: center">Welcome</h1>  
             <div id="profile" style="align-self: center">
-              <img class="avatar avatar-circle" width="270" height="270" src="/images/nr_headshot_v2.jpg" alt="Nicholas Rhinehart">
+              <img class="avatar avatar-circle img-fluid"
+              src="/images/nr_headshot_v2.jpg" alt="Nicholas Rhinehart"
+              style="max-width: 270px; width: 100 percent; aspect-ratio: 1; object-fit: cover;"
+              >
               <p class="cta-btns" style="display: flex; justify-content: center; column-gap: 1vw">
                 <a href="/publication" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-book-open-reader pr-1" aria-hidden="true"></i>Read our work</a>
                 <a href="/apply" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-flask pr-1" aria-hidden="true"></i>Join us</a>
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-8">
+          <div class="col-12 col-md-8" style="padding-left: 1.5rem;">
             <div class="article-style responsive-top-padding">
               <div>Welcome to the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab affiliated with the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>, <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a>, and <a href="https://cs.utoronto.ca" target="_blank">Department of Computer Science</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.
               <br><br> 

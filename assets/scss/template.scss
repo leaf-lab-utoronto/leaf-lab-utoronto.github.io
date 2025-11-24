@@ -30,7 +30,7 @@ p {
 // ------------------------------------------------------------
 // Base link weight
 // ------------------------------------------------------------
-a { font-weight: bold; }
+a { font-weight: normal; }
 
 // ------------------------------------------------------------
 // Make text underline on hover in .article-style.
@@ -115,7 +115,6 @@ nav#navbar-main {
   .people-widget .people-person { flex: 0 0 15%; max-width: 15%; }
 }
 
-
 // Keep active nav weight normal (theme sometimes bolds it)
 nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 
@@ -160,6 +159,23 @@ nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 // ------------------------------------------------------------
 .pub-title { font-weight: bold; }
 .author-highlighted { color: $brand-blue; }
+
+.article-style strong,
+.article-style b,
+.page-body strong,
+.page-body b {
+  font-weight: 550;
+}
+
+a {
+  font-weight: bold;   // keep for nav? okay
+}
+
+/* Softer link weight inside text */
+.article-style a,
+.page-body a {
+  font-weight: 500 !important;
+}
 
 // ------------------------------------------------------------
 // Lists (research interests)

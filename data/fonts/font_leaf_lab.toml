@@ -1,10 +1,6 @@
-# Font style metadata
-name = "TradeGothicLTStdLight"
+name = "TradeGothicLTStd"
 
-# Optional Google font URL
-
-# Font families
-heading_font = "TradeGothicLTStdLight"
-body_font = "TradeGothicLTStdLight"
-nav_font = "TradeGothicLTStdLight"
-mono_font = "TradeGothicLTStdLight"
+heading_font = "TradeGothicLTStd"
+body_font = "TradeGothicLTStd"
+nav_font = "TradeGothicLTStd"
+mono_font = "TradeGothicLTStd"
