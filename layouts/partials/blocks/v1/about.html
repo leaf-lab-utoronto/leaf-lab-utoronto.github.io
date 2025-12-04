@@ -114,6 +114,24 @@
       </div>
       {{ end }}
 
+      {{ with $person.placement }}
+      <div class="col-md-5">
+        <div class="section-subheading">Post-graduation placement</div>
+        <ul class="ul-edu fa-ul mb-0">
+          {{ range .roles }}
+          <li>
+            <i class="fa-li fas fa-briefcase"></i>
+            <div class="description">
+                <p class="course">{{ .role | markdownify }}</p>
+                <p class="course">{{ .institution | markdownify }}</p>
+                <p class="institution">{{ .year | markdownify }}</p>
+              </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
       {{ with $person.education }}
       <div class="col-md-5">
         <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
