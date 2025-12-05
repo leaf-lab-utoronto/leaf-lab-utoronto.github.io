@@ -34,6 +34,10 @@
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
            width="270" height="270"
            src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+      {{ else }}
+        <img class="avatar"
+           width="270" height="270"
+           src="/images/default-user.jpg" alt="{{$person_page.Title}}">
       {{ end }}
 
       <div class="portrait-title">
