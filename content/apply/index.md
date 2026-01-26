@@ -31,7 +31,7 @@ date: 2022-10-24
 7. Co-supervision through any of the above programs. If you are interested in co-supervision, you should mention your desire and potential co-supervisors *in your application*. Co-supervision typically works best when it involves some meaningful intellectual overlap between the co-supervisers.
 
 <strong>Application process:</strong> 
-- <strong>Step 1</strong>: Apply through one of the routes above. Mention the PI's name in your application if you're interested in working together, and describe your research interests as they relate to ours. 
+- <strong>Step 1</strong>: Apply through one of the routes above. <strong>Mention the PI's name in your application if you're interested in working together, and describe your research interests as they relate to ours.</strong> If you do not mention the PI's name, your application may be overlooked. 
 - <strong>Step 2</strong>: Virtual interview: For candidates we select to interview, we will discuss your background, goals, and potential research directions together in the interview. 
 
  See the coursework details section below for details on the relatively small amount of coursework involved. Applicants with all academic backgrounds (especially, but not limited to, CS and machine learning backgrounds) are encouraged to apply.
@@ -46,6 +46,10 @@ date: 2022-10-24
 1. Through the <a href="https://www.utias.utoronto.ca/master-of-applied-science/">UTIAS M.A.Sc. program</a>. After twelve months in the M.A.Sc. program, it is possible for successful students to transfer to the Ph.D. program.
 2. Through the <a href="https://web.cs.toronto.edu/graduate/msc">CS M.Sc. program</a>. After seventeen months in the M.Sc. program, it is possible for successful students to transfer directly to the Ph.D. program.
 3. Co-supervision through any of the above programs. If you are interested in co-supervision, you should mention your desire and potential co-supervisors *in your application*. Co-supervision typically works best when it involves some meaningful intellectual overlap between the co-supervisers.
+
+<strong>Application process:</strong> 
+- <strong>Step 1</strong>: Apply through one of the routes above. <strong>Mention the PI's name in your application if you're interested in working together, and describe your research interests as they relate to ours.</strong> If you do not mention the PI's name, your application may be overlooked. 
+- <strong>Step 2</strong>: Virtual interview: For candidates we select to interview, we will discuss your background, goals, and potential research directions together in the interview.
 
 ## Coursework details
 For both UTIAS Ph.D. and M.A.Sc. programs, currently, 2 of the 4 required courses must be classified as Robotics (ROB) or Aerospace (AER), which involves a broad set of robotics, computer science, and machine learning topics.
