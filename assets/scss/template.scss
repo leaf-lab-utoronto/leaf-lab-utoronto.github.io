@@ -3,7 +3,7 @@
 // ------------------------------------------------------------
 $brand-blue:  #1E3765;
 $accent-teal: #007894;
-$navbar-bg:   #f1f3f7;
+$navbar-bg:   $brand-blue;
 
 // ------------------------------------------------------------
 // Fixes annoying issues with layouts being different dependent
@@ -79,7 +79,23 @@ nav#navbar-main {
   align-items: stretch;
 
   // Ensure nav-links are not bold (since they're big already).
-  a.nav-link { font-weight: normal; position: relative; }
+  a.nav-link {
+    color: #fff !important;
+    font-weight: normal;
+    position: relative;
+  }
+
+  a.nav-link:hover,
+  a.nav-link:focus,
+  a.nav-link.active {
+    color: #fff !important;
+  }
+
+  .navbar-toggler,
+  .nav-icons .nav-link,
+  .navbar-brand {
+    color: #fff !important;
+  }
 
   // Spacing for items
   li.nav-item { margin: 0 1rem; }
@@ -100,7 +116,7 @@ nav#navbar-main {
     display: block;
     width: 0;
     height: 2px;
-    background: $brand-blue;
+    background: #fff;
     transition: width 0.2s ease, left 0.2s ease;
     // transparent bg reset
     background-repeat: no-repeat;
