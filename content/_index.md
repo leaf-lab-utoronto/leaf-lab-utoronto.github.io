@@ -9,11 +9,11 @@ sections:
     content:
       title: ''
       text: |
-        <div class="row">
-          <div class="section-heading col-12 col-md-4 d-flex flex-column align-items-center align-items-md-start" style="gap: 1rem;">
+        <div class="row homepage-welcome">
+          <div class="section-heading homepage-welcome-profile col-12 col-md-3 d-flex flex-column align-items-center align-items-md-start">
             <h1 class="mb-0" style="align-self: center">Welcome</h1>  
             <div id="profile" style="align-self: center">
-              <img class="avatar avatar-circle img-fluid"
+              <img class="avatar avatar-square homepage-profile-photo img-fluid"
               src="/images/nr_headshot_v2.jpg" alt="Nicholas Rhinehart"
               style="max-width: 270px; width: 100 percent; aspect-ratio: 1; object-fit: cover;"
               >
@@ -23,26 +23,23 @@ sections:
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-8" style="padding-left: 1.5rem;">
-            <div class="article-style responsive-top-padding">
-              <div>Welcome to the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab affiliated with the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>, <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a>, and <a href="https://cs.utoronto.ca" target="_blank">Department of Computer Science</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.
-              <br><br> 
-              We aim to develop broadly useful autonomous systems that efficiently and safely operate in complex environments by advancing the algorithmic foundations of robot learning. By developing learning-based systems for forecasting and control, the LEAF lab equips autonomous systems with the ability to predict and respond to real-time changes in their environment. Our research develops principled algorithms by advancing and drawing upon methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning.
-              <br><br>
-              Several of the LEAF lab's current research thrusts are (i) developing transferable models by learning to forecast high-dimensional data, (ii) deep learning methods for jointly forecasting and planning motion in uncertain environments,  (iii) autonomous systems that learn from a variety of sources of human data -- demonstration data, preference feedback, and others -- in order to help them perform complex tasks safely and efficiently.
-              <br><br>
-              Interested in joining our lab? Learn more <a href="/apply">here</a>.
-              </div>
+          <div class="col-12 col-md-9 homepage-welcome-copy-column">
+            <div class="article-style homepage-welcome-copy">
+              <p>Welcome to the homepage of the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab affiliated with the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>, <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a>, and <a href="https://cs.utoronto.ca" target="_blank">Department of Computer Science</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.</p>
+              <p>We aim to develop broadly useful autonomous systems that efficiently and safely operate in complex environments by advancing the algorithmic foundations of robot learning. By developing learning-based systems for forecasting and control, the LEAF lab equips autonomous systems with the ability to predict and respond to real-time changes in their environment. Our research develops principled algorithms by advancing and drawing upon methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning.</p>
+              <p>Several of the LEAF lab's current research thrusts are (i) developing transferable models by learning to forecast high-dimensional data, (ii) deep learning methods for jointly forecasting and planning motion in uncertain environments,  (iii) autonomous systems that learn from a variety of sources of human data -- demonstration data, preference feedback, and others -- in order to help them perform complex tasks safely and efficiently.</p>
+              <p>Interested in joining our lab? Learn more <a href="/apply">here</a>.</p>
             </div>
           </div>
         </div>
 
 
   - block: collection
+    id: news
     content:
       title: News
-      text: ""
-      count: 5
+      text: '<span class="homepage-news-marker"></span>'
+      count: 7
       filters:
         folders:
           - event
@@ -51,10 +48,11 @@ sections:
       view: event_list
       columns: '2'
   - block: collection
+    id: recent-publications
     content:
       title: Recent publications
-      text: ""
-      count: 3
+      text: '<span class="homepage-recent-publications-marker"></span>'
+      count: 5
       filters:
         folders:
           - publication
@@ -65,12 +63,12 @@ sections:
     content:
       title: ''
       text: |
-        <div class="row">
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+        <div class="row homepage-research-interests">
+          <div class="section-heading col-12 mb-3 d-flex flex-column align-items-center">
             <h1 class="mb-0">Our research interests</h1>  
           </div>
-        <div class="col-12 col-lg-8">
-          <div style="display:flex; justify-content: flex-start; column-gap: 1vw; row-gap: 1vw; font-size: medium; text-align:left; flex-wrap: wrap">
+        <div class="col-12">
+          <div style="display:flex; justify-content: center; column-gap: 2.5rem; row-gap: 1vw; font-size: medium; text-align:left; flex-wrap: wrap">
           <div class="research-interests">
             <h2>Fields:</h2>
             <ul>

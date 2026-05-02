@@ -14,12 +14,12 @@
       {{ $image := .Fill (printf "400x267 %s" $anchor) }}
       {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
       <a href="{{ $item.RelPermalink }}">
-        <div class="img-hover-zoom border-solid-1px-k" style="min-width: 250px;">
+        <div class="img-hover-zoom border-solid-1px-k pub-thumbnail" style="min-width: 250px;">
           <img src="{{ $image.RelPermalink }}" height="166" width="250" alt="{{ $item.Title }}">
         </div>
       </a>
     {{ else }}
-      <div class="img-hover-zoom border-solid-1px-k" style="min-width: 250px;">
+      <div class="img-hover-zoom border-solid-1px-k pub-thumbnail" style="min-width: 250px;">
         <img src="/images/missing_publication_image.jpg" height="166" width="250" alt="placeholder">
       </div>
     {{ end }}

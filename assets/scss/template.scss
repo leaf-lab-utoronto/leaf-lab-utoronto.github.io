@@ -17,6 +17,7 @@ html { overflow-y: scroll; }
 @media (min-width: 640px) {
   .responsive-top-padding { padding-top: 3rem; margin-top: 0; }
   .page-body { padding-top: 3rem; }
+  .page-body:has(.compact-page-header) { padding-top: 1rem; }
 }
 
 // Custom paragraph spacing.
@@ -123,6 +124,220 @@ nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 // ------------------------------------------------------------
 .hero-lead { max-width: 100%; }
 .home-section { padding: 30px 0; }
+.home-section:first-of-type { padding-top: 0; padding-bottom: 12px; }
+
+.homepage-welcome {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage-research-interests {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-section:has(.homepage-research-interests) {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.homepage-research-interests .section-heading {
+  margin-bottom: 0.5rem !important;
+}
+
+.homepage-research-interests h2 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.homepage-research-interests ul {
+  margin-bottom: 0;
+}
+
+.homepage-welcome-copy-column {
+  padding-left: 0.5rem;
+}
+
+.homepage-welcome-copy p {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+}
+
+.homepage-welcome-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.compact-news-list .view-list-item {
+  margin-bottom: 0.9rem;
+}
+
+.wg-collection > .container > .row > .section-heading,
+.wg-collection > .container > .row > .col-12.col-lg-8 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.wg-collection > .container > .row > .section-heading {
+  align-items: flex-start !important;
+  margin-bottom: 1rem !important;
+}
+
+.wg-collection:has(.homepage-news-marker) > .container > .row,
+.wg-collection:has(.homepage-recent-publications-marker) > .container > .row {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wg-collection:has(.homepage-news-marker) {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.wg-collection:has(.homepage-news-marker) .section-heading h1 {
+  font-size: 2.25rem;
+}
+
+.wg-collection:has(.homepage-news-marker) > .container > .row > .section-heading {
+  margin-bottom: 0.6rem !important;
+}
+
+.wg-collection:has(.homepage-news-marker) > .container > .row > .col-12.col-lg-8 {
+  column-count: 2;
+  column-gap: 2.25rem;
+}
+
+.wg-collection:has(.homepage-news-marker) .view-list-item {
+  break-inside: avoid;
+  margin-bottom: 0.325rem;
+  font-size: 0.9rem;
+}
+
+.wg-collection:has(.homepage-news-marker) .article-metadata {
+  margin-top: 0.1rem;
+  font-size: 0.86rem;
+}
+
+.homepage-news-marker,
+.homepage-recent-publications-marker {
+  display: none;
+}
+
+.wg-collection:has(.homepage-recent-publications-marker) .view-citation {
+  line-height: 1.38;
+}
+
+.wg-collection:has(.homepage-recent-publications-marker) .d-flex.flex-row.align-items-start {
+  margin-bottom: 2rem !important;
+}
+
+.wg-collection:has(.homepage-recent-publications-marker) .pub-thumbnail {
+  min-width: 280px !important;
+}
+
+.wg-collection:has(.homepage-recent-publications-marker) .pub-thumbnail img {
+  width: 280px;
+  height: auto;
+}
+
+.wg-collection:has(.homepage-recent-publications-marker) .btn-links,
+.wg-collection:has(.homepage-recent-publications-marker) .flex.space-x-3 {
+  margin-top: 0.35rem;
+}
+
+.wg-collection:has(.homepage-recent-publications-marker) .article-tags {
+  margin-top: 0.35rem;
+}
+
+.wg-collection:has(.homepage-recent-publications-marker) .btn-page-header {
+  font-size: 0.85rem;
+  padding: 0.22rem 0.45rem;
+}
+
+.avatar-square,
+.avatar-circle {
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.homepage-welcome-profile {
+  gap: 0.5rem;
+}
+
+.homepage-welcome-profile #profile {
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+
+.homepage-welcome-profile .cta-btns {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+.homepage-profile-photo {
+  border-radius: 0;
+}
+
+@media (max-width: 767.98px) {
+  .homepage-welcome-profile {
+    margin-bottom: 0.75rem;
+  }
+
+  .homepage-welcome-profile h1 {
+    margin-bottom: 0.25rem !important;
+  }
+
+  .homepage-welcome-profile #profile {
+    margin-top: 0;
+    padding: 0 10px 0.25rem;
+  }
+
+  .homepage-welcome-profile .avatar {
+    width: 70vw;
+    height: 70vw;
+    max-width: 220px;
+    max-height: 220px;
+    aspect-ratio: 1;
+  }
+
+  .homepage-welcome-profile .cta-btns {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .homepage-welcome-copy-column {
+    padding-left: 15px;
+  }
+
+  .homepage-welcome-copy p {
+    margin-bottom: 0.7rem;
+  }
+
+  .wg-collection:has(.homepage-news-marker) > .container > .row > .col-12.col-lg-8 {
+    column-count: 1;
+  }
+
+  .pub-thumbnail {
+    min-width: 0 !important;
+  }
+
+  .pub-thumbnail img {
+    width: 70vw;
+    max-width: 220px;
+    height: auto;
+  }
+
+  .wg-collection:has(.homepage-recent-publications-marker) .pub-thumbnail {
+    min-width: 0 !important;
+  }
+
+  .wg-collection:has(.homepage-recent-publications-marker) .pub-thumbnail img {
+    width: 70vw;
+    max-width: 220px;
+  }
+}
 
 // ------------------------------------------------------------
 // Buttons
@@ -209,6 +424,79 @@ hr {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center;     /* Center vertically */
+}
+
+// ------------------------------------------------------------
+// Footer
+// ------------------------------------------------------------
+.site-footer {
+  margin-top: 1rem;
+  padding: 1rem 0 0.5rem;
+}
+
+.site-footer .universal-wrapper {
+  max-width: 1120px;
+}
+
+.footer-rule {
+  width: 100%;
+  margin: 0 0 0.8rem;
+  background: #1E3765;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.9rem;
+  margin: 0 0 1.1rem;
+}
+
+.footer-logos img {
+  height: 48px;
+  width: auto;
+}
+
+.footer-logo-divider {
+  border-left: 1px solid #1E3765;
+  height: 28px;
+}
+
+.footer-land {
+  margin: 0;
+}
+
+.footer-land h3 {
+  text-align: left;
+  font-size: 1.15rem;
+  margin: 0 0 0.4rem;
+}
+
+.footer-land p {
+  text-align: left;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin: 0 0 0.5rem;
+}
+
+.footer-land .footer-copyright {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .footer-logos {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+
+  .footer-logos img {
+    height: 38px;
+  }
+
+  .footer-logo-divider {
+    display: none;
+  }
 }
 
 

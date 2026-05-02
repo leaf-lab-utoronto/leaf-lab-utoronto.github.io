@@ -1,0 +1,23 @@
+{{- define "main" -}}
+{{ partial "page_header.html" . }}
+
+{{ $recent_count := int (.Params.recent_count | default 10) }}
+{{ $recent_years := int (.Params.recent_years | default 2) }}
+{{ $cutoff_year := sub (int (now.Format "2006")) $recent_years }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  <div class="compact-news-list">
+    {{ $shown := 0 }}
+    {{ range .Pages.ByDate.Reverse }}
+      {{ if and (lt $shown $recent_count) (ge (int (.Date.Format "2006")) $cutoff_year) }}
+        {{ partial "views/event_list.html" (dict "item" .) }}
+        {{ $shown = add $shown 1 }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{- end -}}

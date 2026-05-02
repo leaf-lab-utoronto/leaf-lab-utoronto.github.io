@@ -5,7 +5,7 @@ date: 2022-10-24
 {{< toc >}}
 
 # Interested in the LEAF lab?
-<strong>Who and when we recruit:</strong> We are <strong>regularly</strong> looking for exceptionally creative, talented, and motivated people at many levels of experience: Postdocs, Ph.D., research-oriented Master's students, and undergraduates. See the information for prospective students below for details on applying for graduate programs.
+<strong>Who and when we recruit:</strong> We are <strong>regularly</strong> looking for exceptionally creative, talented, and self-motivated people at many levels of experience: Postdocs, Ph.D., research-oriented Master's students, and undergraduates. See the information for prospective students below for details on applying for graduate programs.
 
 <strong>Who we are and what we do:</strong> Our lab is a welcoming, intellectually vibrant, and creative environment working to solve some of the most interesting, critical, and challenging research problems in the fields of robotics and machine learning. You can learn more about what we have done in the past by studying our <a href="/publication/">publications</a>.
 
@@ -91,7 +91,7 @@ Your question may already be answered above. Below are some other FAQs and their
 ### Are you planning to hire graduate students in the upcoming cycle?
 Yes.
 
-### Are you planning to hire graduate students to begin in Fall 2026?
+### Are you planning to hire graduate students to begin in Fall 2027?
 Yes.
 
 ### I'm interested in pursuing a specific research direction as a graduate student, does it interest you and can I pursue it with you?

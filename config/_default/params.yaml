@@ -51,20 +51,19 @@ footer:
   copyright:
     notice: '
     <div class="universal-wrapper">
-    <hr style="width: 100%; background: 1px solid #1E3765"></hr>
-    <div class="row" style="display: flex; justify-content: center; flex-direction: row; column-gap: 1vw">
-      <a href="#"><img src="/images/logo.png" alt="LEAF Lab logo" style="height: 80px; width:auto"></a>
-      <div style="border-left: 1px solid #1E3765; height: 40px; margin-top: 20px; margin-bottom: 20px"></div>
-      <a href="https://robotics.utoronto.ca" target="_blank"><img src="/images/ri-logo.png" style="height: 80px; width:auto" alt="U of T Robotics Institute Logo"></a>
-      <div style="border-left: 1px solid #1E3765; height: 40px; margin-top: 20px; margin-bottom: 20px"></div>
-      <a href="https://utoronto.ca" target="_blank"><img src="/images/uot-logo.png" style="height: 80px; width:auto" alt="U of T Logo"></a>
+    <hr class="footer-rule"></hr>
+    <div class="row footer-logos">
+      <a href="#"><img src="/images/logo.png" alt="LEAF Lab logo"></a>
+      <div class="footer-logo-divider"></div>
+      <a href="https://robotics.utoronto.ca" target="_blank"><img src="/images/ri-logo.png" alt="U of T Robotics Institute Logo"></a>
+      <div class="footer-logo-divider"></div>
+      <a href="https://utoronto.ca" target="_blank"><img src="/images/uot-logo.png" alt="U of T Logo"></a>
     </div>
-    <br><br>
-    <div class="row"><div class="col-lg-12"><h3 style="text-align:left;">Statement of Land Acknowledgement</h3>
-    <p style="text-align: left;">We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and the Mississaugas of the Credit. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
+    <div class="row footer-land"><div class="col-lg-12"><h3>Statement of Land Acknowledgement</h3>
+    <p>We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and the Mississaugas of the Credit. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
       <br><a href="https://indigenous.utoronto.ca/about/land-acknowledgement/">Read more about this Statement of Land Acknowledgement.</a>
-    </p><br>
-    <p style="text-align: left">© {year} Nick Rhinehart.</p></div></div></div>'
+    </p>
+    <p class="footer-copyright">© {year} Nick Rhinehart.</p></div></div></div>'
     license:
       enable: false
       allow_derivatives: false
@@ -96,7 +95,7 @@ features:
     branch: main
   avatar:
     gravatar: false
-    shape: circle
+    shape: square
   comment:
     provider: ''
     disqus:

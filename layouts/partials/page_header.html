@@ -1,6 +1,8 @@
 {{ warnf "DEBUG: page_header.html" }}
 {{ $page := . }}
 {{ $featured := partial "blox-core/functions/get_featured_image.html" $page }}
+{{ $compact_header_pages := slice "/event/" "/publication/" "/apply/" }}
+{{ $compact_header := in $compact_header_pages $page.RelPermalink }}
 
 {{ $anchor := $page.Params.image.focal_point | default "Smart" }}
 
@@ -93,7 +95,7 @@
   {{ if $page.IsNode }}
     {{ $ctnr = "universal-wrapper" }}
   {{end}}
-<div class="{{$ctnr}} pt-3">
+<div class="{{$ctnr}}{{ if not $compact_header }} pt-3{{ end }}{{ if $compact_header }} compact-page-header{{ end }}">
   <h1>{{ $title }}</h1>
 
   {{ with $page.Params.subtitle }}

@@ -25,6 +25,7 @@ sections:
         <div style="font-size: medium">
 
         ## Courses
+        - **Spring 2026**: ROB313: Introduction to Learning from Data
         - **Fall 2025**: ROB301: Introduction to Robotics
         - **Fall 2024**: ROB301: Introduction to Robotics
         </div>
