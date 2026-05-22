@@ -7,7 +7,7 @@ summary: ''
 authors:
 - Nicholas Rhinehart
 - Kris M. Kitani
-tags: ["paper award", "imitation learning", "reward learning", "first-person video"]
+tags: ["paper award", "imitation learning", "reward learning", "first-person video", "forecasting"]
 categories: []
 date: '2017-01-01'
 lastmod: 2024-07-15T15:34:44-04:00

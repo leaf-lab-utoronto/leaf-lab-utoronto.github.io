@@ -9,7 +9,7 @@ authors:
 - Paul Vernaza
 - Wongun Choi
 - Nicholas Rhinehart
-tags: []
+tags: ["autonomous driving", "forecasting", "generative models", "machine learning"]
 categories: []
 date: '2020-07-01'
 lastmod: 2024-07-15T15:34:47-04:00

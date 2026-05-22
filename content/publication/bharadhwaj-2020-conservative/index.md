@@ -11,7 +11,7 @@ authors:
 - Sergey Levine
 - Florian Shkurti
 - Animesh Garg
-tags: []
+tags: ["reinforcement learning", "autonomous exploration", "machine learning"]
 categories: ["reinforcement learning", "machine learning", "autonomous exploration"]
 date: '2020-01-01'
 lastmod: 2024-07-15T15:34:51-04:00

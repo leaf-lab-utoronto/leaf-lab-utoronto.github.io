@@ -53,7 +53,7 @@ publication_types:
 - 'paper-conference'
 
 # Tags.
-tags: ["computer vision", "forecasting", "machine learning", "robotics"]
+tags: ["computer vision", "forecasting", "machine learning", "robotics", "generative models"]
 
 image:
   caption: ''

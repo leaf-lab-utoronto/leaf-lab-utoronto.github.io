@@ -13,7 +13,7 @@ authors:
 - Glen Berseth
 - Stuart Russell
 - Sergey Levine
-tags: []
+tags: ["reinforcement learning", "autonomous exploration", "intrinsic control", "machine learning"]
 categories: ["intrinsic control", "machine learning", "reinforcement learning"]
 date: '2021-01-01'
 lastmod: 2024-07-15T15:34:53-04:00

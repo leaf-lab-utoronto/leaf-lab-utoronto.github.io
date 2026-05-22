@@ -1,0 +1,2347 @@
+{
+  "generated_at": "2026-05-22T13:38:04+00:00",
+  "content_dir": "content/publication",
+  "publication_count": 38,
+  "topic_count": 19,
+  "topics": [
+    {
+      "tag": "machine learning",
+      "count": 31,
+      "publications": [
+        "ashok-2018-n-2-n",
+        "berseth-2019-smirl",
+        "bharadhwaj-2020-conservative",
+        "cao-2025-rrms",
+        "dashora-2022-hybrid",
+        "fickinger-2021-explore",
+        "filos-2020-can",
+        "guan-2019-generative",
+        "han-2024-drmpc",
+        "han-2025-ratatouille",
+        "liu-2025-flwms",
+        "liu-2026-occsim",
+        "montali-2024-waymo",
+        "packer-2023-anyone",
+        "pan-2018-human",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2015-visual",
+        "rhinehart-2016-learning",
+        "rhinehart-2018-first",
+        "rhinehart-2018-r-2-p-2",
+        "rhinehart-2021-contingencies",
+        "shah-2021-ving",
+        "shah-2022-offline",
+        "shankar-2018-learning",
+        "singh-2020-parrot",
+        "venkatraman-2017-predictive",
+        "vernaza-2020-generative",
+        "vernaza-2021-traffic",
+        "weng-2021-inverting",
+        "weng-2022-s-2-net",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "forecasting",
+      "count": 19,
+      "publications": [
+        "guan-2019-generative",
+        "han-2024-drmpc",
+        "liu-2025-flwms",
+        "liu-2026-occsim",
+        "montali-2024-waymo",
+        "packer-2023-anyone",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2017-first",
+        "rhinehart-2018-first",
+        "rhinehart-2018-r-2-p-2",
+        "rhinehart-2019-jointly",
+        "rhinehart-2019-precog",
+        "rhinehart-2020-deep",
+        "rhinehart-2021-contingencies",
+        "venkatraman-2017-predictive",
+        "vernaza-2020-generative",
+        "vernaza-2021-traffic",
+        "weng-2022-s-2-net",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "imitation learning",
+      "count": 17,
+      "publications": [
+        "dashora-2022-hybrid",
+        "filos-2020-can",
+        "guan-2019-generative",
+        "han-2025-ratatouille",
+        "montali-2024-waymo",
+        "pan-2018-human",
+        "rhinehart-2015-visual",
+        "rhinehart-2017-first",
+        "rhinehart-2018-first",
+        "rhinehart-2018-r-2-p-2",
+        "rhinehart-2019-jointly",
+        "rhinehart-2020-deep",
+        "rhinehart-2021-contingencies",
+        "shankar-2018-learning",
+        "sharma-2019-directed",
+        "singh-2020-parrot",
+        "venkatraman-2017-predictive"
+      ]
+    },
+    {
+      "tag": "robotics",
+      "count": 17,
+      "publications": [
+        "cao-2025-rrms",
+        "dashora-2022-hybrid",
+        "han-2024-drmpc",
+        "han-2025-ratatouille",
+        "liu-2025-flwms",
+        "liu-2026-occsim",
+        "montali-2024-waymo",
+        "packer-2023-anyone",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2021-contingencies",
+        "shah-2021-rapid",
+        "shah-2021-ving",
+        "shah-2022-offline",
+        "sharma-2019-directed",
+        "singh-2020-parrot",
+        "weng-2021-inverting",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "computer vision",
+      "count": 16,
+      "publications": [
+        "filos-2020-can",
+        "guan-2019-generative",
+        "han-2024-drmpc",
+        "liu-2025-flwms",
+        "liu-2026-occsim",
+        "montali-2024-waymo",
+        "packer-2023-anyone",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2015-visual",
+        "rhinehart-2016-learning",
+        "rhinehart-2020-deep",
+        "rhinehart-2021-contingencies",
+        "shah-2021-ving",
+        "shah-2022-offline",
+        "weng-2021-inverting",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "generative models",
+      "count": 16,
+      "publications": [
+        "guan-2019-generative",
+        "liu-2025-flwms",
+        "liu-2026-occsim",
+        "packer-2023-anyone",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2018-r-2-p-2",
+        "rhinehart-2019-jointly",
+        "rhinehart-2019-precog",
+        "rhinehart-2020-deep",
+        "rhinehart-2021-information",
+        "singh-2020-parrot",
+        "vernaza-2020-generative",
+        "vernaza-2021-traffic",
+        "weng-2021-inverting",
+        "weng-2022-s-2-net",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "autonomous driving",
+      "count": 15,
+      "publications": [
+        "filos-2020-can",
+        "liu-2026-occsim",
+        "montali-2024-waymo",
+        "packer-2023-anyone",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2018-r-2-p-2",
+        "rhinehart-2019-jointly",
+        "rhinehart-2019-precog",
+        "rhinehart-2020-deep",
+        "rhinehart-2021-contingencies",
+        "vernaza-2020-generative",
+        "vernaza-2021-traffic",
+        "weng-2021-inverting",
+        "weng-2022-s-2-net",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "reinforcement learning",
+      "count": 10,
+      "publications": [
+        "ashok-2018-n-2-n",
+        "berseth-2019-smirl",
+        "bharadhwaj-2020-conservative",
+        "cao-2025-rrms",
+        "fickinger-2021-explore",
+        "han-2024-drmpc",
+        "rhinehart-2019-jointly",
+        "rhinehart-2021-information",
+        "shah-2022-offline",
+        "venkatraman-2017-predictive"
+      ]
+    },
+    {
+      "tag": "model-based control",
+      "count": 9,
+      "publications": [
+        "dashora-2022-hybrid",
+        "filos-2020-can",
+        "han-2024-drmpc",
+        "packer-2023-anyone",
+        "rhinehart-2019-jointly",
+        "rhinehart-2020-deep",
+        "rhinehart-2021-contingencies",
+        "shah-2021-rapid",
+        "shah-2021-ving"
+      ]
+    },
+    {
+      "tag": "reward learning",
+      "count": 8,
+      "publications": [
+        "cao-2025-rrms",
+        "pan-2018-human",
+        "rhinehart-2016-learning",
+        "rhinehart-2017-first",
+        "rhinehart-2018-first",
+        "rhinehart-2018-r-2-p-2",
+        "rhinehart-2019-jointly",
+        "rhinehart-2020-deep"
+      ]
+    },
+    {
+      "tag": "autonomous exploration",
+      "count": 5,
+      "publications": [
+        "berseth-2019-smirl",
+        "bharadhwaj-2020-conservative",
+        "fickinger-2021-explore",
+        "rhinehart-2021-information",
+        "shah-2021-rapid"
+      ]
+    },
+    {
+      "tag": "first-person video",
+      "count": 4,
+      "publications": [
+        "guan-2019-generative",
+        "rhinehart-2016-learning",
+        "rhinehart-2017-first",
+        "rhinehart-2018-first"
+      ]
+    },
+    {
+      "tag": "offroad navigation",
+      "count": 4,
+      "publications": [
+        "dashora-2022-hybrid",
+        "shah-2021-rapid",
+        "shah-2021-ving",
+        "shah-2022-offline"
+      ]
+    },
+    {
+      "tag": "intrinsic control",
+      "count": 3,
+      "publications": [
+        "berseth-2019-smirl",
+        "fickinger-2021-explore",
+        "rhinehart-2021-information"
+      ]
+    },
+    {
+      "tag": "manipulation",
+      "count": 2,
+      "publications": [
+        "cao-2025-rrms",
+        "singh-2020-parrot"
+      ]
+    },
+    {
+      "tag": "paper award",
+      "count": 2,
+      "publications": [
+        "rhinehart-2017-first",
+        "rhinehart-2019-precog"
+      ]
+    },
+    {
+      "tag": "social navigation",
+      "count": 2,
+      "publications": [
+        "han-2024-drmpc",
+        "han-2025-ratatouille"
+      ]
+    },
+    {
+      "tag": "benchmarks",
+      "count": 1,
+      "publications": [
+        "montali-2024-waymo"
+      ]
+    },
+    {
+      "tag": "compression",
+      "count": 1,
+      "publications": [
+        "ashok-2018-n-2-n"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "slug": "ashok-2018-n-2-n",
+      "path": "content/publication/ashok-2018-n-2-n/index.md",
+      "title": "'N2N learning: Network to Network Compression via Policy Gradient Reinforcement",
+      "date": "2018-01-01",
+      "publication": "*International Conference on Learning Representations*",
+      "publication_short": "**ICLR**",
+      "tags": [
+        "compression",
+        "machine learning",
+        "reinforcement learning"
+      ],
+      "abstract": "While bigger and deeper neural network architectures continue to advance the state-of-the-art for many computer vision tasks, real-world adoption of these networks is impeded by hardware and speed constraints. Conventional model compression methods attempt to address this problem by modifying the architecture manually or using pre-defined heuristics. Since the space of all reduced architectures is very large, modifying the architecture of a deep neural network in this way is a difficult task. In this paper, we tackle this issue by introducing a principled method for learning reduced network architectures in a data-driven way using reinforcement learning. Our approach takes a larger `teacher' network as input and outputs a compressed `student' network derived from the `teacher' network. In the first stage of our method, a recurrent policy network aggressively removes layers from the large `teacher' model. In the second stage, another recurrent policy network carefully reduces the size of each remaining layer. The resulting network is then evaluated to obtain a reward -- a score based on the accuracy and compression of the network. Our approach uses this reward signal with policy gradients to train the policies to find a locally optimal student network. Our experiments show that we can achieve compression rates of more than 10x for models such as ResNet-34 while maintaining similar performance to the input `teacher' network. We also present a valuable transfer learning result which shows that policies which are pre-trained on smaller `teacher' networks can be used to rapidly speed up training on larger `teacher' networks.",
+      "url_pdf": "https://openreview.net/pdf?id=B1hcZZ-AW",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "compression",
+        "computer vision",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning"
+      ],
+      "topic_evidence": {
+        "compression": [
+          "\\bcompression\\b",
+          "\\bnetwork to network\\b"
+        ],
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bneural\\b",
+          "\\bdeep\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\bpolicy gradient\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "berseth-2019-smirl",
+      "path": "content/publication/berseth-2019-smirl/index.md",
+      "title": "SMiRL: Surprise Minimizing RL in Dynamic Environments",
+      "date": "2019-01-01",
+      "publication": "*International Conference on Representation Learning*",
+      "publication_short": "**ICLR**",
+      "tags": [
+        "reinforcement learning",
+        "intrinsic control",
+        "machine learning",
+        "autonomous exploration"
+      ],
+      "abstract": "Every living organism struggles against disruptive environmental forces to carve out and maintain an orderly niche. We propose that such a struggle to achieve and preserve order might offer a principle for the emergence of useful behaviors in artificial agents. We formalize this idea into an unsupervised reinforcement learning method called surprise minimizing reinforcement learning (SMiRL). SMiRL alternates between learning a density model to evaluate the surprise of a stimulus, and improving the policy to seek more predictable stimuli. The policy seeks out stable and repeatable situations that counteract the environment's prevailing sources of entropy. This might include avoiding other hostile agents, or finding a stable, balanced pose for a bipedal robot in the face of disturbance forces. We demonstrate that our surprise minimizing agents can successfully play Tetris, Doom, control a humanoid to avoid falls, and navigate to escape enemies in a maze without any task-specific reward supervision. We further show that SMiRL can be used together with standard task rewards to accelerate reward-driven learning.",
+      "url_pdf": "https://openreview.net/pdf?id=cPZOyoDloxl",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "intrinsic control",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "intrinsic control": [
+          "\\bsurprise\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bcontrol\\b",
+          "\\bpolicy\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\brl\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "bharadhwaj-2020-conservative",
+      "path": "content/publication/bharadhwaj-2020-conservative/index.md",
+      "title": "Conservative safety critics for exploration",
+      "date": "2020-01-01",
+      "publication": "*International Conference on Represetation Learning*",
+      "publication_short": "**ICLR**",
+      "tags": [
+        "reinforcement learning",
+        "autonomous exploration",
+        "machine learning"
+      ],
+      "abstract": "Safe exploration presents a major challenge in reinforcement learning (RL): when active data collection requires deploying partially trained policies, we must ensure that these policies avoid catastrophically unsafe regions, while still enabling trial and error learning. In this paper, we target the problem of safe exploration in RL by learning a conservative safety estimate of environment states through a critic, and provably upper bound the likelihood of catastrophic failures at every training iteration. We theoretically characterize the tradeoff between safety and policy improvement, show that the safety constraints are likely to be satisfied with high probability during training, derive provable convergence guarantees for our approach, which is no worse asymptotically than standard RL, and demonstrate the efficacy of the proposed approach on a suite of challenging navigation, manipulation, and locomotion tasks. Empirically, we show that the proposed approach can achieve competitive task performance while incurring significantly lower catastrophic failure rates during training than prior methods. Videos are at this url https://sites.google.com/view/conservative-safety-critics/home",
+      "url_pdf": "https://openreview.net/pdf?id=iaO86DUuKi",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous exploration",
+        "benchmarks",
+        "machine learning",
+        "manipulation",
+        "model-based control",
+        "reinforcement learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous exploration": [
+          "\\bexploration\\b"
+        ],
+        "benchmarks": [
+          "\\bchallenge\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "manipulation": [
+          "\\bmanipulation\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\brl\\b"
+        ],
+        "robotics": [
+          "\\bnavigation\\b",
+          "\\bmanipulation\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "cao-2025-rrms",
+      "path": "content/publication/cao-2025-rrms/index.md",
+      "title": "Residual Reward Models for Preference-based Reinforcement Learning",
+      "date": "2025-07-01",
+      "publication": "*arXiv:2507.00611*",
+      "publication_short": "**arXiv**",
+      "tags": [
+        "reward learning",
+        "machine learning",
+        "robotics",
+        "reinforcement learning",
+        "manipulation"
+      ],
+      "abstract": "Preference-based Reinforcement Learning (PbRL) provides a way to learn high-performance policies in environments where the reward signal is hard to specify, avoiding heuristic and time-consuming reward design. However, PbRL can suffer from slow convergence speed since it requires training in a reward model. Prior work has proposed learning a reward model from demonstrations and fine-tuning it using preferences. However, when the model is a neural network, using different loss functions for pre-training and fine-tuning can pose challenges to reliable optimization. In this paper, we propose a method to effectively leverage prior knowledge with a Residual Reward Model (RRM). An RRM assumes that the true reward of the environment can be split into a sum of two parts: a prior reward and a learned reward. The prior reward is a term available before training, for example, a user's ``best guess'' reward function, or a reward function learned from inverse reinforcement learning (IRL), and the learned reward is trained with preferences. We introduce state-based and image-based versions of RRM and evaluate them on several tasks in the Meta-World environment suite. Experimental results show that our method substantially improves the performance of a common PbRL method. Our method achieves performance improvements for a variety of different types of prior rewards, including proxy rewards, a reward obtained from IRL, and even a negated version of the proxy reward. We also conduct experiments with a Franka Panda to show that our method leads to superior performance on a real robot. It significantly accelerates policy learning for different tasks, achieving success in fewer steps than the baseline. The videos are presented at https://sunlighted.github.io/RRM-web/.",
+      "url_pdf": "https://arxiv.org/pdf/2507.00611",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "computer vision",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "computer vision": [
+          "\\bimage\\b"
+        ],
+        "imitation learning": [
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bneural\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b",
+          "\\binverse reinforcement learning\\b",
+          "\\bpreference[- ]based\\b",
+          "\\bpreferences?\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "dashora-2022-hybrid",
+      "path": "content/publication/dashora-2022-hybrid/index.md",
+      "title": "Hybrid imitative planning with geometric and predictive costs in off-road environments",
+      "date": "2022-01-01",
+      "publication": "*International Conference on Robotics and Automation*",
+      "publication_short": "**ICRA**",
+      "tags": [
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "offroad navigation",
+        "robotics"
+      ],
+      "abstract": "Geometric methods for solving open-world off-road navigation tasks, by learning occupancy and metric maps, provide good generalization but can be brittle in outdoor environments that violate their assumptions (e.g., tall grass). Learning-based methods can directly learn collision-free behavior from raw observations, but are difficult to integrate with standard geometry-based pipelines. This creates an unfortunate conflict – either use learning and lose out on well-understood geometric navigational components, or do not use it, in favor of extensively hand-tuned geometry-based cost maps. In this work, we reject this dichotomy by designing the learning and non-learning-based components in a way such that they can be effectively combined in a self-supervised manner. Both components contribute to a planning criterion: the learned component contributes predicted traversability as rewards, while the geometric component contributes obstacle cost information. We instantiate and comparatively evaluate our system in both in-distribution and out-of-distribution environments, showing that this approach inherits complementary gains from the learned and geometric components and significantly outperforms either of them.",
+      "url_pdf": "https://arxiv.org/pdf/2111.10948",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "forecasting",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "offroad navigation",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\broads?\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b"
+        ],
+        "imitation learning": [
+          "\\bimitative\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b"
+        ],
+        "offroad navigation": [
+          "\\boff[- ]?road\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bnavigation\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "fickinger-2021-explore",
+      "path": "content/publication/fickinger-2021-explore/index.md",
+      "title": "Explore and control with adversarial surprise",
+      "date": "2021-01-01",
+      "publication": "*arXiv preprint arXiv:2107.07394*",
+      "publication_short": "",
+      "tags": [
+        "reinforcement learning",
+        "autonomous exploration",
+        "intrinsic control",
+        "machine learning"
+      ],
+      "abstract": "Unsupervised reinforcement learning (RL) studies how to leverage environment statistics to learn useful behaviors without the cost of reward engineering. However, a central challenge in unsupervised RL is to extract behaviors that meaningfully affect the world and cover the range of possible outcomes, without getting distracted by inherently unpredictable, uncontrollable, and stochastic elements in the environment. To this end, we propose an unsupervised RL method designed for high-dimensional, stochastic environments based on an adversarial game between two policies (which we call Explore and Control) controlling a single body and competing over the amount of observation entropy the agent experiences. The Explore agent seeks out states that maximally surprise the Control agent, which in turn aims to minimize surprise, and thereby manipulate the environment to return to familiar and predictable states. The competition between these two policies drives them to seek out increasingly surprising parts of the environment while learning to gain mastery over them. We show formally that the resulting algorithm maximizes coverage of the underlying state in block MDPs with stochastic observations, providing theoretical backing to our hypothesis that this procedure avoids uncontrollable and stochastic distractions. Our experiments further demonstrate that Adversarial Surprise leads to the emergence of complex and meaningful skills, and outperforms state-of-the-art unsupervised reinforcement learning methods in terms of both exploration and zero-shot transfer to downstream tasks.",
+      "url_pdf": "https://arxiv.org/pdf/2107.07394",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous exploration",
+        "benchmarks",
+        "generative models",
+        "intrinsic control",
+        "machine learning",
+        "manipulation",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous exploration": [
+          "\\bexploration\\b",
+          "\\bexplore\\b"
+        ],
+        "benchmarks": [
+          "\\bchallenge\\b"
+        ],
+        "generative models": [
+          "\\badversarial\\b"
+        ],
+        "intrinsic control": [
+          "\\bsurprise\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "manipulation": [
+          "\\bmanipulat(?:e|ing|or)\\b"
+        ],
+        "model-based control": [
+          "\\bcontrol\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\brl\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b"
+        ],
+        "robotics": [
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "filos-2020-can",
+      "path": "content/publication/filos-2020-can/index.md",
+      "title": "Can autonomous vehicles identify, recover from, and adapt to distribution shifts?",
+      "date": "2020-01-01",
+      "publication": "*International Conference on Machine Learning*",
+      "publication_short": "**ICML**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "imitation learning",
+        "model-based control",
+        "machine learning"
+      ],
+      "abstract": "Out-of-training-distribution (OOD) scenarios are a common challenge of learning agents at deployment, typically leading to arbitrary deductions and poorly-informed decisions. In principle, detection of and adaptation to OOD scenes can mitigate their adverse effects. In this paper, we highlight the limitations of current approaches to novel driving scenes and propose an epistemic uncertainty-aware planning method, called \\emph{robust imitative planning} (RIP). Our method can detect and recover from some distribution shifts, reducing the overconfident and catastrophic extrapolations in OOD scenes. If the model's uncertainty is too great to suggest a safe course of action, the model can instead query the expert driver for feedback, enabling sample-efficient online adaptation, a variant of our method we term \\emph{adaptive robust imitative planning} (AdaRIP). Our methods outperform current state-of-the-art approaches in the nuScenes \\emph{prediction} challenge, but since no benchmark evaluating OOD detection and adaption currently exists to assess \\emph{control}, we introduce an autonomous car novel-scene benchmark, \\texttt{CARNOVEL}, to evaluate the robustness of driving agents to a suite of tasks with distribution shifts.",
+      "url_pdf": "http://proceedings.mlr.press/v119/filos20a/filos20a.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "forecasting",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b"
+        ],
+        "benchmarks": [
+          "\\bbenchmark\\b",
+          "\\bchallenge\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b"
+        ],
+        "imitation learning": [
+          "\\bimitative\\b"
+        ],
+        "machine learning": [
+          "\\bmachine learning\\b",
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b",
+          "\\bcontrol\\b"
+        ],
+        "robotics": [
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "guan-2019-generative",
+      "path": "content/publication/guan-2019-generative/index.md",
+      "title": "Generative Hybrid Representations for Activity Forecasting with No-Regret Learning",
+      "date": "2019-01-01",
+      "publication": "*Conference on Computer Vision and Pattern Recognition*",
+      "publication_short": "**CVPR**",
+      "tags": [
+        "computer vision",
+        "imitation learning",
+        "first-person video",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "abstract": "Automatically reasoning about future human behaviors is a difficult problem but has significant practical applications to assistive systems. Part of this difficulty stems from learning systems' inability to represent all kinds of behaviors. Some behaviors, such as motion, are best described with continuous representations, whereas others, such as picking up a cup, are best described with discrete representations. Furthermore, human behavior is generally not fixed: people can change their habits and routines. This suggests these systems must be able to learn and adapt continuously. In this work, we develop an efficient deep generative model to jointly forecast a person's future discrete actions and continuous motions. On a large-scale egocentric dataset, EPIC-KITCHENS, we observe our method generates high-quality and diverse samples while exhibiting better generalization than related generative models. Finally, we propose a variant to continually learn our model from streaming data, observe its practical effectiveness, and theoretically justify its learning efficiency.",
+      "url_pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Guan_Generative_Hybrid_Representations_for_Activity_Forecasting_With_No-Regret_Learning_CVPR_2020_paper.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "benchmarks",
+        "computer vision",
+        "first-person video",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "benchmarks": [
+          "\\bdataset\\b"
+        ],
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b"
+        ],
+        "first-person video": [
+          "\\begocentric\\b",
+          "\\bactivity forecasting\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bfuture\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bdeep\\b",
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "han-2024-drmpc",
+      "path": "content/publication/han-2024-drmpc/index.md",
+      "title": "DR-MPC: Deep Residual Model Predictive Control for Real-world Social Navigation",
+      "date": "2025-02-01",
+      "publication": "*IEEE Robotics and Automation Letters*",
+      "publication_short": "**RA-L**",
+      "tags": [
+        "computer vision",
+        "forecasting",
+        "machine learning",
+        "model-based control",
+        "robotics",
+        "reinforcement learning",
+        "social navigation"
+      ],
+      "abstract": "How can a robot safely navigate around people with complex motion patterns? Deep Reinforcement Learning (DRL) in simulation holds some promise, but much prior work relies on simulators that fail to capture the nuances of real human motion. Thus, we propose Deep Residual Model Predictive Control (DR-MPC) to enable robots to quickly and safely perform DRL from real-world crowd navigation data. By blending MPC with model-free DRL, DR-MPC overcomes the DRL challenges of large data requirements and unsafe initial behavior. DR-MPC is initialized with MPC-based path tracking, and gradually learns to interact more effectively with humans. To further accelerate learning, a safety component estimates out-of-distribution states to guide the robot away from likely collisions. In simulation, we show that DR-MPC substantially outperforms prior work, including traditional DRL and residual DRL models. Hardware experiments show our approach successfully enables a robot to navigate a variety of crowded situations with few errors using less than 4 hours of training data.",
+      "url_pdf": "https://arxiv.org/pdf/2410.10646",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "forecasting",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "robotics",
+        "social navigation"
+      ],
+      "topic_evidence": {
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bsimulation\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bdeep\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bmodel predictive control\\b",
+          "\\bmpc\\b",
+          "\\bcontrol\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bnavigation\\b",
+          "\\bcontrol\\b"
+        ],
+        "social navigation": [
+          "\\bsocial navigation\\b",
+          "\\bcrowd\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "han-2025-ratatouille",
+      "path": "content/publication/han-2025-ratatouille/index.md",
+      "title": "Ratatouille: Imitation Learning Ingredients for Real-world Social Robot Navigation",
+      "date": "2025-09-21",
+      "publication": "*arXiv:2509.17204*",
+      "publication_short": "**arXiv**",
+      "tags": [
+        "machine learning",
+        "robotics",
+        "imitation learning",
+        "social navigation"
+      ],
+      "abstract": "Scaling Reinforcement Learning to in-the-wild social robot navigation is both data-intensive and unsafe, since policies must learn through direct interaction and inevitably encounter collisions. Offline Imitation learning (IL) avoids these risks by collecting expert demonstrations safely, training entirely offline, and deploying policies zero-shot. However, we find that naively applying Behaviour Cloning (BC) to social navigation is insufficient; achieving strong performance requires careful architectural and training choices. We present Ratatouille, a pipeline and model architecture that, without changing the data, reduces collisions per meter by 6 times and improves success rate by 3 times compared to naive BC. We validate our approach in both simulation and the real world, where we collected over 11 hours of data on a dense university campus. We further demonstrate qualitative results in a public food court. Our findings highlight that thoughtful IL design, rather than additional data, can substantially improve safety and reliability in real-world social navigation. Video: https://youtu.be/tOdLTXsaYLQ. Code will be released after acceptance.",
+      "url_pdf": "https://arxiv.org/pdf/2509.17204",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "computer vision",
+        "forecasting",
+        "imitation learning",
+        "machine learning",
+        "reinforcement learning",
+        "robotics",
+        "social navigation"
+      ],
+      "topic_evidence": {
+        "computer vision": [
+          "\\bvideo\\b"
+        ],
+        "forecasting": [
+          "\\bsimulation\\b"
+        ],
+        "imitation learning": [
+          "\\bimitation learning\\b",
+          "\\bimitation\\b",
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bnavigation\\b"
+        ],
+        "social navigation": [
+          "\\bsocial navigation\\b",
+          "\\bsocial robot\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "liu-2025-flwms",
+      "path": "content/publication/liu-2025-flwms/index.md",
+      "title": "Towards foundational LiDAR world models with efficient latent flow matching",
+      "date": "2025-06-30",
+      "publication": "*Advances in Neural Information Processing Systems*",
+      "publication_short": "**NeurIPS**",
+      "tags": [
+        "computer vision",
+        "forecasting",
+        "machine learning",
+        "robotics",
+        "generative models"
+      ],
+      "abstract": "LiDAR-based world models offer more structured and geometry-aware representations than their image-based counterparts. However, existing LiDAR world models are narrowly trained; each model excels only in the domain for which it was built. This raises a critical question: can we develop LiDAR world models that exhibit strong transferability across multiple domains? To answer this, we conduct the first systematic domain transfer study across three demanding scenarios: (i) outdoor to indoor generalization, (ii) sparse- to dense-beam adaptation, and (iii) non-semantic to semantic transfer. Given different amounts of fine-tuning data, our experiments show that a single pretrained model can achieve up to 11\\% absolute improvement (83\\% relative) over training from scratch and outperforms training from scratch in 30/36 of our comparisons. This transferability significantly reduces the reliance on manually annotated data for semantic occupancy forecasting: our method exceeds previous baselines with only 5\\% of the labeled training data of prior work. We also observed inefficiencies of current generative-model-based LiDAR world models, mainly through their under-compression of LiDAR data and inefficient training objectives. To address these issues, we propose a latent conditional flow matching (CFM)-based framework that achieves state-of-the-art reconstruction accuracy using only half the training data and a compression ratio 6 times higher than that of prior methods. Our model also achieves SOTA performance on semantic occupancy forecasting while being 1.98x-23x more computationally efficient (a 1.1x-3.9x FPS speedup) than previous methods.",
+      "url_pdf": "https://arxiv.org/pdf/2506.23434",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "compression",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\blidar\\b"
+        ],
+        "compression": [
+          "\\bcompression\\b"
+        ],
+        "computer vision": [
+          "\\bimage\\b",
+          "\\blidar\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b",
+          "\\bflow matching\\b"
+        ],
+        "machine learning": [
+          "\\bneural\\b",
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "liu-2026-occsim",
+      "path": "content/publication/liu-2026-occsim/index.md",
+      "title": "OccSim: Multi-kilometer Simulation with Long-horizon Occupancy World Models",
+      "date": "2026-03-30",
+      "publication": "*arXiv:2603.28887*",
+      "publication_short": "**arXiv**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "robotics"
+      ],
+      "abstract": "Data-driven autonomous driving simulation has long been constrained by its heavy reliance on pre-recorded driving logs or spatial priors, such as HD maps. This fundamental dependency severely limits scalability, restricting open-ended generation capabilities to the finite scale of existing collected datasets. To break this bottleneck, we present OccSim, the first occupancy world model-driven 3D simulator. OccSim obviates the requirement for continuous logs or HD maps; conditioned only on a single initial frame and a sequence of future ego-actions, it can stably generate over 3,000 continuous frames, enabling the continuous construction of large-scale 3D occupancy maps spanning over 4 kilometers for simulation. This represents an >80x improvement in stable generation length over previous state-of-the-art occupancy world models. OccSim is powered by two modules: W-DiT based static occupancy world model and the Layout Generator. W-DiT handles the ultra-long-horizon generation of static environments by explicitly introducing known rigid transformations in architecture design, while the Layout Generator populates the dynamic foreground with reactive agents based on the synthesized road topology. With these designs, OccSim can synthesize massive, diverse simulation streams. Extensive experiments demonstrate its downstream utility: data collected directly from OccSim can pre-train 4D semantic occupancy forecasting models to achieve up to 67% zero-shot performance on unseen data, outperforming previous asset-based simulator by 11%. When scaling the OccSim dataset to 5x the size, the zero-shot performance increases to about 74%, while the improvement over asset-based simulators expands to 22.1%.",
+      "url_pdf": "https://arxiv.org/pdf/2603.28887",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b",
+          "\\broads?\\b"
+        ],
+        "benchmarks": [
+          "\\bdataset\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bfuture\\b",
+          "\\bworld model\\b",
+          "\\bsimulation\\b"
+        ],
+        "generative models": [
+          "\\bgenerate\\b",
+          "\\bworld model\\b"
+        ],
+        "machine learning": [
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "montali-2024-waymo",
+      "path": "content/publication/montali-2024-waymo/index.md",
+      "title": "The Waymo Open Sim Agents Challenge",
+      "date": "2023-01-01",
+      "publication": "*Advances in Neural Information Processing Systems*",
+      "publication_short": "**NeurIPS**",
+      "tags": [
+        "autonomous driving",
+        "benchmarks",
+        "computer vision",
+        "forecasting",
+        "imitation learning",
+        "machine learning",
+        "robotics"
+      ],
+      "abstract": "Simulation with realistic, interactive agents represents a key task for autonomous vehicle software development. In this work, we introduce the Waymo Open Sim Agents Challenge (WOSAC). WOSAC is the first public challenge to tackle this task and propose corresponding metrics. The goal of the challenge is to stimulate the design of realistic simulators that can be used to evaluate and train a behavior model for autonomous driving. We outline our evaluation methodology, present results for a number of different baseline simulation agent methods, and analyze several submissions to the 2023 competition which ran from March 16, 2023 to May 23, 2023. The WOSAC evaluation server remains open for submissions and we discuss open problems for the task.",
+      "url_pdf": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b96ce67b2f2d45e4ab315e13a6b5b9c5-Paper-Datasets_and_Benchmarks.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "forecasting",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b",
+          "\\bwaymo\\b"
+        ],
+        "benchmarks": [
+          "\\bchallenge\\b"
+        ],
+        "forecasting": [
+          "\\bsimulation\\b"
+        ],
+        "machine learning": [
+          "\\bneural\\b",
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "packer-2023-anyone",
+      "path": "content/publication/packer-2023-anyone/index.md",
+      "title": "Is anyone there? learning a planner contingent on perceptual uncertainty",
+      "date": "2023-01-01",
+      "publication": "*Conference on Robot Learning*",
+      "publication_short": "**CoRL**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "model-based control",
+        "robotics"
+      ],
+      "abstract": "Robots in complex multi-agent environments should reason about the intentions of observed and currently unobserved agents. In this paper, we present a new learning-based method for prediction and planning in complex multi-agent environments where the states of the other agents are partially-observed. Our approach, Active Visual Planning (AVP), uses high-dimensional observations to learn a flow-based generative model of multi-agent joint trajectories, including unobserved agents that may be revealed in the near future, depending on the robot's actions. Our predictive model is implemented using deep neural networks that map raw observations to future detection and pose trajectories and is learned entirely offline using a dataset of recorded observations (not ground-truth states). Once learned, our predictive model can be used for contingency planning over the potential existence, intentions, and positions of unobserved agents. We demonstrate the effectiveness of AVP on a set of autonomous driving environments inspired by real-world scenarios that require reasoning about the existence of other unobserved agents for safe and efficient driving. In these environments, AVP achieves optimal closed-loop performance, while methods that do not reason about potential unobserved agents exhibit either overconfident or underconfident behavior.",
+      "url_pdf": "https://proceedings.mlr.press/v205/packer23a/packer23a.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "model-based control",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b"
+        ],
+        "benchmarks": [
+          "\\bdataset\\b"
+        ],
+        "computer vision": [
+          "\\bvisual\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bneural\\b",
+          "\\bdeep\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b",
+          "\\bplanner\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "pan-2018-human",
+      "path": "content/publication/pan-2018-human/index.md",
+      "title": "Human-Interactive Subgoal Supervision for Efficient Inverse Reinforcement Learning",
+      "date": "2018-01-01",
+      "publication": "*Proceedings of the 17th International Conference on Autonomous Agents\n  and MultiAgent Systems*",
+      "publication_short": "**AAMAS**",
+      "tags": [
+        "imitation learning",
+        "machine learning",
+        "reward learning"
+      ],
+      "abstract": "Humans are able to understand and perform complex tasks by strategically structuring tasks into incremental steps or sub-goals. For a robot attempting to learn to perform a sequential task with critical subgoal states, these subgoal states can provide a natural opportunity for interaction with a human expert. This paper analyzes the benefit of incorporating a notion of subgoals into Inverse Reinforcement Learning (IRL) with a Human-In-The-Loop (HITL) framework. The learning process is interactive, with a human expert first providing input in the form of full demonstrations along with some subgoal states. These subgoal states defines a set of sub-tasks for the learning agent to complete in order to achieve the final goal. The learning agent queries for partial demonstrations corresponding to each sub-task as needed when the learning agent struggles with individual sub-task. The proposed Human Interactive IRL (HI-IRL) framework is evaluated on several discrete path-planning tasks. We demonstrate that subgoal-based interactive structuring of the learning task results in significantly more efficient learning, requiring only a fraction of the demonstration data needed for learning the underlying reward function with a baseline IRL model.",
+      "url_pdf": "https://arxiv.org/pdf/1806.08479",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "imitation learning": [
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b",
+          "\\binverse reinforcement learning\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "pourkeshavarz-2026-autoworld",
+      "path": "content/publication/pourkeshavarz-2026-autoworld/index.md",
+      "title": "AutoWorld: Scaling Multi-Agent Traffic Simulation with Self-Supervised World Models",
+      "date": "2026-03-30",
+      "publication": "*arXiv:2603.28963*",
+      "publication_short": "**arXiv**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "machine learning",
+        "robotics",
+        "generative models"
+      ],
+      "abstract": "Multi-agent traffic simulation is central to developing and testing autonomous driving systems. Recent data-driven simulators have achieved promising results, but rely heavily on supervised learning from labeled trajectories or semantic annotations, making it costly to scale their performance. Meanwhile, large amounts of unlabeled sensor data can be collected at scale but remain largely unused by existing traffic simulation frameworks. This raises a key question: How can a method harness unlabeled data to improve traffic simulation performance? In this work, we propose AutoWorld, a traffic simulation framework that employs a world model learned from unlabeled occupancy representations of LiDAR data. Given world model samples, AutoWorld constructs a coarse-to-fine predictive scene context as input to a multi-agent motion generation model. To promote sample diversity, AutoWorld uses a cascaded Determinantal Point Process framework to guide the sampling processes of both the world model and the motion model. Furthermore, we designed a motion-aware latent supervision objective that enhances AutoWorld's representation of scene dynamics. Experiments on the WOSAC benchmark show that AutoWorld ranks first on the leaderboard according to the primary Realism Meta Metric (RMM). We further show that simulation performance consistently improves with the inclusion of unlabeled LiDAR data, and study the efficacy of each component with ablations. Our method paves the way for scaling traffic simulation realism without additional labeling. Our project page contains additional visualizations and released code.",
+      "url_pdf": "https://arxiv.org/pdf/2603.28963",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b",
+          "\\btraffic\\b",
+          "\\blidar\\b"
+        ],
+        "benchmarks": [
+          "\\bbenchmark\\b",
+          "\\bleaderboard\\b"
+        ],
+        "computer vision": [
+          "\\blidar\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bworld model\\b",
+          "\\bsimulation\\b"
+        ],
+        "generative models": [
+          "\\bworld model\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2015-visual",
+      "path": "content/publication/rhinehart-2015-visual/index.md",
+      "title": "Visual chunking: A list prediction framework for region-based object detection",
+      "date": "2015-01-01",
+      "publication": "*IEEE International Conference on Robotics and Automation*",
+      "publication_short": "**ICRA**",
+      "tags": [
+        "computer vision",
+        "imitation learning",
+        "machine learning"
+      ],
+      "abstract": "We consider detecting objects in an image by iteratively selecting from a set of arbitrarily shaped candidate regions. Our generic approach, which we term visual chunking, reasons about the locations of multiple object instances in an image while expressively describing object boundaries. We design an optimization criterion for measuring the performance of a list of such detections as a natural extension to a common per-instance metric. We present an efficient algorithm with provable performance for building a high-quality list of detections from any candidate set of region-based proposals. We also develop a simple class-specific algorithm to generate a candidate region instance in near-linear time in the number of low-level superpixels that outperforms other region generating methods. In order to make predictions on novel images at testing time without access to ground truth, we develop learning approaches to emulate these algorithms' behaviors. We demonstrate that our new approach outperforms sophisticated baselines on benchmark datasets.",
+      "url_pdf": "",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "benchmarks",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "benchmarks": [
+          "\\bbenchmark\\b"
+        ],
+        "computer vision": [
+          "\\bvisual\\b",
+          "\\bimage\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b"
+        ],
+        "generative models": [
+          "\\bgenerate\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2016-learning",
+      "path": "content/publication/rhinehart-2016-learning/index.md",
+      "title": "Learning Action Maps of Large Environments Via First-Person Vision",
+      "date": "2016-01-01",
+      "publication": "*The IEEE Conference on Computer Vision and Pattern Recognition*",
+      "publication_short": "**CVPR**",
+      "tags": [
+        "computer vision",
+        "first-person video",
+        "machine learning",
+        "reward learning"
+      ],
+      "abstract": "When people observe and interact with physical spaces, they are able to associate functionality to regions in the environment. Our goal is to automate dense functional understanding of large spaces by leveraging sparse activity demonstrations recorded from an ego-centric viewpoint. The method we describe enables functionality estimation in large scenes where people have behaved, as well as novel scenes where no behaviors are observed. Our method learns and predicts \"Action Maps\", which encode the ability for a user to perform activities at various locations. With the usage of an egocentric camera to observe human activities, our method scales with the size of the scene without the need for mounting multiple static surveillance cameras and is well-suited to the task of observing activities up-close. We demonstrate that by capturing appearance-based attributes of the environment and associating these attributes with activity demonstrations, our proposed mathematical framework allows for the prediction of Action Maps in new environments. Additionally, we offer a preliminary glance of the applicability of Action Maps by demonstrating a proof-of concept application in which they are used in concert with activity detections to perform localization.",
+      "url_pdf": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Rhinehart_Learning_Action_Maps_CVPR_2016_paper.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "computer vision",
+        "first-person video",
+        "forecasting",
+        "imitation learning",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b"
+        ],
+        "first-person video": [
+          "\\bfirst[- ]person\\b",
+          "\\begocentric\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b"
+        ],
+        "imitation learning": [
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2017-first",
+      "path": "content/publication/rhinehart-2017-first/index.md",
+      "title": "First-Person Activity Forecasting with Online Inverse Reinforcement Learning",
+      "date": "2017-01-01",
+      "publication": "*The IEEE International Conference on Computer Vision*",
+      "publication_short": "**ICCV**",
+      "tags": [
+        "paper award",
+        "imitation learning",
+        "reward learning",
+        "first-person video",
+        "forecasting"
+      ],
+      "abstract": "We address the problem of incrementally modeling and forecasting long-term goals of a first-person camera wearer: what the user will do, where they will go, and what goal they seek. In contrast to prior work in trajectory forecasting, our algorithm, DARKO, goes further to reason about semantic states (will I pick up an object?), and future goal states that are far in terms of both space and time. DARKO learns and forecasts from first-person visual observations of the user’s daily behaviors via an Online Inverse Reinforcement Learning (IRL) approach. Classical IRL discovers only the rewards in a batch setting, whereas DARKO discovers the states, transitions, rewards, and goals of a user from streaming data. Among other results, we show DARKO forecasts goals better than competing methods in both noisy and ideal settings, and our approach is theoretically and empirically no-regret.",
+      "url_pdf": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Rhinehart_First-Person_Activity_Forecasting_ICCV_2017_paper.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "computer vision",
+        "first-person video",
+        "forecasting",
+        "machine learning",
+        "reinforcement learning",
+        "reward learning"
+      ],
+      "topic_evidence": {
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvisual\\b",
+          "\\bvision\\b"
+        ],
+        "first-person video": [
+          "\\bfirst[- ]person\\b",
+          "\\bactivity forecasting\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bfuture\\b",
+          "\\btrajectory\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b"
+        ],
+        "reward learning": [
+          "\\binverse reinforcement learning\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2018-first",
+      "path": "content/publication/rhinehart-2018-first/index.md",
+      "title": "First-Person Activity Forecasting from Video with Online Inverse Reinforcement",
+      "date": "2018-01-01",
+      "publication": "*IEEE Transactions on Pattern Analysis and Machine Intelligence*",
+      "publication_short": "**PAMI**",
+      "tags": [
+        "imitation learning",
+        "forecasting",
+        "machine learning",
+        "reward learning",
+        "first-person video"
+      ],
+      "abstract": "We address the problem of incrementally modeling and forecasting long-term goals of a first-person camera wearer: what the user will do, where they will go, and what goal they seek. In contrast to prior work in trajectory forecasting, our algorithm, Darko, goes further to reason about semantic states (will I pick up an object?), and future goal states that are far in terms of both space and time. Darko learns and forecasts from first-person visual observations of the user's daily behaviors via an Online Inverse Reinforcement Learning (IRL) approach. Classical IRL discovers only the rewards in a batch setting, whereas Darko discovers the transitions, rewards, and goals of a user from streaming data. Among other results, we show Darko forecasts goals better than competing methods in both noisy and ideal settings, and our approach is theoretically and empirically no-regret.",
+      "url_pdf": "",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "computer vision",
+        "first-person video",
+        "forecasting",
+        "machine learning",
+        "reinforcement learning",
+        "reward learning"
+      ],
+      "topic_evidence": {
+        "computer vision": [
+          "\\bvisual\\b",
+          "\\bvideo\\b"
+        ],
+        "first-person video": [
+          "\\bfirst[- ]person\\b",
+          "\\bactivity forecasting\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bfuture\\b",
+          "\\btrajectory\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b"
+        ],
+        "reward learning": [
+          "\\binverse reinforcement learning\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2018-r-2-p-2",
+      "path": "content/publication/rhinehart-2018-r-2-p-2/index.md",
+      "title": "'R2P2: A Reparameterized Pushforward Policy for Diverse, Precise Generative",
+      "date": "2018-01-01",
+      "publication": "*Proceedings of the European Conference on Computer Vision*",
+      "publication_short": "**ECCV**",
+      "tags": [
+        "autonomous driving",
+        "imitation learning",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "reward learning"
+      ],
+      "abstract": "We propose a method to forecast a vehicle’s ego-motion as a distribution over spatiotemporal paths, conditioned on features (e.g., from LIDAR and images) embedded in an overhead map. The method learns a policy inducing a distribution over simulated trajectories that is both “diverse” (produces most of the likely paths) and “precise” (mostly produces likely paths). This balance is achieved through minimization of a symmetrized cross-entropy between the distribution and demonstration data. By viewing the simulated-outcome distribution as the pushforward of a simple distribution under a simulation operator, we obtain expressions for the cross-entropy metrics that can be efficiently evaluated and differentiated, enabling stochastic-gradient optimization. We propose concrete policy architectures for this model, discuss our evaluation metrics relative to previously-used degenerate metrics, and demonstrate the superiority of our method relative to state-of-the-art methods in both the Kitti dataset and a similar but novel and larger real-world dataset explicitly designed for the vehicle forecasting domain.",
+      "url_pdf": "",
+      "local_pdfs": [
+        "supplement.pdf"
+      ],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "imitation learning",
+        "machine learning",
+        "model-based control"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\blidar\\b"
+        ],
+        "benchmarks": [
+          "\\bdataset\\b"
+        ],
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b",
+          "\\blidar\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bsimulation\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b"
+        ],
+        "imitation learning": [
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2019-jointly",
+      "path": "content/publication/rhinehart-2019-jointly/index.md",
+      "title": "Jointly Forecasting and Controlling Behavior by Learning from High-Dimensional",
+      "date": "2019-01-01",
+      "publication": "",
+      "publication_short": "",
+      "tags": [
+        "autonomous driving",
+        "forecasting",
+        "generative models",
+        "imitation learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning"
+      ],
+      "abstract": "Achieving a precise predictive understanding of the future is difficult, yet widely studied in the natural sciences. Significant research activity has been dedicated to building testable models of cause and effect. From a certain view, the ability to forecast the universe is the “holy grail”; the ultimate goal of science. If we had it, we could anticipate, and therefore (at least implicitly) understand all observable phenomena. The human capability to forecast offers complementary motivation. Critical to our intelligence is our ability to plan behaviors by considering how our actions are likely to result in future payoff, especially in the presence of other collaborative and competitive agents. In this work, we seek to computationally model the future in the presence of agent behavior given rich observations of the environment. The brunt of our focus is to reason about what agents could do, instead of other sources of stochasticity. This focus on future agent behavior allows us to tightly couple and jointly perform forecasting and control. The field of Computer Vision (CV) is focused on designing algorithms to automatically understand images, videos, and other perceptual data. However, the field’s effort to-date focuses on non-interactive, present-focused tasks [79, 81, 158, 184]. Most CV contributions are algorithms to answer questions like “what is that”, and “what happened”, rather than “what could happen”, or “how could I achieve X”. Computer Vision has under-explored reasoning about the interactive and decision-based nature of the world. In contrast, Reinforcement Learning (RL) prioritizes modeling interactions and decisions by focusing on how to design algorithms to evoke behavior that maximizes a scalar reward signal. The resulting learning agents, in order to perform well, must have an understanding of how their current behaviors will affect their prospects of future reward. However, in the dominant paradigm of model-free RL [218], agents reason implicitly about the future. In contrast, model-based RL learns one-step dynamics to estimate “what could happen in the near future”. Yet model-based RL primarily focuses on control, rather than explicitly forecasting a single agent (let alone multiple agents). In this thesis, we consider the problem of designing algorithms to enable computational systems to (1) forecast future behavior of intelligent agents given rich observations of their environments, as well as to (2) use this reasoning for control. We believe these two problems should be tightly integrated and jointly considered, and use them to structure this thesis. We define forecasting to be the problem of estimating the set of possible outcomes of a system, whereas control is the problem of producing actions that generate a single outcome of a system. We often use Imitation Learning and Reinforcement Learning to formulate and situate our work. We contribute forecasting and control approaches to excel in diverse, realistic, single-agent, and multi-agent domains. The first part of the thesis focuses on progressively designing more capable forecasting models. We proceed through approaches to (1) forecast single actions of daily behavior by developing matrix factorization models [169], (2) forecast goal-driven action trajectories of daily behavior by developing Online Inverse Reinforcement Learning models [168, 170], (3) forecast motion trajectories of vehicles by developing a deep reversible generative models [171, 174]. The second part of the thesis focuses on progressively designing more capable models that tightly couple forecasting and control. We discuss (4) forecasting as auxiliary supervision for implicitly-planned control [228], (5) forecasting and explicitly planning with the same model [176], and (6) forecasting and planning future interactions of multiple agents [175].",
+      "url_pdf": "",
+      "local_pdfs": [
+        "rhinehart-2019-jointly.pdf"
+      ],
+      "suggested_topics": [
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b",
+          "\\bgenerate\\b"
+        ],
+        "imitation learning": [
+          "\\bimitation learning\\b",
+          "\\bimitation\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bdeep\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b",
+          "\\bcontrol\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\brl\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b",
+          "\\binverse reinforcement learning\\b"
+        ],
+        "robotics": [
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2019-precog",
+      "path": "content/publication/rhinehart-2019-precog/index.md",
+      "title": "PRECOG: PREdiction Conditioned On Goals in Visual Multi-Agent Settings",
+      "date": "2019-01-01",
+      "publication": "*Proceedings of the IEEE International Conference on Computer Vision*",
+      "publication_short": "**ICCV**",
+      "tags": [
+        "paper award",
+        "forecasting",
+        "generative models",
+        "autonomous driving"
+      ],
+      "abstract": "For autonomous vehicles (AVs) to behave appropriately on roads populated by human-driven vehicles, they must be able to reason about the uncertain intentions and decisions of other drivers from rich perceptual information. Towards these capabilities, we present a probabilistic forecasting model of future interactions between a variable number of agents. We perform both standard forecasting and the novel task of conditional forecasting, which reasons about how all agents will likely respond to the goal of a controlled agent (here, the AV). We train models on real and simulated data to forecast vehicle trajectories given past positions and LIDAR. Our evaluation shows that our model is substantially more accurate in multi-agent driving scenarios compared to existing state-of-the-art. Beyond its general ability to perform conditional forecasting queries, we show that our model's predictions of all agents improve when conditioned on knowledge of the AV's goal, further illustrating its capability to model agent interactions.",
+      "url_pdf": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Rhinehart_PRECOG_PREdiction_Conditioned_on_Goals_in_Visual_Multi-Agent_Settings_ICCV_2019_paper.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b",
+          "\\blidar\\b",
+          "\\broads?\\b"
+        ],
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvisual\\b",
+          "\\bvision\\b",
+          "\\blidar\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b"
+        ],
+        "generative models": [
+          "\\bprobabilistic\\b"
+        ],
+        "machine learning": [
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2020-deep",
+      "path": "content/publication/rhinehart-2020-deep/index.md",
+      "title": "Deep Imitative Models for Flexible Inference, Planning, and Control",
+      "date": "2020-01-01",
+      "publication": "*International Conference on Learning Representations*",
+      "publication_short": "**ICLR**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "imitation learning",
+        "model-based control",
+        "reward learning"
+      ],
+      "abstract": "Imitation Learning (IL) is an appealing approach to learn desirable autonomous behavior. However, directing IL to achieve arbitrary goals is difficult. In contrast, planning-based algorithms use dynamics models and reward functions to achieve goals. Yet, reward functions that evoke desirable behavior are often difficult to specify. In this paper, we propose Imitative Models to combine the benefits of IL and goal-directed planning. Imitative Models are probabilistic predictive models of desirable behavior able to plan interpretable expert-like trajectories to achieve specified goals. We derive families of flexible goal objectives, including constrained goal regions, unconstrained goal sets, and energy-based goals. We show that our method can use these objectives to successfully direct behavior. Our method substantially outperforms six IL approaches and a planning-based approach in a dynamic simulated autonomous driving task, and is efficiently learned from expert demonstrations without online data collection. We also show our approach is robust to poorly specified goals, such as goals on the wrong side of the road.",
+      "url_pdf": "https://openreview.net/pdf?id=Skl4mRNYDr",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "forecasting",
+        "generative models",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b",
+          "\\broads?\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b"
+        ],
+        "generative models": [
+          "\\bprobabilistic\\b"
+        ],
+        "imitation learning": [
+          "\\bimitation learning\\b",
+          "\\bimitation\\b",
+          "\\bimitative\\b",
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bdeep\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b",
+          "\\bcontrol\\b"
+        ],
+        "reinforcement learning": [
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b"
+        ],
+        "robotics": [
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2021-contingencies",
+      "path": "content/publication/rhinehart-2021-contingencies/index.md",
+      "title": "'Contingencies from observations: Tractable contingency planning with learned",
+      "date": "2021-01-01",
+      "publication": "*IEEE International Conference on Robotics and Automation*",
+      "publication_short": "**ICRA**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "robotics"
+      ],
+      "abstract": "Humans have a remarkable ability to accurately reason about future events, including the behaviors and states of mind of other agents. Consider driving a car through a busy intersection: it is necessary to reason about the physics of the vehicle, the intentions of other drivers, and their beliefs about your own intentions. For example, if you signal a turn, another driver might yield to you; or if you enter the passing lane, another driver might decelerate to give you room to merge in front. Competent drivers must plan how they can safely react to a variety of potential future behaviors of other agents before they make their next move. This requires contingency planning: explicitly planning a set of conditional actions that depend on the stochastic outcome of future events. In this work, we develop a general-purpose contingency planner that is learned end-to-end using high-dimensional scene observations and low-dimensional behavioral observations. We use a conditional autoregressive flow model for contingency planning. We show how this model can tractably learn contingencies from behavioral observations. We developed a closed-loop control benchmark of realistic multi-agent scenarios in a driving simulator (CARLA), on which we compare our method to various noncontingent methods that reason about multi-agent future behavior, and find that our contingency planning method achieves qualitatively and quantitatively superior performance.",
+      "url_pdf": "https://ieeexplore.ieee.org/abstract/document/9561683",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "model-based control",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bdriving\\b"
+        ],
+        "benchmarks": [
+          "\\bbenchmark\\b"
+        ],
+        "forecasting": [
+          "\\bfuture\\b"
+        ],
+        "generative models": [
+          "\\bautoregressive\\b"
+        ],
+        "machine learning": [
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b",
+          "\\bplanner\\b",
+          "\\bcontrol\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "rhinehart-2021-information",
+      "path": "content/publication/rhinehart-2021-information/index.md",
+      "title": "Information is power: Intrinsic control via information capture",
+      "date": "2021-01-01",
+      "publication": "*Advances in Neural Information Processing Systems*",
+      "publication_short": "**NeurIPS**",
+      "tags": [
+        "autonomous exploration",
+        "intrinsic control",
+        "generative models",
+        "reinforcement learning"
+      ],
+      "abstract": "Humans and animals explore their environment and acquire useful skills even in the absence of clear goals, exhibiting intrinsic motivation. The study of intrinsic motivation in artificial agents is concerned with the following question: what is a good general-purpose objective for an agent? We study this question in dynamic partially-observed environments, and argue that a compact and general learning objective is to minimize the entropy of the agent's state visitation estimated using a latent state-space model. This objective induces an agent to both gather information about its environment, corresponding to reducing uncertainty, and to gain control over its environment, corresponding to reducing the unpredictability of future world states. We instantiate this approach as a deep reinforcement learning agent equipped with a deep variational Bayes filter. We find that our agent learns to discover, represent, and exercise control of dynamic objects in a variety of partially-observed environments sensed with visual observations without extrinsic reward.",
+      "url_pdf": "https://proceedings.neurips.cc/paper_files/paper/2021/file/59112692262234e3fad47fa8eabf03a4-Paper.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous exploration",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "intrinsic control",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous exploration": [
+          "\\bexplore\\b",
+          "\\bintrinsic control\\b"
+        ],
+        "computer vision": [
+          "\\bvisual\\b"
+        ],
+        "forecasting": [
+          "\\bfuture\\b"
+        ],
+        "generative models": [
+          "\\bvariational\\b"
+        ],
+        "intrinsic control": [
+          "\\bintrinsic control\\b",
+          "\\bintrinsic motivation\\b",
+          "\\binformation capture\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bneural\\b",
+          "\\bdeep\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bcontrol\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b"
+        ],
+        "robotics": [
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "shah-2021-rapid",
+      "path": "content/publication/shah-2021-rapid/index.md",
+      "title": "Rapid exploration for open-world navigation with latent goal models",
+      "date": "2021-01-01",
+      "publication": "*Conference on Robot Learning*",
+      "publication_short": "**CoRL**",
+      "tags": [
+        "autonomous exploration",
+        "offroad navigation",
+        "robotics",
+        "model-based control"
+      ],
+      "abstract": "We describe a robotic learning system for autonomous exploration and navigation in diverse, open-world environments. At the core of our method is a learned latent variable model of distances and actions, along with a non-parametric topological memory of images. We use an information bottleneck to regularize the learned policy, giving us (i) a compact visual representation of goals, (ii) improved generalization capabilities, and (iii) a mechanism for sampling feasible goals for exploration. Trained on a large offline dataset of prior experience, the model acquires a representation of visual goals that is robust to task-irrelevant distractors. We demonstrate our method on a mobile ground robot in open-world exploration scenarios. Given an image of a goal that is up to 80 meters away, our method leverages its representation to explore and discover the goal in under 20 minutes, even amidst previously-unseen obstacles and weather conditions. Please check out the project website for videos of our experiments and information about the real-world dataset used at https://sites.google.com/view/recon-robot.",
+      "url_pdf": "https://proceedings.mlr.press/v164/shah22a/shah22a.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous exploration",
+        "benchmarks",
+        "computer vision",
+        "machine learning",
+        "model-based control",
+        "offroad navigation",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous exploration": [
+          "\\bexploration\\b",
+          "\\bexplore\\b"
+        ],
+        "benchmarks": [
+          "\\bdataset\\b"
+        ],
+        "computer vision": [
+          "\\bvisual\\b",
+          "\\bimage\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ],
+        "offroad navigation": [
+          "\\bopen[- ]world navigation\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bnavigation\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "shah-2021-ving",
+      "path": "content/publication/shah-2021-ving/index.md",
+      "title": "Ving: Learning open-world navigation with visual goals",
+      "date": "2021-01-01",
+      "publication": "*IEEE International Conference on Robotics and Automation*",
+      "publication_short": "**ICRA**",
+      "tags": [
+        "computer vision",
+        "machine learning",
+        "offroad navigation",
+        "model-based control",
+        "robotics"
+      ],
+      "abstract": "We propose a learning-based navigation system for reaching visually indicated goals and demonstrate this system on a real mobile robot platform. Learning provides an appealing alternative to conventional methods for robotic navigation: instead of reasoning about environments in terms of geometry and maps, learning can enable a robot to learn about navigational affordances, understand what types of obstacles are traversable (e.g., tall grass) or not (e.g., walls), and generalize over patterns in the environment. However, unlike conventional planning algorithms, it is harder to change the goal for a learned policy during deployment. We propose a method for learning to navigate towards a goal image of the desired destination. By combining a learned policy with a topological graph constructed out of previously observed data, our system can determine how to reach this visually indicated goal even in the presence of variable appearance and lighting. Three key insights, waypoint proposal, graph pruning and negative mining, enable our method to learn to navigate in real-world environments using only offline data, a setting where prior methods struggle. We instantiate our method on a real outdoor ground robot and show that our system, which we call ViNG, outperforms previously-proposed methods for goal-conditioned reinforcement learning, including other methods that incorporate reinforcement learning and search. We also study how ViNG generalizes to unseen environments and evaluate its ability to adapt to such an environment with growing experience. Finally, we demonstrate ViNG on a number of real-world applications, such as last-mile delivery and warehouse inspection. We encourage the reader to visit the project website for videos of our experiments and demonstrations <sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup> .",
+      "url_pdf": "https://escholarship.org/content/qt93m2m6w0/qt93m2m6w0.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "compression",
+        "computer vision",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "offroad navigation",
+        "reinforcement learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "compression": [
+          "\\bprun(?:e|ing)\\b"
+        ],
+        "computer vision": [
+          "\\bvisual\\b",
+          "\\bimage\\b"
+        ],
+        "imitation learning": [
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b",
+          "\\bpolicy\\b"
+        ],
+        "offroad navigation": [
+          "\\bopen[- ]world navigation\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bnavigation\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "shah-2022-offline",
+      "path": "content/publication/shah-2022-offline/index.md",
+      "title": "Offline reinforcement learning for visual navigation",
+      "date": "2022-01-01",
+      "publication": "*Conference on Robot Learning*",
+      "publication_short": "**CoRL**",
+      "tags": [
+        "computer vision",
+        "machine learning",
+        "offroad navigation",
+        "reinforcement learning",
+        "robotics"
+      ],
+      "abstract": "Reinforcement learning can enable robots to navigate to distant goals while optimizing user-specified reward functions, including preferences for following lanes, staying on paved paths, or avoiding freshly mowed grass. However, online learning from trial-and-error for real-world robots is logistically challenging, and methods that instead can utilize existing datasets of robotic navigation data could be significantly more scalable and enable broader generalization. In this paper, we present ReViND, the first offline RL system for robotic navigation that can leverage previously collected data to optimize user-specified reward functions in the real-world. We evaluate our system for off-road navigation without any additional data collection or fine-tuning, and show that it can navigate to distant goals using only offline training from this dataset, and exhibit behaviors that qualitatively differ based on the user-specified reward function.",
+      "url_pdf": "https://proceedings.mlr.press/v205/shah23a/shah23a.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "computer vision",
+        "machine learning",
+        "offroad navigation",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\broads?\\b"
+        ],
+        "benchmarks": [
+          "\\bdataset\\b"
+        ],
+        "computer vision": [
+          "\\bvisual\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "offroad navigation": [
+          "\\boff[- ]?road\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\brl\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b",
+          "\\bpreferences?\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bnavigation\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "shankar-2018-learning",
+      "path": "content/publication/shankar-2018-learning/index.md",
+      "title": "Learning Neural Parsers with Deterministic Differentiable Imitation Learning",
+      "date": "2018-01-01",
+      "publication": "*Conference on Robot Learning*",
+      "publication_short": "**CoRL**",
+      "tags": [
+        "imitation learning",
+        "machine learning"
+      ],
+      "abstract": "We explore the problem of learning to decompose spatial tasks into segments, as exemplified by the problem of a painting robot covering a large object. Inspired by the ability of classical decision tree algorithms to construct structured partitions of their input spaces, we formulate the problem of decomposing objects into segments as a parsing approach. We make the insight that the derivation of a parse-tree that decomposes the object into segments closely resembles a decision tree constructed by ID3, which can be done when the ground-truth available. We learn to imitate an expert parsing oracle, such that our neural parser can generalize to parse natural images without ground truth. We introduce a novel deterministic policy gradient update, DRAG (i.e., DeteRministically AGgrevate) in the form of a deterministic actor-critic variant of AggreVaTeD, to train our neural parser. From another perspective, our approach is a variant of the Deterministic Policy Gradient suitable for the imitation learning setting. The deterministic policy representation offered by training our neural parser with DRAG allows it to outperform state of the art imitation and reinforcement learning approaches.",
+      "url_pdf": "http://proceedings.mlr.press/v87/shankar18a/shankar18a.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous exploration",
+        "imitation learning",
+        "machine learning",
+        "model-based control",
+        "reinforcement learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous exploration": [
+          "\\bexplore\\b"
+        ],
+        "imitation learning": [
+          "\\bimitation learning\\b",
+          "\\bimitation\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bneural\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\bpolicy gradient\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "sharma-2019-directed",
+      "path": "content/publication/sharma-2019-directed/index.md",
+      "title": "Directed-Info GAIL: Learning Hierarchical Policies from Unsegmented Demonstrations using Directed Information",
+      "date": "2019-01-01",
+      "publication": "*International Conference on Learning Representations (ICLR)*",
+      "publication_short": "**ICLR**",
+      "tags": [
+        "imitation learning",
+        "robotics"
+      ],
+      "abstract": "The use of imitation learning to learn a single policy for a complex task that has multiple modes or hierarchical structure can be challenging. In fact, previous work has shown that when the modes are known, learning separate policies for each mode or sub-task can greatly improve the performance of imitation learning. In this work, we discover the interaction between sub-tasks from their resulting state-action trajectory sequences using a directed graphical model. We propose a new algorithm based on the generative adversarial imitation learning framework which automatically learns sub-task policies from unsegmented demonstrations. Our approach maximizes the directed information flow in the graphical model between sub-task latent variables and their generated trajectories. We also show how our approach connects with the existing Options framework, which is commonly used to learn hierarchical policies.",
+      "url_pdf": "https://arxiv.org/pdf/1810.01266",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "forecasting",
+        "generative models",
+        "imitation learning",
+        "machine learning",
+        "model-based control"
+      ],
+      "topic_evidence": {
+        "forecasting": [
+          "\\btrajectory\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b",
+          "\\badversarial\\b"
+        ],
+        "imitation learning": [
+          "\\bimitation learning\\b",
+          "\\bimitation\\b",
+          "\\bdemonstrations?\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ]
+      },
+      "review_flags": [
+        {
+          "type": "heuristic_possible_missing_tags",
+          "message": "Repeated abstract/title keyword evidence suggests these topic tags may be missing. Review manually before changing.",
+          "suggested_additions": [
+            "generative models"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "singh-2020-parrot",
+      "path": "content/publication/singh-2020-parrot/index.md",
+      "title": "Parrot: Data-driven behavioral priors for reinforcement learning",
+      "date": "2020-01-01",
+      "publication": "*International Conference on Learning Representations*",
+      "publication_short": "**ICLR**",
+      "tags": [
+        "generative models",
+        "imitation learning",
+        "machine learning",
+        "robotics",
+        "manipulation"
+      ],
+      "abstract": "Reinforcement learning provides a general framework for flexible decision making and control, but requires extensive data collection for each new task that an agent needs to learn. In other machine learning fields, such as natural language processing or computer vision, pre-training on large, previously collected datasets to bootstrap learning for new tasks has emerged as a powerful paradigm to reduce data requirements when learning a new task. In this paper, we ask the following question: how can we enable similarly useful pre-training for RL agents? We propose a method for pre-training behavioral priors that can capture complex input-output relationships observed in successful trials from a wide range of previously seen tasks, and we show how this learned prior can be used for rapidly learning new tasks without impeding the RL agent's ability to try out novel behaviors. We demonstrate the effectiveness of our approach in challenging robotic manipulation domains involving image observations and sparse reward functions, where our method outperforms prior works by a substantial margin.",
+      "url_pdf": "https://openreview.net/pdf?id=Ysuv-WOFeKR",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "computer vision",
+        "imitation learning",
+        "machine learning",
+        "manipulation",
+        "model-based control",
+        "reinforcement learning",
+        "reward learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b",
+          "\\bimage\\b"
+        ],
+        "imitation learning": [
+          "\\bbehavioral priors?\\b"
+        ],
+        "machine learning": [
+          "\\bmachine learning\\b",
+          "\\blearning\\b"
+        ],
+        "manipulation": [
+          "\\bmanipulation\\b"
+        ],
+        "model-based control": [
+          "\\bcontrol\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\brl\\b",
+          "\\breward\\b"
+        ],
+        "reward learning": [
+          "\\breward\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bmanipulation\\b",
+          "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "venkatraman-2017-predictive",
+      "path": "content/publication/venkatraman-2017-predictive/index.md",
+      "title": "Predictive-state decoders: Encoding the future into recurrent networks",
+      "date": "2017-01-01",
+      "publication": "*Advances in Neural Information Processing Systems*",
+      "publication_short": "**NeurIPS**",
+      "tags": [
+        "imitation learning",
+        "forecasting",
+        "machine learning",
+        "reinforcement learning"
+      ],
+      "abstract": "Recurrent neural networks (RNNs) are a vital modeling technique that rely on internal states learned indirectly by optimization of a supervised, unsupervised, or reinforcement training loss. RNNs are used to model dynamic processes that are characterized by underlying latent states whose form is often unknown, precluding its analytic representation inside an RNN. In the Predictive-State Representation (PSR) literature, latent state processes are modeled by an internal state representation that directly models the distribution of future observations, and most recent work in this area has relied on explicitly representing and targeting sufficient statistics of this probability distribution. We seek to combine the advantages of RNNs and PSRs by augmenting existing state-of-the-art recurrent neural networks with Predictive-State Decoders (PSDs), which add supervision to the network's internal state representation to target predicting future observations. Predictive-State Decoders are simple to implement and easily incorporated into existing training pipelines via additional loss regularization. We demonstrate the effectiveness of PSDs with experimental results in three different domains: probabilistic filtering, Imitation Learning, and Reinforcement Learning. In each, our method improves statistical performance of state-of-the-art recurrent baselines and does so with fewer iterations and less data.",
+      "url_pdf": "https://proceedings.neurips.cc/paper_files/paper/2017/file/61b4a64be663682e8cb037d9719ad8cd-Paper.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "forecasting",
+        "generative models",
+        "imitation learning",
+        "machine learning",
+        "reinforcement learning"
+      ],
+      "topic_evidence": {
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b"
+        ],
+        "generative models": [
+          "\\bprobabilistic\\b"
+        ],
+        "imitation learning": [
+          "\\bimitation learning\\b",
+          "\\bimitation\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bneural\\b",
+          "\\bmodel\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "vernaza-2020-generative",
+      "path": "content/publication/vernaza-2020-generative/index.md",
+      "title": "Generative adversarial inverse trajectory optimization for probabilistic vehicle",
+      "date": "2020-07-01",
+      "publication": "U.S. Patent 10,739,773",
+      "publication_short": "",
+      "tags": [
+        "autonomous driving",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "abstract": "Systems and methods for predicting vehicle behavior includes capturing images of a vehicle in traffic using an imaging device. Future behavior of the vehicle is stochastically modeled using a processing device including an energy-based model stored in a memory of the processing device. The energy-based model includes generating a distribution of possible future trajectories of the vehicle using a generator, sampling the distribution of possible future trajectories according to an energy value of each trajectory in the distribution of possible future trajectories an energy model to determine probable future trajectories, and optimizing parameters of each of the generator and the energy model using an optimizer. A user is audibly alerted with a speaker upon an alert system recognizing hazardous trajectories of the probable future trajectories.",
+      "url_pdf": "",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\btraffic\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b",
+          "\\btrajectory\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b",
+          "\\badversarial\\b",
+          "\\bprobabilistic\\b"
+        ],
+        "machine learning": [
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "vernaza-2021-traffic",
+      "path": "content/publication/vernaza-2021-traffic/index.md",
+      "title": "Traffic prediction with reparameterized pushforward policy for autonomous vehicles",
+      "date": "2021-11-01",
+      "publication": "U.S. Patent No. 11,189,171",
+      "publication_short": "",
+      "tags": [
+        "autonomous driving",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "abstract": "Systems and methods for vehicle behavior prediction include an imaging device that captures images of a vehicle in traffic. A processing device including policy stored in a memory of the processing device in communication with the imaging device stochastically models future behavior of the vehicle based on the captured images. A policy simulator in communication with the processing device simulates the policy as a reparameterized pushforward policy of a base distribution. An evaluator receives the simulated policy from the policy simulator and performs cross-entropy optimization on the future behavior of the vehicle by analyzing the simulated policy and updating the policy according to cross-entropy error. An alert system retrieves the future behavior of the vehicle and recognizes hazardous trajectories of the future trajectories and generates an audible alert using a speaker.",
+      "url_pdf": "https://patentimages.storage.googleapis.com/10/b2/4d/cb2314f855d433/US11189171.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "forecasting",
+        "model-based control"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\btraffic\\b"
+        ],
+        "forecasting": [
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "weng-2021-inverting",
+      "path": "content/publication/weng-2021-inverting/index.md",
+      "title": "'Inverting the pose forecasting pipeline with SPF2: Sequential pointcloud forecasting",
+      "date": "2021-01-01",
+      "publication": "*Conference on robot learning*",
+      "publication_short": "**CoRL**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "generative models",
+        "machine learning",
+        "robotics"
+      ],
+      "abstract": "Many autonomous systems forecast aspects of the future in order to aid decision-making. For example, self-driving vehicles and robotic manipulation systems often forecast future object poses by first detecting and tracking objects. However, this detect-then-forecast pipeline is expensive to scale, as pose forecasting algorithms typically require labeled sequences of object poses, which are costly to obtain in 3D space. Can we scale performance without requiring additional labels? We hypothesize yes, and propose inverting the detect-then-forecast pipeline. Instead of detecting, tracking and then forecasting the objects, we propose to first forecast 3D sensor data (e.g., point clouds with $100$k points) and then detect/track objects on the predicted point cloud sequences to obtain future poses, i.e., a forecast-then-detect pipeline. This inversion makes it less expensive to scale pose forecasting, as the sensor data forecasting task requires no labels. Part of this work's focus is on the challenging first step --Sequential Pointcloud Forecasting (SPF), for which we also propose an effective approach, SPFNet. To compare our forecast-then-detect pipeline relative to the detect-then-forecast pipeline, we propose an evaluation procedure and two metrics. Through experiments on a robotic manipulation dataset and two driving datasets, we show that SPFNet is effective for the SPF task, our forecast-then-detect pipeline outperforms the detect-then-forecast approaches to which we compared, and that pose forecasting performance improves with the addition of unlabeled data.",
+      "url_pdf": "https://proceedings.mlr.press/v155/weng21a/weng21a.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "benchmarks",
+        "computer vision",
+        "forecasting",
+        "machine learning",
+        "manipulation",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bdriving\\b"
+        ],
+        "benchmarks": [
+          "\\bdataset\\b"
+        ],
+        "computer vision": [
+          "\\bpoint ?cloud\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bfuture\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b"
+        ],
+        "manipulation": [
+          "\\bmanipulation\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bmanipulation\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "weng-2022-s-2-net",
+      "path": "content/publication/weng-2022-s-2-net/index.md",
+      "title": "S2Net: Stochastic Sequential Pointcloud Forecasting",
+      "date": "2022-01-01",
+      "publication": "*European Conference on Computer Vision*",
+      "publication_short": "**ECCV**",
+      "tags": [
+        "autonomous driving",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "abstract": "Predicting futures of surrounding agents is critical for autonomous systems such as self-driving cars. Instead of requiring accurate detection and tracking prior to trajectory prediction, an object agnostic Sequential Pointcloud Forecasting (SPF) task was proposed [28], which enables a forecast-then-detect pipeline effective for downstream detection and trajectory prediction. One limitation of prior work is that it forecasts only a deterministic sequence of future point clouds, despite the inherent uncertainty of dynamic scenes. In this work, we tackle the stochastic SPF problem by proposing a generative model with two main components: (1) a conditional variational recurrent neural network that models a temporally-dependent latent space; (2) a pyramid-LSTM that increases the fidelity of predictions with temporally-aligned skip connections. Through experiments on real-world autonomous driving datasets, our stochastic SPF model produces higher-fidelity predictions, reducing Chamfer distances by up to 56.6% compared to its deterministic counterpart. In addition, our model can estimate the uncertainty of predicted points, which can be helpful to downstream tasks.",
+      "url_pdf": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870541.pdf",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b"
+        ],
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b",
+          "\\bpoint ?cloud\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b",
+          "\\btrajectory\\b"
+        ],
+        "generative models": [
+          "\\bgenerative\\b",
+          "\\bvariational\\b"
+        ],
+        "machine learning": [
+          "\\bneural\\b",
+          "\\bmodel\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "yang-2024-carff",
+      "path": "content/publication/yang-2024-carff/index.md",
+      "title": "CARFF: Conditional Auto-encoded Radiance Field for 3D Scene Forecasting",
+      "date": "2024-01-01",
+      "publication": "*European Conference on Computer Vision*",
+      "publication_short": "**ECCV**",
+      "tags": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "robotics"
+      ],
+      "abstract": "We propose CARFF, a method for predicting future 3D scenes given past observations. Our method maps 2D ego-centric images to a distribution over plausible 3D latent scene configurations and predicts the evolution of hypothesized scenes through time. Our latents condition a global Neural Radiance Field (NeRF) to represent a 3D scene model, enabling explainable predictions and straightforward downstream planning. This approach models the world as a POMDP and considers complex scenarios of uncertainty in environmental states and dynamics. Specifically, we employ a two-stage training of Pose-Conditional-VAE and NeRF to learn 3D representations, and auto-regressively predict latent scene representations utilizing a mixture density network. We demonstrate the utility of our method in scenarios using the CARLA driving simulator, where CARFF enables efficient trajectory and contingency planning in complex multi-agent autonomous driving scenarios involving occlusions.",
+      "url_pdf": "https://arxiv.org/pdf/2401.18075",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "autonomous driving",
+        "computer vision",
+        "forecasting",
+        "machine learning",
+        "model-based control"
+      ],
+      "topic_evidence": {
+        "autonomous driving": [
+          "\\bautonomous (vehicle|driving|car|cars|vehicles|navigation)\\b",
+          "\\bdriving\\b"
+        ],
+        "computer vision": [
+          "\\bcomputer vision\\b",
+          "\\bvision\\b",
+          "\\bradiance field\\b",
+          "\\b3d scene\\b"
+        ],
+        "forecasting": [
+          "\\bforecast(?:ing|s)?\\b",
+          "\\bpredict(?:ion|ive|ing)?\\b",
+          "\\bfuture\\b",
+          "\\btrajectory\\b"
+        ],
+        "machine learning": [
+          "\\bneural\\b",
+          "\\bmodel\\b"
+        ],
+        "model-based control": [
+          "\\bplanning\\b"
+        ]
+      },
+      "review_flags": []
+    }
+  ]
+}

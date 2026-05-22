@@ -7,7 +7,7 @@ summary: ''
 authors:
 - Paul Vernaza
 - Nicholas Rhinehart
-tags: []
+tags: ["autonomous driving", "forecasting", "generative models", "machine learning"]
 categories: []
 date: '2021-11-01'
 lastmod: 2024-07-15T15:34:48-04:00

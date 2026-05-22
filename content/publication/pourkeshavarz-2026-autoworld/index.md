@@ -6,7 +6,7 @@ authors:
 - Mozhgan Pourkeshavarz
 - Tianran Liu
 - Nicholas Rhinehart
-tags: ["autonomous driving", "computer vision", "forecasting", "machine learning", "robotics"]
+tags: ["autonomous driving", "computer vision", "forecasting", "machine learning", "robotics", "generative models"]
 date: '2026-03-30'
 lastmod: 2026-03-30
 publishDate: '2026-03-30'

@@ -8,7 +8,7 @@ summary: ''
 authors:
 - Nicholas Rhinehart
 - Kris Kitani
-tags: ["imitation learning", "forecasting", "machine learning", "reward learning"]
+tags: ["imitation learning", "forecasting", "machine learning", "reward learning", "first-person video"]
 categories: []
 date: '2018-01-01'
 lastmod: 2024-07-15T15:34:47-04:00

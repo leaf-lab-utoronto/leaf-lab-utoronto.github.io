@@ -10,7 +10,7 @@ authors:
 - Gregory Kahn
 - Nicholas Rhinehart
 - Sergey Levine
-tags: ["autonomous driving", "computer vision", "machine learning", "offroad navigation", "model-based control", "robotics"]
+tags: ["computer vision", "machine learning", "offroad navigation", "model-based control", "robotics"]
 categories: []
 date: '2021-01-01'
 lastmod: 2024-07-15T15:34:52-04:00
