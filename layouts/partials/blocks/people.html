@@ -6,7 +6,10 @@
 {{ $page := .wcPage }}
 {{ $block := .wcBlock }}
 {{ $show_social := $block.design.show_social | default false }}
-{{ $show_interests := $block.design.show_interests | default true }}
+{{ $show_interests := true }}
+{{ if isset $block.design "show_interests" }}
+  {{ $show_interests = $block.design.show_interests }}
+{{ end }}
 {{ $show_organizations := $block.design.show_organizations | default false }}
 {{ $show_role := $block.design.show_role | default true }}
 {{ $default_avatar := "/images/default-user.jpg" }}

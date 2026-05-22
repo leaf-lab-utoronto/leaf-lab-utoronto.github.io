@@ -16,6 +16,10 @@ date: '2021-01-01'
 lastmod: 2024-07-15T15:34:53-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/rss21_shorttalk_teaser.gif
+  type: image
+  alt: RECON rapid exploration result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -39,4 +43,5 @@ publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
 
 url_pdf: https://proceedings.mlr.press/v164/shah22a/shah22a.pdf
+url_project: https://sites.google.com/view/recon-robot
 ---

@@ -15,6 +15,10 @@ date: '2019-01-01'
 lastmod: 2024-07-15T15:34:48-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/precog-teaser-snippet.mp4
+  type: video
+  alt: PRECOG multi-agent prediction result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -37,5 +41,6 @@ abstract: ''
 publication: '*Proceedings of the IEEE International Conference on Computer Vision*'
 publication_short: '**ICCV**'
 url_pdf: https://openaccess.thecvf.com/content_ICCV_2019/papers/Rhinehart_PRECOG_PREdiction_Conditioned_on_Goals_in_Visual_Multi-Agent_Settings_ICCV_2019_paper.pdf
+url_project: https://sites.google.com/view/precog
 highlight: <span style="color:#DC4633">Best Paper Award @ ICML 2019 Workshop on AI for Autonomous Driving</span>
 ---

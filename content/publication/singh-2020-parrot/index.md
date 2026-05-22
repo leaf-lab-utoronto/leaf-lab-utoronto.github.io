@@ -25,6 +25,10 @@ image:
   caption: ''
   focal_point: ''
   preview_only: false
+result_media:
+  src: result-candidates/parrot.gif
+  type: image
+  alt: Parrot robot manipulation result animation
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

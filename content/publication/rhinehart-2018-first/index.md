@@ -14,6 +14,10 @@ date: '2018-01-01'
 lastmod: 2024-07-15T15:34:47-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/darko-teaser-snippet.mp4
+  type: video
+  alt: First-person activity forecasting result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

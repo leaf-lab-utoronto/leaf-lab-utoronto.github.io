@@ -8,6 +8,16 @@
     {{ $pub_type_display = i18n (printf "pub_%s" (strings.Replace $pub_type_csl "-" "_")) | default (strings.Title $pub_type_csl) }}
   {{ end }}
 {{ end }}
+{{ $show_visualization := true }}
+{{ $show_abstract := true }}
+{{ $show_details := true }}
+{{ $show_content := true }}
+{{ with .Params.publication_page }}
+  {{ if isset . "show_visualization" }}{{ $show_visualization = .show_visualization }}{{ end }}
+  {{ if isset . "show_abstract" }}{{ $show_abstract = .show_abstract }}{{ end }}
+  {{ if isset . "show_details" }}{{ $show_details = .show_details }}{{ end }}
+  {{ if isset . "show_content" }}{{ $show_content = .show_content }}{{ end }}
+{{ end }}
 
 <div class="pub">
 
@@ -15,11 +25,19 @@
 
   <div class="article-container">
 
-    {{ if .Params.abstract }}
+    {{ if $show_visualization }}
+    <div class="pub-result-media-single">
+      {{ partial "publication_result_media.html" (dict "item" . "size" "single" "class" "result-media-single-link") }}
+    </div>
+    {{ end }}
+
+    {{ $abstract := trim (.Params.abstract | default "" | plainify) " \n\r\t" }}
+    {{ if and $show_abstract $abstract }}
     <h3>{{ i18n "abstract" }}</h3>
     <p class="pub-abstract">{{ .Params.abstract | markdownify }}</p>
     {{ end }}
 
+    {{ if $show_details }}
     {{/* If the type is Uncategorized, hide the type. */}}
     {{ if $pub_type_display }}
     <div class="row">
@@ -68,8 +86,11 @@
     {{ end }}
 
     <div class="space-below"></div>
+    {{ end }}
 
+    {{ if $show_content }}
     <div class="article-style">{{ .Content }}</div>
+    {{ end }}
 
     {{ partial "page_footer" . }}
 

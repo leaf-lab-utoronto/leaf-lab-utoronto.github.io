@@ -17,6 +17,10 @@ date: '2022-01-01'
 lastmod: 2024-07-15T15:34:55-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/revind-snippet.mp4
+  type: video
+  alt: ReViND offline RL visual navigation result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -38,6 +42,7 @@ publication_types:
 abstract: ''
 
 url_pdf: https://proceedings.mlr.press/v205/shah23a/shah23a.pdf
+url_project: https://sites.google.com/view/revind
 publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
 ---

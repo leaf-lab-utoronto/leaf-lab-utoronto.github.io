@@ -1,0 +1,82 @@
+{{- $item := .item -}}
+{{- $class := .class | default "" -}}
+{{- $size := .size | default "thumb" -}}
+{{- $media := $item.Params.result_media -}}
+{{- $src := "" -}}
+{{- $alt := $item.Title -}}
+{{- $kind := "" -}}
+{{- $poster := "" -}}
+{{- $resource := "" -}}
+{{- $showFallback := true -}}
+
+{{- with $media -}}
+  {{- $showFallback = false -}}
+  {{- if reflect.IsMap . -}}
+    {{- $src = .src | default "" -}}
+    {{- $alt = .alt | default $alt -}}
+    {{- $kind = .type | default "" -}}
+    {{- $poster = .poster | default "" -}}
+  {{- else -}}
+    {{- $src = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $src -}}
+  {{- if or (strings.HasPrefix $src "http://") (strings.HasPrefix $src "https://") (strings.HasPrefix $src "/") -}}
+    {{- $src = $src -}}
+  {{- else -}}
+    {{- with $item.Resources.GetMatch $src -}}
+      {{- $resource = . -}}
+      {{- $src = .RelPermalink -}}
+    {{- else -}}
+      {{- $src = path.Join $item.RelPermalink $src -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if and $poster (not (or (strings.HasPrefix $poster "http://") (strings.HasPrefix $poster "https://") (strings.HasPrefix $poster "/"))) -}}
+  {{- with $item.Resources.GetMatch $poster -}}
+    {{- $poster = .RelPermalink -}}
+  {{- else -}}
+    {{- $poster = path.Join $item.RelPermalink $poster -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $ext := lower (path.Ext $src) -}}
+{{- if not $kind -}}
+  {{- if in (slice ".mp4" ".mov" ".webm" ".m4v") $ext -}}
+    {{- $kind = "video" -}}
+  {{- else if in (slice ".gif" ".jpg" ".jpeg" ".png" ".webp" ".avif") $ext -}}
+    {{- $kind = "image" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $src -}}
+  <a href="{{ $item.RelPermalink }}" class="result-media-link {{ $class }}" aria-label="{{ $item.Title }}">
+    <div class="img-hover-zoom border-solid-1px-k pub-thumbnail result-media result-media-{{ $size }}">
+      {{- if eq $kind "video" -}}
+        <video class="result-media-object" autoplay muted loop playsinline preload="metadata" {{ with $poster }}poster="{{ . }}"{{ end }}>
+          <source src="{{ $src }}">
+        </video>
+      {{- else -}}
+        <img class="result-media-object" src="{{ $src }}" alt="{{ $alt }}">
+      {{- end -}}
+    </div>
+  </a>
+{{- else if $showFallback -}}
+  {{- $featured := partial "blox-core/functions/get_featured_image.html" $item -}}
+  {{- $anchor := $item.Params.image.focal_point | default "Smart" -}}
+  {{- with $featured -}}
+    {{- $image := .Fill (printf "400x267 %s" $anchor) -}}
+    {{- if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end -}}
+    <a href="{{ $item.RelPermalink }}" class="result-media-link {{ $class }}" aria-label="{{ $item.Title }}">
+      <div class="img-hover-zoom border-solid-1px-k pub-thumbnail result-media result-media-{{ $size }}">
+        <img class="result-media-object" src="{{ $image.RelPermalink }}" height="166" width="250" alt="{{ $item.Title }}">
+      </div>
+    </a>
+  {{- else -}}
+    <div class="img-hover-zoom border-solid-1px-k pub-thumbnail result-media result-media-{{ $size }} {{ $class }}">
+      <img class="result-media-object" src="/images/missing_publication_image.jpg" height="166" width="250" alt="placeholder">
+    </div>
+  {{- end -}}
+{{- end -}}

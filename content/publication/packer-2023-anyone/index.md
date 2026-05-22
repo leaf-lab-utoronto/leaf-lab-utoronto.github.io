@@ -19,6 +19,10 @@ date: '2023-01-01'
 lastmod: 2024-07-15T15:34:55-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/avp-snippet.mp4
+  type: video
+  alt: Active visual planning perceptual uncertainty result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

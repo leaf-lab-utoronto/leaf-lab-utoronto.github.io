@@ -14,6 +14,10 @@ date: '2020-01-01'
 lastmod: 2024-07-15T15:34:51-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/deep-im-snippet.mp4
+  type: video
+  alt: Deep imitative model planning result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -36,5 +40,6 @@ abstract: ''
 publication: '*International Conference on Learning Representations*'
 publication_short: '**ICLR**'
 url_pdf: https://openreview.net/pdf?id=Skl4mRNYDr
+url_project: https://sites.google.com/view/imitative-models
 url_doi: https://openreview.net/forum?id=Skl4mRNYDr
 ---

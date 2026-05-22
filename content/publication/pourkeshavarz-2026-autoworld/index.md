@@ -23,6 +23,10 @@ subtitle: ''
 summary: ''
 featured: false
 draft: false
+result_media:
+  src: result-candidates/autoworld-snippet.mp4
+  type: video
+  alt: AutoWorld multi-agent traffic simulation result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

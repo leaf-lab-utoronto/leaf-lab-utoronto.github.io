@@ -15,6 +15,10 @@ date: '2019-01-01'
 lastmod: 2024-07-15T15:34:48-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/ghr-snippet.mp4
+  type: video
+  alt: Generative hybrid representations activity forecasting result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

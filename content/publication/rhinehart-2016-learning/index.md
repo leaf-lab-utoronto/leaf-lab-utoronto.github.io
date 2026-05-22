@@ -13,6 +13,10 @@ date: '2016-01-01'
 lastmod: 2024-07-15T15:34:44-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/action-maps-snippet.mp4
+  type: video
+  alt: Learning action maps first-person vision result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

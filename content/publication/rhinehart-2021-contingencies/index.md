@@ -27,6 +27,10 @@ image:
   caption: ''
   focal_point: ''
   preview_only: false
+result_media:
+  src: result-candidates/cfo-right-snippet.mp4
+  type: video
+  alt: Contingency planning right-turn result animation
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -41,4 +45,5 @@ abstract: ''
 publication: '*IEEE International Conference on Robotics and Automation*'
 publication_short: '**ICRA**'
 url_pdf: https://ieeexplore.ieee.org/abstract/document/9561683
+url_project: https://sites.google.com/view/contingency-planning
 ---

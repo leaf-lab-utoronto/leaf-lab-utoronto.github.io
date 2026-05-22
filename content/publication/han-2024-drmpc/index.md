@@ -16,6 +16,10 @@ date: '2025-02-01'
 lastmod: 2024-11-04
 featured: false
 draft: false
+result_media:
+  src: result-candidates/dr-mpc-snippet.mp4
+  type: video
+  alt: DR-MPC social robot navigation result animation
 
 url_pdf: https://arxiv.org/pdf/2410.10646
 

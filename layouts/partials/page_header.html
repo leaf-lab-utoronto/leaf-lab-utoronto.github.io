@@ -1,8 +1,11 @@
-{{ warnf "DEBUG: page_header.html" }}
 {{ $page := . }}
 {{ $featured := partial "blox-core/functions/get_featured_image.html" $page }}
 {{ $compact_header_pages := slice "/event/" "/publication/" "/apply/" }}
 {{ $compact_header := in $compact_header_pages $page.RelPermalink }}
+{{ $show_featured_image := and $featured (not .Params.image.preview_only) }}
+{{ if eq .Type "publication" }}
+  {{ $show_featured_image = false }}
+{{ end }}
 
 {{ $anchor := $page.Params.image.focal_point | default "Smart" }}
 
@@ -19,7 +22,7 @@
 {{end}}
 
 {{/* Banner image */}}
-{{ if and .Params.banner.image (not (and $featured (not .Params.image.preview_only))) }}
+{{ if and .Params.banner.image (not $show_featured_image) }}
 <div class="article-header">
   {{- $img := "" -}}
   {{ $alt := (.Params.banner.caption | default "") | plainify }}
@@ -42,7 +45,7 @@
 {{end}}
 
 {{/* Featured image layout */}}
-{{ if and $featured (not .Params.image.preview_only) }}
+{{ if $show_featured_image }}
 
 {{/* Fit image within max size. */}}
 {{ $image := $featured }}
@@ -66,7 +69,7 @@
 <div class="article-container pt-3">
   <h1>{{ $title }}</h1>
 
-  {{ if eq $page.Type "publication" }}
+  {{ if and (eq $page.Type "publication") (not $page.IsNode) }}
     {{ partial "views/citation.html" (dict
         "item"       $page
         "show_image" false
@@ -98,13 +101,20 @@
 <div class="{{$ctnr}}{{ if not $compact_header }} pt-3{{ end }}{{ if $compact_header }} compact-page-header{{ end }}">
   <h1>{{ $title }}</h1>
 
-  {{ with $page.Params.subtitle }}
-  <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
-  {{end}}
+  {{ if and (eq $page.Type "publication") (not $page.IsNode) }}
+    {{ partial "views/citation.html" (dict
+        "item"       $page
+        "show_image" false
+    ) }}
+  {{ else }}
+    {{ with $page.Params.subtitle }}
+    <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{end}}
 
-  {{ if not .IsNode }}
-    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
-    {{ partial "page_links_div.html" $page }}
-  {{end}}
+    {{ if not .IsNode }}
+      {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+      {{ partial "page_links_div.html" $page }}
+    {{end}}
+  {{ end }}
 </div>
 {{end}}

@@ -18,7 +18,11 @@ publishDate: '2025-07-01'
 featured: false
 draft: false
 
+result_media:
+  src: result-candidates/rrm-snippet.gif
+
 url_pdf: https://arxiv.org/pdf/2507.00611
+url_project: https://sunlighted.github.io/RRM-web/
 publication: '*arXiv:2507.00611*'
 publication_short: '**arXiv**'
 

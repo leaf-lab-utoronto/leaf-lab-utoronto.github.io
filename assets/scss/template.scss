@@ -129,7 +129,7 @@ nav#navbar-main {
 }
 
 @media (min-width: 992px) {
-  .people-widget .people-person { flex: 0 0 15%; max-width: 15%; }
+  .people-widget .people-person { flex: 0 0 24%; max-width: 24%; }
 }
 
 // Keep active nav weight normal (theme sometimes bolds it)
@@ -265,11 +265,6 @@ nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 
 .wg-collection:has(.homepage-recent-publications-marker) .article-tags {
   margin-top: 0.35rem;
-}
-
-.wg-collection:has(.homepage-recent-publications-marker) .btn-page-header {
-  font-size: 0.85rem;
-  padding: 0.22rem 0.45rem;
 }
 
 .avatar-square,

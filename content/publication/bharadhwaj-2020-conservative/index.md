@@ -17,6 +17,10 @@ date: '2020-01-01'
 lastmod: 2024-07-15T15:34:51-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/csc.gif
+  type: image
+  alt: Conservative safety critics result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -39,4 +43,5 @@ abstract: ''
 publication: '*International Conference on Represetation Learning*'
 publication_short: '**ICLR**'
 url_pdf: https://openreview.net/pdf?id=iaO86DUuKi
+url_project: https://sites.google.com/view/conservative-safety-critics/home
 ---

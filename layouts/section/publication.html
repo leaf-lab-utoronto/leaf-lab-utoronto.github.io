@@ -73,8 +73,10 @@
       </div>
     
 
+      {{ $publications := sort .Pages "Title" "asc" }}
+      {{ $publications = sort $publications "Date" "desc" }}
       <div id="container-publications">
-        {{ range $index, $item := .Pages.ByDate.Reverse }}
+        {{ range $index, $item := $publications }}
 
         {{ if .Params.publication_types }}
           {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
@@ -94,4 +96,3 @@
 </div>
 
 {{- end -}}
-

@@ -18,6 +18,10 @@ date: '2019-01-01'
 lastmod: 2024-07-15T15:34:49-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/smirl-doom-snippet.mp4
+  type: video
+  alt: SMiRL dynamic environment result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

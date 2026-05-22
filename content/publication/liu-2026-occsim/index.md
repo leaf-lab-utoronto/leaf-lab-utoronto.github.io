@@ -14,6 +14,7 @@ lastmod: 2026-03-30
 publishDate: '2026-03-30'
 url_pdf: https://arxiv.org/pdf/2603.28887
 url_doi: https://doi.org/10.48550/arXiv.2603.28887
+url_project: https://orbis36.github.io/OccSim/
 publication: '*arXiv:2603.28887*'
 publication_short: '**arXiv**'
 publication_types:
@@ -25,6 +26,10 @@ subtitle: ''
 summary: ''
 featured: false
 draft: false
+result_media:
+  src: result-candidates/occsim-snippet.mp4
+  type: video
+  alt: OccSim occupancy world model simulation result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

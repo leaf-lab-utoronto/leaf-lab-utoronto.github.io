@@ -16,6 +16,10 @@ date: '2021-01-01'
 lastmod: 2024-07-15T15:34:52-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/ving_mail.gif
+  type: image
+  alt: ViNG open-world navigation result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -37,5 +41,6 @@ publication_types:
 abstract: ''
 publication: '*IEEE International Conference on Robotics and Automation*'
 url_pdf: https://escholarship.org/content/qt93m2m6w0/qt93m2m6w0.pdf
+url_project: https://sites.google.com/view/ving-robot/home
 publication_short: '**ICRA**'
 ---

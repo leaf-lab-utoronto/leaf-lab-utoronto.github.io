@@ -17,6 +17,10 @@ date: '2021-01-01'
 lastmod: 2024-07-15T15:34:51-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/spf2.gif
+  type: image
+  alt: Sequential pointcloud forecasting result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

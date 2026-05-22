@@ -17,6 +17,10 @@ date: '2020-01-01'
 lastmod: 2024-07-15T15:34:50-04:00
 featured: false
 draft: false
+result_media:
+  src: result-candidates/rip_animation_edit.gif
+  type: image
+  alt: Robust imitative planning result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

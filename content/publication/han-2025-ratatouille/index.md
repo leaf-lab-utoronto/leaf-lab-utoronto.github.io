@@ -24,6 +24,10 @@ subtitle: ''
 summary: ''
 featured: false
 draft: false
+result_media:
+  src: result-candidates/ratatouille-opening-snippet.mp4
+  type: video
+  alt: Ratatouille social robot navigation result animation
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
