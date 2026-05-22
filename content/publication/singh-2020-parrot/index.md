@@ -39,9 +39,28 @@ projects: []
 publishDate: '2024-07-15T19:34:51.850904Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  Reinforcement learning provides a general framework for flexible decision making and
+  control, but requires extensive data collection for each new task that an agent needs to
+  learn. In other machine learning fields, such as natural language processing or computer
+  vision, pre-training on large, previously collected datasets to bootstrap learning for
+  new tasks has emerged as a powerful paradigm to reduce data requirements when learning a
+  new task. In this paper, we ask the following question: how can we enable similarly
+  useful pre-training for RL agents? We propose a method for pre-training behavioral
+  priors that can capture complex input-output relationships observed in successful trials
+  from a wide range of previously seen tasks, and we show how this learned prior can be
+  used for rapidly learning new tasks without impeding the RL agent's ability to try out
+  novel behaviors. We demonstrate the effectiveness of our approach in challenging robotic
+  manipulation domains involving image observations and sparse reward functions, where our
+  method outperforms prior works by a substantial margin.
 publication: '*International Conference on Learning Representations*'
 publication_short: '**ICLR**'
 url_pdf: https://openreview.net/pdf?id=Ysuv-WOFeKR
 url_project: https://sites.google.com/view/parrot-rl
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W3103763075'
+  updated: '2026-02-09T09:26:11.010843'
+  title: 'Parrot: Data-Driven Behavioral Priors for Reinforcement Learning'
 ---

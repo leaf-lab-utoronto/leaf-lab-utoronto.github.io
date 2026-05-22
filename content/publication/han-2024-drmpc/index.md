@@ -40,7 +40,26 @@ projects: []
 publishDate: '2025-02'
 publication_types:
 - 'article-journal'
-abstract: ''
+abstract: >-
+  How can a robot safely navigate around people with complex motion patterns? Deep
+  Reinforcement Learning (DRL) in simulation holds some promise, but much prior work
+  relies on simulators that fail to capture the nuances of real human motion. Thus, we
+  propose Deep Residual Model Predictive Control (DR-MPC) to enable robots to quickly and
+  safely perform DRL from real-world crowd navigation data. By blending MPC with
+  model-free DRL, DR-MPC overcomes the DRL challenges of large data requirements and
+  unsafe initial behavior. DR-MPC is initialized with MPC-based path tracking, and
+  gradually learns to interact more effectively with humans. To further accelerate
+  learning, a safety component estimates out-of-distribution states to guide the robot
+  away from likely collisions. In simulation, we show that DR-MPC substantially
+  outperforms prior work, including traditional DRL and residual DRL models. Hardware
+  experiments show our approach successfully enables a robot to navigate a variety of
+  crowded situations with few errors using less than 4 hours of training data.
 publication: '*IEEE Robotics and Automation Letters*'
 publication_short: '**RA-L**'
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W4407948601'
+  updated: '2026-05-21T09:19:25.381259'
+  title: 'DR-MPC: Deep Residual Model Predictive Control for Real-World Social Navigation'
 ---

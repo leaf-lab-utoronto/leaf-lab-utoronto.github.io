@@ -33,9 +33,30 @@ projects: []
 publishDate: '2024-07-15T19:34:45.325971Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  We explore the problem of learning to decompose spatial tasks into segments, as
+  exemplified by the problem of a painting robot covering a large object. Inspired by the
+  ability of classical decision tree algorithms to construct structured partitions of
+  their input spaces, we formulate the problem of decomposing objects into segments as a
+  parsing approach. We make the insight that the derivation of a parse-tree that
+  decomposes the object into segments closely resembles a decision tree constructed by
+  ID3, which can be done when the ground-truth available. We learn to imitate an expert
+  parsing oracle, such that our neural parser can generalize to parse natural images
+  without ground truth. We introduce a novel deterministic policy gradient update, DRAG
+  (i.e., DeteRministically AGgrevate) in the form of a deterministic actor-critic variant
+  of AggreVaTeD, to train our neural parser. From another perspective, our approach is a
+  variant of the Deterministic Policy Gradient suitable for the imitation learning
+  setting. The deterministic policy representation offered by training our neural parser
+  with DRAG allows it to outperform state of the art imitation and reinforcement learning
+  approaches.
 publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
 url_pdf: http://proceedings.mlr.press/v87/shankar18a/shankar18a.pdf
 url_doi: http://proceedings.mlr.press/v87/shankar18a
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W2808879645'
+  updated: '2026-02-09T09:26:11.010843'
+  title: 'Learning Neural Parsers with Deterministic Differentiable Imitation Learning'
 ---

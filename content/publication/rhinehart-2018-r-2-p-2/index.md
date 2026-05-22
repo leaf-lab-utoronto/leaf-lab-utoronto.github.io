@@ -37,8 +37,26 @@ projects: []
 publishDate: '2024-07-15T19:34:45.959255Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  We propose a method to forecast a vehicle’s ego-motion as a distribution over
+  spatiotemporal paths, conditioned on features (e.g., from LIDAR and images) embedded in
+  an overhead map. The method learns a policy inducing a distribution over simulated
+  trajectories that is both “diverse” (produces most of the likely paths) and “precise”
+  (mostly produces likely paths). This balance is achieved through minimization of a
+  symmetrized cross-entropy between the distribution and demonstration data. By viewing
+  the simulated-outcome distribution as the pushforward of a simple distribution under a
+  simulation operator, we obtain expressions for the cross-entropy metrics that can be
+  efficiently evaluated and differentiated, enabling stochastic-gradient optimization. We
+  propose concrete policy architectures for this model, discuss our evaluation metrics
+  relative to previously-used degenerate metrics, and demonstrate the superiority of our
+  method relative to state-of-the-art methods in both the Kitti dataset and a similar but
+  novel and larger real-world dataset explicitly designed for the vehicle forecasting
+  domain.
 publication: '*Proceedings of the European Conference on Computer Vision*'
 publication_short: '**ECCV**'
 url_doi: https://link.springer.com/chapter/10.1007/978-3-030-01261-8_47
+paper_versions:
+- retrieved_at: '2026-05-22T01:21:55+00:00'
+  source: 'source-page'
+  url: 'https://link.springer.com/chapter/10.1007/978-3-030-01261-8_47'
 ---

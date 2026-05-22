@@ -39,10 +39,27 @@ projects: []
 publishDate: '2024-07-15T19:34:55.155364Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
-
+abstract: >-
+  Reinforcement learning can enable robots to navigate to distant goals while optimizing
+  user-specified reward functions, including preferences for following lanes, staying on
+  paved paths, or avoiding freshly mowed grass. However, online learning from
+  trial-and-error for real-world robots is logistically challenging, and methods that
+  instead can utilize existing datasets of robotic navigation data could be significantly
+  more scalable and enable broader generalization. In this paper, we present ReViND, the
+  first offline RL system for robotic navigation that can leverage previously collected
+  data to optimize user-specified reward functions in the real-world. We evaluate our
+  system for off-road navigation without any additional data collection or fine-tuning,
+  and show that it can navigate to distant goals using only offline training from this
+  dataset, and exhibit behaviors that qualitatively differ based on the user-specified
+  reward function.
 url_pdf: https://proceedings.mlr.press/v205/shah23a/shah23a.pdf
 url_project: https://sites.google.com/view/revind
 publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W4311992093'
+  updated: '2026-02-09T09:26:11.010843'
+  title: 'Offline Reinforcement Learning for Visual Navigation'
 ---

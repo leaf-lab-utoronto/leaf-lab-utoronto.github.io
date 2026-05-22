@@ -38,9 +38,38 @@ projects: []
 publishDate: '2024-07-15T19:34:52.584523Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  We propose a learning-based navigation system for reaching visually indicated goals and
+  demonstrate this system on a real mobile robot platform. Learning provides an appealing
+  alternative to conventional methods for robotic navigation: instead of reasoning about
+  environments in terms of geometry and maps, learning can enable a robot to learn about
+  navigational affordances, understand what types of obstacles are traversable (e.g., tall
+  grass) or not (e.g., walls), and generalize over patterns in the environment. However,
+  unlike conventional planning algorithms, it is harder to change the goal for a learned
+  policy during deployment. We propose a method for learning to navigate towards a goal
+  image of the desired destination. By combining a learned policy with a topological graph
+  constructed out of previously observed data, our system can determine how to reach this
+  visually indicated goal even in the presence of variable appearance and lighting. Three
+  key insights, waypoint proposal, graph pruning and negative mining, enable our method to
+  learn to navigate in real-world environments using only offline data, a setting where
+  prior methods struggle. We instantiate our method on a real outdoor ground robot and
+  show that our system, which we call ViNG, outperforms previously-proposed methods for
+  goal-conditioned reinforcement learning, including other methods that incorporate
+  reinforcement learning and search. We also study how ViNG generalizes to unseen
+  environments and evaluate its ability to adapt to such an environment with growing
+  experience. Finally, we demonstrate ViNG on a number of real-world applications, such as
+  last-mile delivery and warehouse inspection. We encourage the reader to visit the
+  project website for videos of our experiments and demonstrations <sup
+  xmlns:mml="http://www.w3.org/1998/Math/MathML"
+  xmlns:xlink="http://www.w3.org/1999/xlink">1</sup> .
 publication: '*IEEE International Conference on Robotics and Automation*'
 url_pdf: https://escholarship.org/content/qt93m2m6w0/qt93m2m6w0.pdf
 url_project: https://sites.google.com/view/ving-robot/home
 publication_short: '**ICRA**'
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W3112720093'
+  updated: '2026-04-28T14:05:53.105641'
+  title: 'ViNG: Learning Open-World Navigation with Visual Goals'
 ---

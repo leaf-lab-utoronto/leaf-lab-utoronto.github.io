@@ -37,8 +37,27 @@ projects: []
 publishDate: '2024-07-15T19:34:47.897552Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  Automatically reasoning about future human behaviors is a difficult problem but has
+  significant practical applications to assistive systems. Part of this difficulty stems
+  from learning systems' inability to represent all kinds of behaviors. Some behaviors,
+  such as motion, are best described with continuous representations, whereas others, such
+  as picking up a cup, are best described with discrete representations. Furthermore,
+  human behavior is generally not fixed: people can change their habits and routines. This
+  suggests these systems must be able to learn and adapt continuously. In this work, we
+  develop an efficient deep generative model to jointly forecast a person's future
+  discrete actions and continuous motions. On a large-scale egocentric dataset,
+  EPIC-KITCHENS, we observe our method generates high-quality and diverse samples while
+  exhibiting better generalization than related generative models. Finally, we propose a
+  variant to continually learn our model from streaming data, observe its practical
+  effectiveness, and theoretically justify its learning efficiency.
 publication: '*Conference on Computer Vision and Pattern Recognition*'
 publication_short: '**CVPR**'
 url_pdf: https://openaccess.thecvf.com/content_CVPR_2020/papers/Guan_Generative_Hybrid_Representations_for_Activity_Forecasting_With_No-Regret_Learning_CVPR_2020_paper.pdf
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W3035613220'
+  updated: '2026-04-28T14:05:53.105641'
+  title: 'Generative Hybrid Representations for Activity Forecasting With No-Regret Learning'
 ---

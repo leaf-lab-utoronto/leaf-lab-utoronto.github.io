@@ -39,7 +39,24 @@ projects: []
 publishDate: '2024-07-15T19:34:56.648991Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  We propose CARFF, a method for predicting future 3D scenes given past observations. Our
+  method maps 2D ego-centric images to a distribution over plausible 3D latent scene
+  configurations and predicts the evolution of hypothesized scenes through time. Our
+  latents condition a global Neural Radiance Field (NeRF) to represent a 3D scene model,
+  enabling explainable predictions and straightforward downstream planning. This approach
+  models the world as a POMDP and considers complex scenarios of uncertainty in
+  environmental states and dynamics. Specifically, we employ a two-stage training of
+  Pose-Conditional-VAE and NeRF to learn 3D representations, and auto-regressively predict
+  latent scene representations utilizing a mixture density network. We demonstrate the
+  utility of our method in scenarios using the CARLA driving simulator, where CARFF
+  enables efficient trajectory and contingency planning in complex multi-agent autonomous
+  driving scenarios involving occlusions.
 publication: '*European Conference on Computer Vision*'
 publication_short: '**ECCV**'
+paper_versions:
+- retrieved_at: '2026-05-22T01:17:27+00:00'
+  source: 'arxiv-page'
+  url: 'https://arxiv.org/abs/2401.18075'
+  pdf_url: 'https://arxiv.org/pdf/2401.18075'
 ---

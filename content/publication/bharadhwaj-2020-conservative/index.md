@@ -39,9 +39,30 @@ projects: []
 publishDate: '2024-07-15T19:34:51.043945Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  Safe exploration presents a major challenge in reinforcement learning (RL): when active
+  data collection requires deploying partially trained policies, we must ensure that these
+  policies avoid catastrophically unsafe regions, while still enabling trial and error
+  learning. In this paper, we target the problem of safe exploration in RL by learning a
+  conservative safety estimate of environment states through a critic, and provably upper
+  bound the likelihood of catastrophic failures at every training iteration. We
+  theoretically characterize the tradeoff between safety and policy improvement, show that
+  the safety constraints are likely to be satisfied with high probability during training,
+  derive provable convergence guarantees for our approach, which is no worse
+  asymptotically than standard RL, and demonstrate the efficacy of the proposed approach
+  on a suite of challenging navigation, manipulation, and locomotion tasks. Empirically,
+  we show that the proposed approach can achieve competitive task performance while
+  incurring significantly lower catastrophic failure rates during training than prior
+  methods. Videos are at this url
+  https://sites.google.com/view/conservative-safety-critics/home
 publication: '*International Conference on Represetation Learning*'
 publication_short: '**ICLR**'
 url_pdf: https://openreview.net/pdf?id=iaO86DUuKi
 url_project: https://sites.google.com/view/conservative-safety-critics/home
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W3096954237'
+  updated: '2026-03-11T14:59:36.786465'
+  title: 'Conservative Safety Critics for Exploration'
 ---

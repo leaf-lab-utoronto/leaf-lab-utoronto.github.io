@@ -44,8 +44,23 @@ projects: []
 publishDate: '2023-07-15T19:34:55.794985Z'
 publication_types:
 - 'paper-conference'
-abstract: ''
+abstract: >-
+  Simulation with realistic, interactive agents represents a key task for autonomous
+  vehicle software development. In this work, we introduce the Waymo Open Sim Agents
+  Challenge (WOSAC). WOSAC is the first public challenge to tackle this task and propose
+  corresponding metrics. The goal of the challenge is to stimulate the design of realistic
+  simulators that can be used to evaluate and train a behavior model for autonomous
+  driving. We outline our evaluation methodology, present results for a number of
+  different baseline simulation agent methods, and analyze several submissions to the 2023
+  competition which ran from March 16, 2023 to May 23, 2023. The WOSAC evaluation server
+  remains open for submissions and we discuss open problems for the task.
 publication: '*Advances in Neural Information Processing Systems*'
 publication_short: '**NeurIPS**'
 url_doi: https://dl.acm.org/doi/abs/10.5555/3666122.3668704
+paper_versions:
+- retrieved_at: '2026-05-22T01:04:48+00:00'
+  source: 'openalex'
+  url: 'https://openalex.org/W4377866264'
+  updated: '2026-03-11T14:59:36.786465'
+  title: 'The Waymo Open Sim Agents Challenge'
 ---
