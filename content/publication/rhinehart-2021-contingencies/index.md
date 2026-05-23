@@ -63,6 +63,7 @@ publication: '*IEEE International Conference on Robotics and Automation*'
 publication_short: '**ICRA**'
 url_pdf: https://ieeexplore.ieee.org/abstract/document/9561683
 url_project: https://sites.google.com/view/contingency-planning
+url_code: https://github.com/JeffTheHacker/ContingenciesFromObservations
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

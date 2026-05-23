@@ -64,6 +64,7 @@ abstract: >-
 publication: '*arXiv preprint arXiv:2107.07394*'
 url_pdf: https://arxiv.org/pdf/2107.07394 
 url_project: https://sites.google.com/view/adversarialsurprise/home
+url_code: https://github.com/ArnaudFickinger/adversarial-surprise
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

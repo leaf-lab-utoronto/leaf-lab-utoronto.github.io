@@ -62,6 +62,7 @@ abstract: >-
 publication: '*Conference on robot learning*'
 publication_short: '**CoRL**'
 url_pdf: https://proceedings.mlr.press/v155/weng21a/weng21a.pdf
+url_code: https://github.com/xinshuoweng/SPF2
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

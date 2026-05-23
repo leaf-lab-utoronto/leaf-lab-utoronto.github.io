@@ -22,6 +22,7 @@ result_media:
   alt: DR-MPC social robot navigation result animation
 
 url_pdf: https://arxiv.org/pdf/2410.10646
+url_code: https://github.com/James-R-Han/DR-MPC
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

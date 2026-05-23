@@ -2,103 +2,109 @@
 title: Join
 date: 2022-10-24
 ---
-{{< toc >}}
 
 # Interested in the LEAF lab?
-<strong>Who and when we recruit:</strong> We are <strong>regularly</strong> looking for exceptionally creative, talented, and self-motivated people at many levels of experience: Postdocs, Ph.D., research-oriented Master's students, and undergraduates. See the information for prospective students below for details on applying for graduate programs.
 
-<strong>Who we are and what we do:</strong> Our lab is a welcoming, intellectually vibrant, and creative environment working to solve some of the most interesting, critical, and challenging research problems in the fields of robotics and machine learning. You can learn more about what we have done in the past by studying our <a href="/publication/">publications</a>.
+We are **regularly** looking for exceptionally creative, talented, and self-motivated people at many levels of experience: Postdocs, Ph.D., research-oriented Master's students, and undergraduates. Our lab is a welcoming, intellectually vibrant, and creative environment working to solve some of the most interesting, critical, and challenging research problems in the fields of robotics and machine learning. Read our [publications](/publication/) to get a sense of what we do.
 
-<strong>Interested?</strong> Please read this page first before contacting the PI directly.
+**Please read this page before contacting the PI directly.**
 
-# Prospective Ph.D. and Master's students
-<strong>Program purposes:</strong> These are research-intensive programs, with coursework to supplement students' research development. In both programs, you will develop your collaboration and communication skills through participating in a variety of communities, including the LEAF lab itself, the Robotics Institute, and UTIAS or DCS.
+---
 
-<strong>Program prerequisites:</strong> Applicants with all academic backgrounds (especially, but not limited to, CS and machine learning backgrounds) are encouraged to apply. There are some per-program prerequisites below.
+# Graduate Programs (Ph.D. & Master's)
 
-## Ph.D. applicants
-<strong>Program purpose:</strong> This program will train you to be a successful and independent scientist in our fields of research. The dominant focus is research. As part of becoming a successful and independent scientist, you will develop your collaboration and communication skills through participating in a variety of communities, including the LEAF lab itself, as well as the Robotics Institute, and UTIAS or DCS.
+These are research-intensive programs with a small amount of coursework. You will develop collaboration and communication skills within the LEAF lab, the Robotics Institute, and UTIAS or DCS. Applicants from **all academic backgrounds** are encouraged to apply.
 
-<strong>Program prerequisites:</strong> Applicants with all academic backgrounds (especially, but not limited to, CS and machine learning backgrounds) are encouraged to apply.
+The **Ph.D.** program will train you to be a successful and independent scientist in our fields of research. The **Master's** program serves as a stepping-stone to prepare you for Ph.D.-level research.
 
-<strong>Routes to joining as a Ph.D. student:</strong> Applicants may enter a Ph.D. program with us through one of several routes:
-1. Through the <a href="https://www.utias.utoronto.ca/doctor-of-philosophy-phd/">UTIAS Ph.D. program</a> following completion of an M.A.Sc. degree.
-2. Through the <a href="https://web.cs.toronto.edu/graduate/phd">CS Ph.D. program</a> following completion of an M.Sc. degree.
-3. Through the <a href="https://www.utias.utoronto.ca/doctor-of-philosophy-phd/">UTIAS Ph.D. program</a>  without having already completed a Master's degree. Successful applicants are expected to exhibit exceptional potential. Usually, your chances would be improved by instead applying for the UTIAS MASc. program. Please see the FAQ below regarding direct entry.
-4. Through the <a href="https://web.cs.toronto.edu/graduate/phd">CS Ph.D. program</a> without having already completed a Master's degree. Successful applicants are expected to exhibit exceptional potential. Usually, your chances would be improved by instead applying for the CS M.Sc. program. Please see the FAQ below regarding direct entry.
-5. Transfer from the <a href="https://www.utias.utoronto.ca/doctor-of-philosophy-phd/">UTIAS M.A.Sc. program</a>. After twelve months in the M.A.Sc. program, it is possible for successful students to transfer to the Ph.D. program. We aim to recruit M.A.Sc. students who exhibit exceptional potential for continuing their research in a Ph.D. program.
-6. Transfer from the <a href="https://web.cs.toronto.edu/graduate/msc">CS M.Sc. program</a>. After seventeen months in the MSc program, it is possible for successful students to transfer directly to the Ph.D. program. We aim to recruit M.Sc. students who exhibit exceptional potential for continuing their research in a Ph.D. program.
-7. Co-supervision through any of the above programs. If you are interested in co-supervision, you should mention your desire and potential co-supervisors *in your application*. Co-supervision typically works best when it involves some meaningful intellectual overlap between the co-supervisers.
+## How to apply
 
-<strong>Application process:</strong> 
-- <strong>Step 1</strong>: Apply through one of the routes above. <strong>Mention the PI's name in your application if you're interested in working together, and describe your research interests as they relate to ours.</strong> If you do not mention the PI's name, your application may be overlooked. 
-- <strong>Step 2</strong>: Virtual interview: For candidates we select to interview, we will discuss your background, goals, and potential research directions together in the interview. 
+**Step 1 — Apply** through one of the routes below. **Mention the PI's name in your application** and describe your research interests as they relate to ours. Applications without the PI's name may be overlooked.
 
- See the coursework details section below for details on the relatively small amount of coursework involved. Applicants with all academic backgrounds (especially, but not limited to, CS and machine learning backgrounds) are encouraged to apply.
+**Step 2 — Interview** — shortlisted candidates will be invited for a virtual interview to discuss background, goals, and potential research directions.
 
+## Routes to joining
 
-## Master's Degree applicants
-<strong>Program purpose:</strong> This is a research-intensive program that serves as a stepping-stone to prepare you for Ph.D.-level research. The dominant focus is research. As part of this preparation, you will develop your collaboration and communication skills through participating in a variety of communities, including the LEAF lab itself, as well as the Robotics Institute, and UTIAS or DCS.
+<div class="table-responsive my-3">
+<table class="table table-bordered">
+<thead class="thead-light"><tr><th style="width:120px">Program</th><th>Entry routes</th></tr></thead>
+<tbody>
+<tr>
+<td><strong>Ph.D.</strong></td>
+<td>
+<ul class="mb-0">
+<li><a href="https://www.utias.utoronto.ca/doctor-of-philosophy-phd/">UTIAS Ph.D.</a> following an M.A.Sc.</li>
+<li><a href="https://web.cs.toronto.edu/graduate/phd">CS Ph.D.</a> following an M.Sc.</li>
+<li>UTIAS or CS Ph.D. <em>direct entry</em> without a Master's (exceptional candidates — see FAQ)</li>
+<li>Transfer from UTIAS M.A.Sc. after ~12 months</li>
+<li>Transfer from CS M.Sc. after ~17 months</li>
+<li>Co-supervision through any route above (mention your desired co-supervisors in your application)</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><strong>Master's</strong></td>
+<td>
+<ul class="mb-0">
+<li><a href="https://www.utias.utoronto.ca/master-of-applied-science/">UTIAS M.A.Sc.</a></li>
+<li><a href="https://web.cs.toronto.edu/graduate/msc">CS M.Sc.</a></li>
+<li>Co-supervision through any route above</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 
-<strong>Program prerequisites:</strong> Applicants with all academic backgrounds (especially, but not limited to, CS and machine learning backgrounds) are encouraged to apply.
+## Coursework
 
-<strong>Routes to joining as a Master's student:</strong>
-1. Through the <a href="https://www.utias.utoronto.ca/master-of-applied-science/">UTIAS M.A.Sc. program</a>. After twelve months in the M.A.Sc. program, it is possible for successful students to transfer to the Ph.D. program.
-2. Through the <a href="https://web.cs.toronto.edu/graduate/msc">CS M.Sc. program</a>. After seventeen months in the M.Sc. program, it is possible for successful students to transfer directly to the Ph.D. program.
-3. Co-supervision through any of the above programs. If you are interested in co-supervision, you should mention your desire and potential co-supervisors *in your application*. Co-supervision typically works best when it involves some meaningful intellectual overlap between the co-supervisers.
+UTIAS Ph.D. and M.A.Sc. programs require 4 courses total, of which 2 must be classified as Robotics (ROB) or Aerospace (AER). The remainder can be chosen in coordination with your advisor. See the [Robotics course list](https://www.utias.utoronto.ca/graduate-students/course-descriptions/#SSECourses) and [program-specific requirements](https://www.utias.utoronto.ca/graduate-students/program-specific-information-and-emphases/). For CS programs, see their program descriptions.
 
-<strong>Application process:</strong> 
-- <strong>Step 1</strong>: Apply through one of the routes above. <strong>Mention the PI's name in your application if you're interested in working together, and describe your research interests as they relate to ours.</strong> If you do not mention the PI's name, your application may be overlooked. 
-- <strong>Step 2</strong>: Virtual interview: For candidates we select to interview, we will discuss your background, goals, and potential research directions together in the interview.
+---
 
-## Coursework details
-For both UTIAS Ph.D. and M.A.Sc. programs, currently, 2 of the 4 required courses must be classified as Robotics (ROB) or Aerospace (AER), which involves a broad set of robotics, computer science, and machine learning topics.
-The remainder of your courses can be chosen in coordination with your advisor to help you hone your knowledge of topics relevant to your research.
-See the <a href="https://www.utias.utoronto.ca/graduate-students/course-descriptions/#SSECourses">Robotics course list here</a>. You can learn more about <a href="https://www.utias.utoronto.ca/graduate-students/program-specific-information-and-emphases/">program-specific information here</a>, including the precise program requirements.
-Again, the primary focus of these programs is to train you to be a successful and independent scientist in our fields of research.
+# Other Positions
 
-For the CS graduate programs, please see the program descriptions regarding coursework.
+**Current UofT Ph.D./M.A.Sc. students** — Send an email with your CV and a description of how your research interests overlap with ours. A track record of relevant publications is a plus.
 
-# Current Ph.D. and M.A.Sc. students (UofT-affiliated)
-Send us an email with your CV and a description of your research interests. Please mention how your interests overlap with our past work or future direction. We encourage people with all educational backgrounds to apply. Applicants with a track record of relevant publications are especially encouraged to apply. 
+**Visiting Ph.D./M.A.Sc. students** — Same as above.
 
-# Visiting Ph.D. and M.A.Sc. students
-Send us an email with your CV and a description of your research interests. Please mention how your interests overlap with our past work or future direction. We encourage people with all educational backgrounds to apply. Applicants with a track record of relevant publications are especially encouraged to apply.
+**UofT undergraduates** — Send an email with your CV and your project/research interests. Some background in robotics, machine learning, or computer vision is typical. We have a few summer slots each year and occasional semester positions; the best route is getting involved well beforehand. We can point you toward relevant fellowships.
 
-# Current undergraduates at the University of Toronto
-Send us an email with your CV and a description of your project/research interests. Typically, we will expect you to have taken a Robotics, machine learning, or Computer Vision-related course. Regardless, we encourage people with all backgrounds to apply.
+**Remote collaborators (not UofT-affiliated)** — We occasionally collaborate remotely with exceptional students and researchers. Send an email with your CV and research interests; a track record of publications is especially helpful.
 
-## Summer opportunities for undergraduates
-There are usually a few slots for undergraduates to work with us in the summer. If you think you might be a good fit, please let us know. Note that the best route to a summer internship is by getting involved with our lab well beforehand. There are also a variety of fellowships for undergraduates that we can point you to. Obtaining one of these fellowships increases your chances.
+---
 
-## Part-time opportunities for undergraduates
-We work with undergraduates during the semester. These positions are offered on a case-by-case basis depending on a variety of factors, including the applicant's motivation to spend substantial effort on their research project.
+# Contact
 
-# Remote collaborators (not UofT-affiliated)
-We sometimes collaborate remotely with exceptional students and researchers who have sufficient relevant experience. Send us an email with your CV and a description of your project/research interests. Please mention how your interests overlap with our past work or future direction. Applicants with a track record of relevant publications are especially encouraged to apply.
+**Email:** nick.rhinehart@utoronto.ca
 
-# How to contact us
-Reach us at the following email:
-- nick.rhinehart@utoronto.ca
+Include **[LEAF-interest]** in your subject line to show you've read this page — it improves your chances of a reply. No response does not necessarily mean we are not interested; there simply isn't enough time to correspond individually with every applicant before the application process begins.
 
-Please note that the absence of a response does not mean we are not interested (especially in the case of graduate student applicants). In the case of graduate student applicants, please make sure that you've read all of the information on this page about the application process. Crucially, while we would love to discuss research directions and fit earlier than the application process, there simply isn't enough time to discuss with all applicants. When you apply, make sure to mention the LEAF lab and the PI's name in your application, which will guarantee that we will consider it. 
+---
 
-When you send us an email, it helps us to know that you've read the information on this page. To increase your chances of a reply, please include the string "[LEAF-interest]" somewhere in the subject of your email.
+# FAQ
 
-# Frequently Asked Questions
-Your question may already be answered above. Below are some other FAQs and their answers.
+<details>
+<summary><strong>Are you planning to hire graduate students in the upcoming cycle?</strong></summary>
+<p>Yes.</p>
+</details>
 
-### Are you planning to hire graduate students in the upcoming cycle?
-Yes.
+<details>
+<summary><strong>Are you planning to hire graduate students beginning Fall 2027?</strong></summary>
+<p>Yes.</p>
+</details>
 
-### Are you planning to hire graduate students to begin in Fall 2027?
-Yes.
+<details>
+<summary><strong>I'm interested in a specific research direction — can we discuss it before I apply?</strong></summary>
+<p>We'd love to, but there isn't enough time to discuss this with every applicant before the process. You can get a strong sense of our research by reading our recent <a href="/publication/">publications</a>. Please describe your research interests in your application. If you're selected for an interview, we will absolutely discuss mutual fit in detail.</p>
+</details>
 
-### I'm interested in pursuing a specific research direction as a graduate student, does it interest you and can I pursue it with you?
-While we would love to discuss research directions and fit earlier than the application process, there simply isn't enough time to discuss this with all applicants before the process begins. You can get a reasonable sense of what we've done in the past by studying our recent publications. Please describe your research interests as part of your graduate application. If you are selected for an interview, we will absolutely discuss your research interests and mutual fit.
+<details>
+<summary><strong>Can I enter a Ph.D. program directly without a Master's degree?</strong></summary>
+<p>We appreciate your ambition. For most applicants, a Master's program is the better path — it provides the opportunity to build and demonstrate Ph.D.-level potential, and we expect most Master's students to continue on to a Ph.D. If you have an exceptionally strong record and no Master's degree, please point this out directly in your application and we will consider it.</p>
+</details>
 
-### I would like to directly enter as a Ph.D. student without a Master's degree. Is this possible?
-We appreciate your ambition and would love for you to apply. If you do not yet have a Master’s degree, you probably should instead apply to a Master's program (described above), which would offer you the opportunity to develop and demonstrate your potential as a Ph.D. student. We expect most students who join as Master's students to succeed in demonstrating their potential and thus continue on to earn a Ph.D. If you instead have an exceptionally strong record and no Master's degree, please point this out to us directly in your application and we will consider it.
-
-### Are internships during Ph.D. encouraged?
-Some internships are encouraged, especially those in which it's possible to tie into your Ph.D. work.
+<details>
+<summary><strong>Are internships during a Ph.D. encouraged?</strong></summary>
+<p>Some internships are encouraged, particularly those that connect meaningfully to your Ph.D. research.</p>
+</details>

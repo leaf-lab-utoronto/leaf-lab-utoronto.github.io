@@ -85,6 +85,34 @@
     <div class="d-md-none space-below"></div>
     {{ end }}
 
+    {{ if .Params.url_project }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Project</div>
+          <div class="col-12 col-md-9"><a href="{{ .Params.url_project }}" target="_blank" rel="noopener">Project page &rarr;</a></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
+    {{ if .Params.url_code }}
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Code</div>
+          <div class="col-12 col-md-9"><a href="{{ .Params.url_code }}" target="_blank" rel="noopener">GitHub &rarr;</a></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    {{ end }}
+
     <div class="space-below"></div>
     {{ end }}
 

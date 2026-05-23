@@ -55,6 +55,7 @@ publication: '*International Conference on Learning Representations*'
 publication_short: '**ICLR**'
 url_pdf: https://openreview.net/pdf?id=Skl4mRNYDr
 url_project: https://sites.google.com/view/imitative-models
+url_code: https://github.com/nrhinehart/deep_imitative_models
 url_doi: https://openreview.net/forum?id=Skl4mRNYDr
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'

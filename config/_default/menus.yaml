@@ -19,6 +19,9 @@ main:
   # - name: Research
   #   url: research
   #   weight: 40
+  # - name: Software
+  #   url: software
+  #   weight: 60
   - name: Join
     url: apply
     weight: 70

@@ -54,6 +54,7 @@ abstract: >-
   reward function.
 url_pdf: https://proceedings.mlr.press/v205/shah23a/shah23a.pdf
 url_project: https://sites.google.com/view/revind
+url_code: https://github.com/arjunbhorkar/ReViND
 publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
 paper_versions:
