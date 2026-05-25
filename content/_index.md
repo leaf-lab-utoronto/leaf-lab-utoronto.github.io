@@ -108,4 +108,38 @@ sections:
             </ul>
           </div>	
         </div>
+
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <div class="homepage-funders">
+          <h1>Supported by</h1>
+          <div class="homepage-funder-logos" aria-label="LEAF lab funders and supporters">
+            <a href="https://www.nserc-crsng.gc.ca/" target="_blank" rel="noopener" aria-label="Natural Sciences and Engineering Research Council of Canada">
+              <img src="/images/funders/nserc.png" alt="NSERC CRSNG">
+            </a>
+            <a href="https://www.innovation.ca/" target="_blank" rel="noopener" aria-label="Canada Foundation for Innovation" class="homepage-funder-logo-wide">
+              <img src="/images/funders/cfi.png" alt="Canada Foundation for Innovation">
+            </a>
+            <a href="https://www.ontario.ca/page/ontario-research-fund" target="_blank" rel="noopener" aria-label="Ontario Research Fund">
+              <img src="/images/funders/ontario.png" alt="Government of Ontario">
+            </a>
+            <a href="https://www.lg.com/ca_en/" target="_blank" rel="noopener" aria-label="LG" class="homepage-funder-logo-wide">
+              <img src="/images/funders/lg.png" alt="LG">
+            </a>
+            <a href="https://research.google/programs-and-events/tpu-research-cloud/" target="_blank" rel="noopener" aria-label="Google TPU Research Cloud">
+              <img src="/images/funders/google.svg" alt="Google">
+            </a>
+            <a href="https://alliancecan.ca/" target="_blank" rel="noopener" aria-label="Digital Research Alliance of Canada" class="homepage-funder-logo-xwide">
+              <img src="/images/funders/dra.png" alt="Digital Research Alliance of Canada">
+            </a>
+            <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener" aria-label="NVIDIA Academic Grant Program">
+              <img src="/images/funders/nvidia.png" alt="NVIDIA">
+            </a>
+            <a href="https://www.utoronto.ca/" target="_blank" rel="noopener" aria-label="University of Toronto" class="homepage-funder-logo-wide">
+              <img src="/images/uot-logo.png" alt="University of Toronto">
+            </a>
+          </div>
+        </div>
 ---
