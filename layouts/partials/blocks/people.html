@@ -38,12 +38,39 @@
     {{ $sort_order := cond $sort_ascending "asc" "desc" }}
     {{ $query = sort $query $sort_by $sort_order }}
 
+    {{ $group_name := . }}
+
     {{ if $query | and (gt (len $block.content.user_groups) 1) }}
       <div class="col-md-12">
         <h2 class="mb-4">{{ . | markdownify }}</h2>
       </div>
     {{ end }}
 
+    {{ if eq $group_name "Alumni" }}
+      <div class="col-md-12">
+        <ul class="people-alumni-list">
+          {{ range $query }}
+            {{ $link := "" }}
+            {{ with site.GetPage (printf "/authors/%s" (path.Base .File.Dir)) }}
+              {{ $link = .RelPermalink }}
+            {{ end }}
+            <li>
+              {{ with $link }}<a href="{{ . }}">{{ end }}{{ .Title }}{{ if $link }}</a>{{ end }}
+              {{ with .Params.placement }}
+                {{ if or .degree .program }}
+                  <span class="people-alumni-degree">({{ .degree }}{{ if and .degree .program }}, {{ end }}{{ .program }})</span>
+                {{ end }}
+                {{ with .roles }}
+                  {{ with index . 0 }}
+                    <span class="people-alumni-next">&rarr; {{ .role }}{{ with .institution }}, {{ . }}{{ end }}</span>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ else }}
     {{ range $query }}
       {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
 
@@ -97,6 +124,7 @@
         </div>
 
       </div>
+    {{ end }}
     {{ end }}
 
   {{ end }}

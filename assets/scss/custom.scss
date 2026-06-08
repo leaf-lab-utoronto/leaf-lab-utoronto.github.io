@@ -25,7 +25,7 @@
   .people-widget {
     max-width: 1128px;
     column-gap: 1rem;
-    row-gap: 2rem;
+    row-gap: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -37,6 +37,32 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+.people-alumni-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 0.25rem;
+}
+
+.people-alumni-list li {
+  font-size: 1rem;
+}
+
+.people-alumni-degree {
+  color: #666;
+  font-size: 0.875rem;
+  margin-left: 0.3rem;
+}
+
+.people-alumni-next {
+  color: #666;
+  font-size: 0.875rem;
+  margin-left: 0.4rem;
 }
 
 .result-media-link {

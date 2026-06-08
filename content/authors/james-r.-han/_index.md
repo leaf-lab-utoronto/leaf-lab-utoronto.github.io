@@ -21,6 +21,8 @@ organizations:
 # bio: M.A.Sc. Student.
 
 placement:
+  degree: M.A.Sc.
+  program: UTIAS
   roles:
     - role: Robotics ML Engineer
       institution: Tesla
