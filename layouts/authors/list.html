@@ -21,7 +21,7 @@
       {{ partial $widget $params }}
     {{end}}
 
-    {{ $query := where .Pages ".IsNode" false }}
+    {{ $query := where (where .Pages ".IsNode" false) "Section" "publication" }}
     {{ $count := len $query }}
     {{ if $count }}
     <div class="article-widget content-widget-hr">
