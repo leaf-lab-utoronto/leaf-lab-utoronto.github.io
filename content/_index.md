@@ -15,7 +15,7 @@ sections:
             <div id="profile" style="align-self: center">
               <img class="avatar avatar-square homepage-profile-photo img-fluid"
               src="/images/nr_headshot_v2.jpg" alt="Nicholas Rhinehart"
-              style="max-width: 270px; width: 100 percent; aspect-ratio: 1; object-fit: cover;"
+              style="max-width: 270px; width: 100%; aspect-ratio: 1; object-fit: cover;"
               >
               <p class="cta-btns" style="display: flex; justify-content: center; column-gap: 1vw">
                 <a href="/publication" class="btn btn-primary btn-md mb-md-1"><i class="fas fa-book-open-reader pr-1" aria-hidden="true"></i>Read our work</a>
@@ -25,7 +25,7 @@ sections:
           </div>
           <div class="col-12 col-md-9 homepage-welcome-copy-column">
             <div class="article-style homepage-welcome-copy">
-              <p>Welcome to the homepage of the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab, affiliated with the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>, <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a>, and <a href="https://cs.utoronto.ca" target="_blank">Department of Computer Science</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.</p>
+              <p>Welcome to the homepage of the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab, affiliated with the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>, <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a>, and <a href="https://web.cs.toronto.edu" target="_blank">Department of Computer Science</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.</p>
               <p>One of our central aims is general-purpose model-based control: autonomous systems that can be directed to perform a wide range of tasks by combining accurate models of the world with learned objectives. Two capabilities are essential to this vision: <em>forecasting</em>, learning to predict future observations and outcomes from rich sensor data, and <em>reward learning</em>, inferring what humans actually want from demonstrations, preferences, and other feedback. Together, these would allow an agent to simulate what will happen under different actions and select behavior aligned with human intent, without requiring hand-designed rewards or task-specific engineering. Our research draws on imitation learning, reinforcement learning, generative modeling, and information theory, with applications spanning autonomous driving, robot navigation, manipulation, and beyond.</p>
               <p>Current research thrusts include: learning transferable world models over high-dimensional sensor data such as LiDAR and occupancy; using world models to enable realistic large-scale simulation and efficient planning; and learning reward and objective functions from human feedback so that autonomous systems can perform complex tasks in alignment with human intent.</p>
               <p>Interested in joining? Learn more <a href="/apply">here</a>.</p>

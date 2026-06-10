@@ -28,7 +28,7 @@ bio: PI of LEAF Lab
 experience:
   roles:
     - role: Assistant Professor
-      institution: <a href="http:/robotics.utoronto.ca" target="_blank">University of Toronto</a>
+      institution: <a href="https://robotics.utoronto.ca" target="_blank">University of Toronto</a>
       year: 2024 -
     - role: Senior Research Scientist
       institution: <a href="https://waymo.com/research/" target="_blank">Waymo Research</a>
@@ -107,7 +107,7 @@ user_groups:
 Hi, I'm Nick Rhinehart, an Assistant Professor at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. 
 <ul>
 <li><strong>Primary Appointment</strong>: The <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a>.
-<li><strong>Cross Appointment</strong>: The <a href="https://cs.utoronto.ca" target="_blank">Department of Computer Science</a>.
+<li><strong>Cross Appointment</strong>: The <a href="https://web.cs.toronto.edu" target="_blank">Department of Computer Science</a>.
 <li><strong>Faculty Affiliate</strong>: The <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>.
 </ul>
 I lead the <a href="/">Learning, Embodied Autonomy, and Forecasting (LEAF)</a> lab. We aim to develop broadly useful autonomous systems that safely operate in complex environments by advancing the algorithmic foundations of robot learning. Our research develops efficient principled algorithms with methods from model-based and model-free reinforcement learning, imitation learning, information theory, and deep learning.
