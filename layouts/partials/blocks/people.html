@@ -28,6 +28,15 @@
     </div>
   {{ end }}
 
+  {{ with $block.content.group_photo }}
+    <div class="col-md-12">
+      <h2 class="mb-1">Group</h2>
+    </div>
+    <div class="col-md-12 mb-3">
+      <img src="{{ . }}" alt="LEAF Lab group photo" style="max-width:640px; width:100%; border-radius:8px; display:block; margin:0 auto;">
+    </div>
+  {{ end }}
+
   {{ range $block.content.user_groups }}
     {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
@@ -42,7 +51,7 @@
 
     {{ if $query | and (gt (len $block.content.user_groups) 1) }}
       <div class="col-md-12">
-        <h2 class="mb-4">{{ . | markdownify }}</h2>
+        <h2 class="mb-1">{{ . | markdownify }}</h2>
       </div>
     {{ end }}
 
@@ -87,7 +96,7 @@
         {{ if site.Params.features.avatar.gravatar }}
           {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
         {{ else if $avatar }}
-          {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+          {{ $avatar_image := $avatar.Fill "240x240 Center" }}
           {{ $src = $avatar_image.RelPermalink }}
         {{ else }}
           {{ $src = $default_avatar }}
@@ -96,7 +105,7 @@
         {{ if $src }}
           {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
           {{ with $link }}<a href="{{ . }}">{{ end }}
-            <img width="270" height="270" loading="lazy"
+            <img width="240" height="240" loading="lazy"
                  class="avatar {{ if eq $avatar_shape "square" }}avatar-square{{ else }}avatar-circle{{ end }}"
                  src="{{ $src }}"
                  alt="Avatar">

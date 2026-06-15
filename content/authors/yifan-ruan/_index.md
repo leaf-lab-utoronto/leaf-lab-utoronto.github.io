@@ -14,7 +14,7 @@ role: Ph.D. Student
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Toronto
+  - name: co-supervised with Igor Gilitchenski
     url: http://utoronto.ca
 
 # Short bio (displayed in user profile at end of posts)

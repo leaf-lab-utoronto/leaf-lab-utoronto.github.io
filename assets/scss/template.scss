@@ -138,9 +138,9 @@ nav#navbar-main {
   }
 
   .people-widget .col-sm-auto.people-person {
-    width: 270px !important;
-    flex: 0 0 270px !important;
-    max-width: 270px !important;
+    width: 240px !important;
+    flex: 0 0 240px !important;
+    max-width: 240px !important;
     padding-left: 0;
     padding-right: 0;
   }
@@ -176,6 +176,12 @@ nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 .hero-lead { max-width: 100%; }
 .home-section { padding: 30px 0; }
 .home-section:first-of-type { padding-top: 0; padding-bottom: 12px; }
+.home-section:has(.wg-people) { padding: 0 0 12px 0; }
+.page-body:has(.wg-people) { padding-top: 1rem; }
+.people-widget h2 { margin-top: 0.25rem; margin-bottom: 0.25rem !important; }
+.people-widget .section-heading { margin-bottom: 0.1rem !important; }
+.people-widget .portrait-title h2 { margin-bottom: 1.9rem; margin-top: 0.9rem; }
+.people-widget .portrait-title h3 { font-size: 0.8rem;}
 
 .homepage-welcome {
   max-width: 1120px;
@@ -372,6 +378,11 @@ nav#navbar-main a.nav-link.active { font-weight: normal !important; }
 .avatar-circle {
   border-radius: 8px;
   border: 1px solid #000;
+}
+
+.people-widget .avatar {
+  width: 85%;
+  max-width: 200px;
 }
 
 .homepage-welcome-profile {

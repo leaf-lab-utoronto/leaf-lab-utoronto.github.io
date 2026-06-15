@@ -9,6 +9,7 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       #   Careful with the naming. If a user doesn't belong to the listed groups, they won't be shown.
+      group_photo: /images/lab-group-photo.jpg
       user_groups:
         - Faculty
         - Researchers
@@ -21,7 +22,7 @@ sections:
       sort_ascending: true
     design:
       # Show user's social networking links? (true/false)
-      show_social: false
+      show_social: true
       # Show user's interests? (true/false)
       show_interests: false
       # Show user's role?

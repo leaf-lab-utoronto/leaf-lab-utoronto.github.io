@@ -14,8 +14,8 @@ role: Undergrad Student
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Toronto
-    url: http://utoronto.ca
+  # - name: University of Toronto
+  #   url: http://utoronto.ca
 
 # Short bio (displayed in user profile at end of posts)
 # bio: Ph.D. Student.
