@@ -1,0 +1,6 @@
+name = "Helvetica"
+
+heading_font = "Helvetica Neue"
+body_font = "Helvetica Neue"
+nav_font = "Helvetica Neue"
+mono_font = "Menlo"

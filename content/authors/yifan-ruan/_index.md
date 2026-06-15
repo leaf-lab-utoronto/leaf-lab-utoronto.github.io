@@ -10,12 +10,12 @@ last_name: Ruan
 superuser: false
 
 # Role/position
-role: Ph.D. Student
+role: Ph.D. Student, co-supervised by I. Gilitchenski
 
 # Organizations/Affiliations
 organizations:
-  - name: co-supervised with Igor Gilitchenski
-    url: http://utoronto.ca
+  # - name: co-supervised with Igor Gilitchenski
+  #   url: http://utoronto.ca
 
 # Short bio (displayed in user profile at end of posts)
 bio: Ph.D. student working on reinforcement learning and robotics.

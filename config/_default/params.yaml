@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: theme_leaf_lab_v2
-  font: font_leaf_lab
+  font: font_helvetica
   font_size: S
 
 # SEO
