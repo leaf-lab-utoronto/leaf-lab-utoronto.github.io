@@ -1,23 +1,23 @@
 # Publication Topic Inventory
 
-Generated: 2026-05-22T13:38:04+00:00
-Publication count: 38
+Generated: 2026-06-16T16:38:13+00:00
+Publication count: 40
 
 ## Topics
 
-- machine learning: 31
-- forecasting: 19
+- machine learning: 33
+- forecasting: 20
+- robotics: 19
+- generative models: 17
 - imitation learning: 17
-- robotics: 17
 - computer vision: 16
-- generative models: 16
 - autonomous driving: 15
-- reinforcement learning: 10
-- model-based control: 9
+- reinforcement learning: 11
+- model-based control: 10
 - reward learning: 8
 - autonomous exploration: 5
+- offroad navigation: 5
 - first-person video: 4
-- offroad navigation: 4
 - intrinsic control: 3
 - manipulation: 2
 - paper award: 2
@@ -220,6 +220,20 @@ The topic hints below are keyword-derived inventory metadata, not review flags.
 - Date: 2021-01-01
 - Current tags: autonomous exploration, intrinsic control, generative models, reinforcement learning
 - Keyword-derived topic hints: autonomous exploration, computer vision, forecasting, generative models, intrinsic control, machine learning, model-based control, reinforcement learning, reward learning, robotics
+
+### QPILOTS: Efficient Test-Time Q-Steering for Flow Policies
+
+- Slug: `ruan-2026-qpilots`
+- Date: 2026-06-11
+- Current tags: reinforcement learning, machine learning, robotics, generative models
+- Keyword-derived topic hints: benchmarks, computer vision, forecasting, generative models, machine learning, manipulation, model-based control, reinforcement learning, robotics
+
+### OSCAR: Obstacle Survival Curves for Adaptive Robot Navigation
+
+- Slug: `sahak-2026-oscar`
+- Date: 2026-06-01
+- Current tags: robotics, model-based control, offroad navigation, machine learning, forecasting
+- Keyword-derived topic hints: forecasting, model-based control, robotics
 
 ### Rapid exploration for open-world navigation with latent goal models
 

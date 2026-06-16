@@ -67,7 +67,8 @@
   {{- $featured := partial "blox-core/functions/get_featured_image.html" $item -}}
   {{- $anchor := $item.Params.image.focal_point | default "Smart" -}}
   {{- with $featured -}}
-    {{- $image := .Fill (printf "400x267 %s" $anchor) -}}
+    {{- $imageSize := cond (eq $size "single") "808x455" "400x267" -}}
+    {{- $image := .Fill (printf "%s %s" $imageSize $anchor) -}}
     {{- if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end -}}
     <a href="{{ $item.RelPermalink }}" class="result-media-link {{ $class }}" aria-label="{{ $item.Title }}">
       <div class="img-hover-zoom border-solid-1px-k pub-thumbnail result-media result-media-{{ $size }}">

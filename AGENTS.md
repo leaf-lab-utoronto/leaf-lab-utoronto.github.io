@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Codex (Codex.ai/code) when working with code in this repository.
 
 ## Project Overview
 
@@ -132,3 +132,5 @@ ln -s /usr/local/Cellar/x265/4.1/lib/libx265.215.dylib /usr/local/opt/x265/lib/l
 - When checking visual changes, first try the already-running Hugo server at `http://127.0.0.1:1313/` before starting another server. Hugo builds can appear slow or stall on this repo, especially with `--gc --minify`.
 - For rendered snapshots, capture pages serially rather than in parallel. Headless Chrome has been more reliable than the in-app browser screenshot path for this site; write temporary snapshots under `/private/tmp/leaf-site-snapshots/`.
 - Treat generated artifacts and reports carefully: do not hand-edit `metadata/`, and do not revert unrelated dirty worktree changes.
+
+## Imported Claude Cowork project instructions

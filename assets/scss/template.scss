@@ -12,7 +12,12 @@ $navbar-bg:   $brand-blue;
 html { overflow-y: scroll; }
 
 body, h1, h2, h3, h4, h5, h6, nav, .nav-link, button, input, select, textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 // ------------------------------------------------------------
@@ -161,6 +166,18 @@ nav#navbar-main {
 nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 
 @media (max-width: 991.98px) {
+  nav#navbar-main .navbar-toggler {
+    min-width: 72px;
+    min-height: 52px;
+    padding: 0.55rem 0.75rem;
+    font-size: 1.55rem;
+  }
+
+  nav#navbar-main .navbar-toggler .fa-bars {
+    font-size: 1.55rem;
+    transform: scaleX(1.35);
+  }
+
   nav#navbar-main .navbar-collapse {
     background-color: #fff;
   }
@@ -328,32 +345,67 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 }
 
 .wg-collection:has(.homepage-news-marker) {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .wg-collection:has(.homepage-news-marker) .section-heading h1 {
-  font-size: 2.25rem;
+  font-size: 2.6rem;
+  line-height: 1;
 }
 
 .wg-collection:has(.homepage-news-marker) > .container > .row > .section-heading {
-  margin-bottom: 0.6rem !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .wg-collection:has(.homepage-news-marker) > .container > .row > .col-12.col-lg-8 {
-  column-count: 2;
-  column-gap: 2.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(4, auto);
+  grid-auto-flow: column;
+  column-gap: 3rem;
+  row-gap: 0.85rem;
 }
 
 .wg-collection:has(.homepage-news-marker) .view-list-item {
-  break-inside: avoid;
-  margin-bottom: 0.325rem;
-  font-size: 0.9rem;
+  display: grid;
+  grid-template-columns: 1.1rem minmax(0, 1fr);
+  column-gap: 0.6rem;
+  align-items: start;
+  margin-bottom: 0;
 }
 
 .wg-collection:has(.homepage-news-marker) .article-metadata {
-  margin-top: 0.1rem;
-  font-size: 0.86rem;
+  grid-column: 2;
+  margin-top: 0.22rem;
+  font-size: 0.88rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.wg-collection:has(.homepage-news-marker) .view-list-item .pub-icon {
+  margin-top: 0.22rem;
+  color: #6f7479;
+  font-size: 0.92rem;
+}
+
+.wg-collection:has(.homepage-news-marker) .view-list-item > a {
+  font-size: 1.02rem;
+  font-weight: 300;
+  line-height: 1.28;
+}
+
+.wg-collection:has(.homepage-news-marker) p:has(.homepage-news-marker) {
+  display: none;
+}
+
+.wg-collection:has(.homepage-news-marker) .see-all {
+  grid-column: 2;
+  grid-row: 4;
+  justify-self: start;
+  margin-top: 0.45rem;
+  font-size: 0.97rem;
+  font-weight: 300;
 }
 
 .homepage-news-marker,
@@ -453,7 +505,23 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
   }
 
   .wg-collection:has(.homepage-news-marker) > .container > .row > .col-12.col-lg-8 {
-    column-count: 1;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-flow: row;
+    row-gap: 0.85rem;
+  }
+
+  .wg-collection:has(.homepage-news-marker) .section-heading h1 {
+    font-size: 2.25rem;
+  }
+
+  .wg-collection:has(.homepage-news-marker) .view-list-item > a {
+    font-size: 0.96rem;
+  }
+
+  .wg-collection:has(.homepage-news-marker) .see-all {
+    grid-column: 1;
+    grid-row: auto;
   }
 
   .pub-thumbnail {

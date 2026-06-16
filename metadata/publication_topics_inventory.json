@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-22T13:38:04+00:00",
+  "generated_at": "2026-06-16T16:38:13+00:00",
   "content_dir": "content/publication",
-  "publication_count": 38,
+  "publication_count": 40,
   "topic_count": 19,
   "topics": [
     {
       "tag": "machine learning",
-      "count": 31,
+      "count": 33,
       "publications": [
         "ashok-2018-n-2-n",
         "berseth-2019-smirl",
@@ -29,6 +29,8 @@
         "rhinehart-2018-first",
         "rhinehart-2018-r-2-p-2",
         "rhinehart-2021-contingencies",
+        "ruan-2026-qpilots",
+        "sahak-2026-oscar",
         "shah-2021-ving",
         "shah-2022-offline",
         "shankar-2018-learning",
@@ -43,7 +45,7 @@
     },
     {
       "tag": "forecasting",
-      "count": 19,
+      "count": 20,
       "publications": [
         "guan-2019-generative",
         "han-2024-drmpc",
@@ -59,9 +61,58 @@
         "rhinehart-2019-precog",
         "rhinehart-2020-deep",
         "rhinehart-2021-contingencies",
+        "sahak-2026-oscar",
         "venkatraman-2017-predictive",
         "vernaza-2020-generative",
         "vernaza-2021-traffic",
+        "weng-2022-s-2-net",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "robotics",
+      "count": 19,
+      "publications": [
+        "cao-2025-rrms",
+        "dashora-2022-hybrid",
+        "han-2024-drmpc",
+        "han-2025-ratatouille",
+        "liu-2025-flwms",
+        "liu-2026-occsim",
+        "montali-2024-waymo",
+        "packer-2023-anyone",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2021-contingencies",
+        "ruan-2026-qpilots",
+        "sahak-2026-oscar",
+        "shah-2021-rapid",
+        "shah-2021-ving",
+        "shah-2022-offline",
+        "sharma-2019-directed",
+        "singh-2020-parrot",
+        "weng-2021-inverting",
+        "yang-2024-carff"
+      ]
+    },
+    {
+      "tag": "generative models",
+      "count": 17,
+      "publications": [
+        "guan-2019-generative",
+        "liu-2025-flwms",
+        "liu-2026-occsim",
+        "packer-2023-anyone",
+        "pourkeshavarz-2026-autoworld",
+        "rhinehart-2018-r-2-p-2",
+        "rhinehart-2019-jointly",
+        "rhinehart-2019-precog",
+        "rhinehart-2020-deep",
+        "rhinehart-2021-information",
+        "ruan-2026-qpilots",
+        "singh-2020-parrot",
+        "vernaza-2020-generative",
+        "vernaza-2021-traffic",
+        "weng-2021-inverting",
         "weng-2022-s-2-net",
         "yang-2024-carff"
       ]
@@ -90,29 +141,6 @@
       ]
     },
     {
-      "tag": "robotics",
-      "count": 17,
-      "publications": [
-        "cao-2025-rrms",
-        "dashora-2022-hybrid",
-        "han-2024-drmpc",
-        "han-2025-ratatouille",
-        "liu-2025-flwms",
-        "liu-2026-occsim",
-        "montali-2024-waymo",
-        "packer-2023-anyone",
-        "pourkeshavarz-2026-autoworld",
-        "rhinehart-2021-contingencies",
-        "shah-2021-rapid",
-        "shah-2021-ving",
-        "shah-2022-offline",
-        "sharma-2019-directed",
-        "singh-2020-parrot",
-        "weng-2021-inverting",
-        "yang-2024-carff"
-      ]
-    },
-    {
       "tag": "computer vision",
       "count": 16,
       "publications": [
@@ -131,28 +159,6 @@
         "shah-2021-ving",
         "shah-2022-offline",
         "weng-2021-inverting",
-        "yang-2024-carff"
-      ]
-    },
-    {
-      "tag": "generative models",
-      "count": 16,
-      "publications": [
-        "guan-2019-generative",
-        "liu-2025-flwms",
-        "liu-2026-occsim",
-        "packer-2023-anyone",
-        "pourkeshavarz-2026-autoworld",
-        "rhinehart-2018-r-2-p-2",
-        "rhinehart-2019-jointly",
-        "rhinehart-2019-precog",
-        "rhinehart-2020-deep",
-        "rhinehart-2021-information",
-        "singh-2020-parrot",
-        "vernaza-2020-generative",
-        "vernaza-2021-traffic",
-        "weng-2021-inverting",
-        "weng-2022-s-2-net",
         "yang-2024-carff"
       ]
     },
@@ -179,7 +185,7 @@
     },
     {
       "tag": "reinforcement learning",
-      "count": 10,
+      "count": 11,
       "publications": [
         "ashok-2018-n-2-n",
         "berseth-2019-smirl",
@@ -189,13 +195,14 @@
         "han-2024-drmpc",
         "rhinehart-2019-jointly",
         "rhinehart-2021-information",
+        "ruan-2026-qpilots",
         "shah-2022-offline",
         "venkatraman-2017-predictive"
       ]
     },
     {
       "tag": "model-based control",
-      "count": 9,
+      "count": 10,
       "publications": [
         "dashora-2022-hybrid",
         "filos-2020-can",
@@ -204,6 +211,7 @@
         "rhinehart-2019-jointly",
         "rhinehart-2020-deep",
         "rhinehart-2021-contingencies",
+        "sahak-2026-oscar",
         "shah-2021-rapid",
         "shah-2021-ving"
       ]
@@ -234,6 +242,17 @@
       ]
     },
     {
+      "tag": "offroad navigation",
+      "count": 5,
+      "publications": [
+        "dashora-2022-hybrid",
+        "sahak-2026-oscar",
+        "shah-2021-rapid",
+        "shah-2021-ving",
+        "shah-2022-offline"
+      ]
+    },
+    {
       "tag": "first-person video",
       "count": 4,
       "publications": [
@@ -241,16 +260,6 @@
         "rhinehart-2016-learning",
         "rhinehart-2017-first",
         "rhinehart-2018-first"
-      ]
-    },
-    {
-      "tag": "offroad navigation",
-      "count": 4,
-      "publications": [
-        "dashora-2022-hybrid",
-        "shah-2021-rapid",
-        "shah-2021-ving",
-        "shah-2022-offline"
       ]
     },
     {
@@ -1728,6 +1737,103 @@
         ],
         "robotics": [
           "\\bcontrol\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "ruan-2026-qpilots",
+      "path": "content/publication/ruan-2026-qpilots/index.md",
+      "title": "QPILOTS: Efficient Test-Time Q-Steering for Flow Policies",
+      "date": "2026-06-11",
+      "publication": "*arXiv:2606.14801*",
+      "publication_short": "**arXiv**",
+      "tags": [
+        "reinforcement learning",
+        "machine learning",
+        "robotics",
+        "generative models"
+      ],
+      "abstract": "Flow-matching and diffusion policies are expressive action generators, but optimizing them with temporal-difference reinforcement learning (RL) remains difficult. Effective policy extraction requires exploiting the critic's action gradient, yet directly backpropagating this signal through a multi-step denoising process can be numerically unstable. Existing methods work around this either by discarding gradient information, distilling the policy into a simpler one-step actor, or repeatedly fine-tuning the denoising policy as the critic improves. We propose QPILOTS, a method that leaves the original policy unmodified and steers the denoising process at inference time. At each denoising step, instead of evaluating the critic on the noisy intermediate action where critic predictions are unreliable, we first project that intermediate state to an estimate of the final clean action and compute the critic gradient there. We introduce two variants: QPILOTS-U uses a fast single-point approximation, while QPILOTS-M draws differentiable posterior samples via a learned auxiliary network. On a standard offline-to-online RL benchmark, QPILOTS achieves the best aggregate performance, reaching an average success rate of 90% across 50 tasks. We also apply QPILOTS to steer a large, frozen, pretrained Vision-Language Action (VLA) foundation model, outperforming or matching prior inference-time approaches across six manipulation tasks in simulation.",
+      "url_pdf": "https://arxiv.org/pdf/2606.14801",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "benchmarks",
+        "computer vision",
+        "forecasting",
+        "generative models",
+        "machine learning",
+        "manipulation",
+        "model-based control",
+        "reinforcement learning",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "benchmarks": [
+          "\\bbenchmark\\b"
+        ],
+        "computer vision": [
+          "\\bvision\\b"
+        ],
+        "forecasting": [
+          "\\bsimulation\\b"
+        ],
+        "generative models": [
+          "\\bdiffusion\\b"
+        ],
+        "machine learning": [
+          "\\blearning\\b",
+          "\\bmodel\\b"
+        ],
+        "manipulation": [
+          "\\bmanipulation\\b"
+        ],
+        "model-based control": [
+          "\\bpolicy\\b"
+        ],
+        "reinforcement learning": [
+          "\\breinforcement learning\\b",
+          "\\brl\\b"
+        ],
+        "robotics": [
+          "\\bmanipulation\\b"
+        ]
+      },
+      "review_flags": []
+    },
+    {
+      "slug": "sahak-2026-oscar",
+      "path": "content/publication/sahak-2026-oscar/index.md",
+      "title": "OSCAR: Obstacle Survival Curves for Adaptive Robot Navigation",
+      "date": "2026-06-01",
+      "publication": "*arXiv:2606.00990*",
+      "publication_short": "**arXiv**",
+      "tags": [
+        "robotics",
+        "model-based control",
+        "offroad navigation",
+        "machine learning",
+        "forecasting"
+      ],
+      "abstract": "A mobile robot following a graph of known routes can make costly navigation errors when a temporary obstacle blocks a critical edge: waiting too long behind a parked cart wastes time, but immediately rerouting around a person who would move in a few seconds is also inefficient. Standard reactive obstacle avoidance addresses local motion around obstacles, while fixed wait-or-reroute rules ignore how long different obstacle types tend to persist. We propose OSCAR: an adaptive survival-modeling framework for graph-based navigation with temporary blockages. Assuming obstacle class labels are available at encounter time, the robot learns class-conditioned residual clearance-time distributions from online experience, including right-censored observations when it reroutes before observing clearance. These survival models are integrated into a time-dependent graph planner that maintains obstacle memory and computes a patience threshold at each blocked edge: how long to wait before taking an alternate route. The method continuously updates its clearance estimates across episodes and uses them to balance waiting against rerouting. We evaluate the approach in simulation and on a real mobile robot in a university atrium with obstacles including people, chairs, bins, and tubes. In simulation, the learned policy's time-to-goal converges to within 1% of an oracle with access to ground-truth clearance distributions after fewer than 20 observations per obstacle class, outperforming all heuristic baselines. Real-world deployment confirms that the policy improves online, adapting its patience thresholds from experience across 50 navigation episodes.",
+      "url_pdf": "https://arxiv.org/pdf/2606.00990",
+      "local_pdfs": [],
+      "suggested_topics": [
+        "forecasting",
+        "model-based control",
+        "robotics"
+      ],
+      "topic_evidence": {
+        "forecasting": [
+          "\\bsimulation\\b"
+        ],
+        "model-based control": [
+          "\\bplanner\\b",
+          "\\bpolicy\\b"
+        ],
+        "robotics": [
+          "\\brobot(?:s|ic|ics)?\\b",
+          "\\bnavigation\\b"
         ]
       },
       "review_flags": []
