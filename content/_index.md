@@ -10,7 +10,7 @@ sections:
       title: ''
       text: |
         <div class="row homepage-welcome">
-          <div class="section-heading homepage-welcome-profile col-12 col-md-3 d-flex flex-column align-items-center align-items-md-start">
+          <div class="section-heading homepage-welcome-profile col-12 col-lg-3 d-flex flex-column align-items-center align-items-lg-start">
             <h1 class="mb-0" style="align-self: center">Welcome</h1>  
             <div id="profile" style="align-self: center">
               <img class="avatar avatar-square homepage-profile-photo img-fluid"
@@ -23,7 +23,7 @@ sections:
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-9 homepage-welcome-copy-column">
+          <div class="col-12 col-lg-9 homepage-welcome-copy-column">
             <div class="article-style homepage-welcome-copy">
               <p>Welcome to the homepage of the <strong>Learning, Embodied Autonomy, and Forecasting (LEAF)</strong> lab, affiliated with the <a href="https://robotics.utoronto.ca" target="_blank">Robotics Institute</a>, <a href="https://utias.utoronto.ca" target="_blank">Institute for Aerospace Studies</a>, and <a href="https://web.cs.toronto.edu" target="_blank">Department of Computer Science</a> at the <a href="https://utoronto.ca" target="_blank">University of Toronto</a>. The LEAF lab is led by <a href="author/nicholas-rhinehart/">Prof. Nick Rhinehart</a>.</p>
               <p>One of our central aims is general-purpose model-based control: autonomous systems that can be directed to perform a wide range of tasks by combining accurate models of the world with learned objectives. Two capabilities are essential to this vision: <em>forecasting</em>, learning to predict future observations and outcomes from rich sensor data, and <em>reward learning</em>, inferring what humans actually want from demonstrations, preferences, and other feedback. Together, these would allow an agent to simulate what will happen under different actions and select behavior aligned with human intent, without requiring hand-designed rewards or task-specific engineering. Our research draws on imitation learning, reinforcement learning, generative modeling, and information theory, with applications spanning autonomous driving, robot navigation, manipulation, and beyond.</p>

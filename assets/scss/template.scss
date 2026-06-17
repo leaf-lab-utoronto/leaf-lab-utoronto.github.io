@@ -374,6 +374,7 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
   column-gap: 0.6rem;
   row-gap: 0.22rem;
   align-items: start;
+  align-content: start;
   margin-bottom: 0;
 }
 
@@ -478,7 +479,7 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
   border-radius: 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .homepage-welcome-profile {
     margin-bottom: 0.75rem;
   }
@@ -512,7 +513,9 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
   .homepage-welcome-copy p {
     margin-bottom: 0.7rem;
   }
+}
 
+@media (max-width: 767.98px) {
   .wg-collection:has(.homepage-news-marker) > .container > .row > .col-12.col-lg-8 {
     grid-template-columns: 1fr;
     grid-template-rows: none;
