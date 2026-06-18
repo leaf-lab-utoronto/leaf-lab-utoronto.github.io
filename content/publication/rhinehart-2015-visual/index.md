@@ -50,6 +50,7 @@ abstract: >-
 publication: '*IEEE International Conference on Robotics and Automation*'
 publication_short: '**ICRA**'
 url_doi: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7139960
+url_pdf: https://arxiv.org/pdf/1410.7376
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

@@ -63,6 +63,7 @@ abstract: >-
   terms of both exploration and zero-shot transfer to downstream tasks.
 publication: '*arXiv preprint arXiv:2107.07394*'
 url_pdf: https://arxiv.org/pdf/2107.07394 
+url_doi: https://doi.org/10.48550/arXiv.2107.07394
 url_project: https://sites.google.com/view/adversarialsurprise/home
 url_code: https://github.com/ArnaudFickinger/adversarial-surprise
 paper_versions:

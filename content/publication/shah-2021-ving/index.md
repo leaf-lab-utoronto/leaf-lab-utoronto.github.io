@@ -64,6 +64,7 @@ abstract: >-
   xmlns:xlink="http://www.w3.org/1999/xlink">1</sup> .
 publication: '*IEEE International Conference on Robotics and Automation*'
 url_pdf: https://escholarship.org/content/qt93m2m6w0/qt93m2m6w0.pdf
+url_doi: https://doi.org/10.1109/ICRA48506.2021.9561936
 url_project: https://sites.google.com/view/ving-robot/home
 publication_short: '**ICRA**'
 paper_versions:

@@ -80,7 +80,8 @@ abstract: >-
   of multiple agents [175].
 publication: ''
 url_project: https://kilthub.cmu.edu/articles/thesis/Jointly_Forecasting_and_Controlling_Behavior_by_Learning_from_High-Dimensional_Data/9934172
-# url_pdf: './paper.pdf'
+url_pdf: https://kilthub.cmu.edu/ndownloader/files/17877146
+url_doi: https://doi.org/10.1184/R1/9934172
 paper_versions:
 - retrieved_at: '2026-05-22T01:21:55+00:00'
   source: 'figshare'

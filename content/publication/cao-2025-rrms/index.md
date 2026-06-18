@@ -25,6 +25,7 @@ url_pdf: https://arxiv.org/pdf/2507.00611
 url_project: https://sunlighted.github.io/RRM-web/
 publication: '*arXiv:2507.00611*'
 publication_short: '**arXiv**'
+url_doi: https://doi.org/10.48550/arXiv.2507.00611
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -82,6 +82,42 @@ a { font-weight: 300; }
 }
 
 // ------------------------------------------------------------
+// Citation modal
+// ------------------------------------------------------------
+#modal .modal-dialog {
+  width: calc(100vw - 2rem);
+  max-width: 900px;
+}
+
+#modal .modal-content {
+  overflow: hidden;
+}
+
+#modal .modal-body {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+#modal .modal-body pre {
+  margin-bottom: 0;
+  white-space: pre-wrap;
+}
+
+#modal .modal-body code {
+  color: inherit;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+#modal .modal-footer {
+  gap: 0.4rem;
+}
+
+#modal .modal-footer .btn {
+  margin: 0;
+}
+
+// ------------------------------------------------------------
 // Navbar (top) styles
 // ------------------------------------------------------------
 nav#navbar-main {

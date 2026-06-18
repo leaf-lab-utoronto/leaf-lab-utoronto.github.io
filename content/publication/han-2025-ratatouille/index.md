@@ -15,6 +15,7 @@ publishDate: '2025-09-21'
 url_pdf: https://arxiv.org/pdf/2509.17204
 publication: '*arXiv:2509.17204*'
 publication_short: '**arXiv**'
+url_doi: https://doi.org/10.48550/arXiv.2509.17204
 publication_types:
 - 'preprint'
 

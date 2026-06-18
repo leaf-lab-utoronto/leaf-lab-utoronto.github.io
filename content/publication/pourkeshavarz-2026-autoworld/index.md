@@ -12,6 +12,7 @@ lastmod: 2026-03-30
 publishDate: '2026-03-30'
 url_pdf: https://arxiv.org/pdf/2603.28963
 url_doi: https://doi.org/10.48550/arXiv.2603.28963
+url_project: https://mpourkeshavarz.github.io/AutoWorld/
 publication: '*arXiv:2603.28963*'
 publication_short: '**arXiv**'
 publication_types:

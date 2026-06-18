@@ -57,6 +57,7 @@ abstract: >-
 publication: '*Advances in Neural Information Processing Systems*'
 publication_short: '**NeurIPS**'
 url_doi: https://dl.acm.org/doi/abs/10.5555/3666122.3668704
+url_project: https://waymo.com/open/challenges/2023/sim-agents/
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

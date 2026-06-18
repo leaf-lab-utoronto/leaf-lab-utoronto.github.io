@@ -55,6 +55,7 @@ publication: '*Proceedings of the 17th International Conference on Autonomous Ag
   and MultiAgent Systems*'
 publication_short: '**AAMAS**'
 url_pdf: https://arxiv.org/pdf/1806.08479
+url_doi: https://doi.org/10.65109/GWPX3494
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

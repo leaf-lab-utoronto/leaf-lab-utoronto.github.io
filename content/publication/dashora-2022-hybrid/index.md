@@ -60,6 +60,8 @@ abstract: >-
 publication: '*International Conference on Robotics and Automation*'
 publication_short: '**ICRA**'
 url_pdf: https://arxiv.org/pdf/2111.10948
+url_doi: https://doi.org/10.1109/ICRA46639.2022.9811540
+url_project: https://sites.google.com/view/hybrid-imitative-planning
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

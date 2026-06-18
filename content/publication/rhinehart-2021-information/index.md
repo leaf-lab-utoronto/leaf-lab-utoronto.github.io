@@ -52,6 +52,7 @@ abstract: >-
 publication: '*Advances in Neural Information Processing Systems*'
 publication_short: '**NeurIPS**'
 url_pdf: https://proceedings.neurips.cc/paper_files/paper/2021/file/59112692262234e3fad47fa8eabf03a4-Paper.pdf
+url_doi: https://doi.org/10.48550/arXiv.2112.03899
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

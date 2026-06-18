@@ -57,6 +57,7 @@ abstract: >-
   crowded situations with few errors using less than 4 hours of training data.
 publication: '*IEEE Robotics and Automation Letters*'
 publication_short: '**RA-L**'
+url_doi: https://doi.org/10.1109/LRA.2025.3546106
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

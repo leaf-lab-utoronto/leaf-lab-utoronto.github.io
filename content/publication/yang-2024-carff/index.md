@@ -55,6 +55,7 @@ abstract: >-
   driving scenarios involving occlusions.
 publication: '*European Conference on Computer Vision*'
 publication_short: '**ECCV**'
+url_doi: https://doi.org/10.48550/arXiv.2401.18075
 paper_versions:
 - retrieved_at: '2026-05-22T01:17:27+00:00'
   source: 'arxiv-page'

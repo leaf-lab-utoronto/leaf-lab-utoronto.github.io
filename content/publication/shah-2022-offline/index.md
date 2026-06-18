@@ -53,6 +53,7 @@ abstract: >-
   dataset, and exhibit behaviors that qualitatively differ based on the user-specified
   reward function.
 url_pdf: https://proceedings.mlr.press/v205/shah23a/shah23a.pdf
+url_doi: https://proceedings.mlr.press/v205/shah23a.html
 url_project: https://sites.google.com/view/revind
 url_code: https://github.com/arjunbhorkar/ReViND
 publication: '*Conference on Robot Learning*'

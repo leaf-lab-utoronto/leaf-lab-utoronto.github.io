@@ -59,6 +59,7 @@ abstract: >-
   larger `teacher' networks.
 publication: '*International Conference on Learning Representations*'
 publication_short: '**ICLR**'
+url_doi: https://openreview.net/forum?id=B1hcZZ-AW
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

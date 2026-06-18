@@ -58,6 +58,8 @@ abstract: >-
 publication: '*International Conference on Machine Learning*'
 publication_short: '**ICML**'
 url_pdf: http://proceedings.mlr.press/v119/filos20a/filos20a.pdf
+url_doi: http://proceedings.mlr.press/v119/filos20a.html
+url_project: https://sites.google.com/view/av-detect-recover-adapt
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

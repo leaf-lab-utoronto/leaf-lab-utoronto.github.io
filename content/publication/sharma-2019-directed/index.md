@@ -52,6 +52,7 @@ abstract: >-
 publication: '*International Conference on Learning Representations (ICLR)*'
 publication_short: '**ICLR**'
 url_pdf: https://arxiv.org/pdf/1810.01266
+url_doi: https://doi.org/10.48550/arXiv.1810.01266
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

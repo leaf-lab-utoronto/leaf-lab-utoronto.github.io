@@ -56,6 +56,7 @@ publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
 
 url_pdf: https://proceedings.mlr.press/v164/shah22a/shah22a.pdf
+url_doi: https://proceedings.mlr.press/v164/shah22a.html
 url_project: https://sites.google.com/view/recon-robot
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'

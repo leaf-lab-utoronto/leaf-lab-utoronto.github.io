@@ -55,6 +55,7 @@ abstract: >-
 publication: '*Proceedings of the European Conference on Computer Vision*'
 publication_short: '**ECCV**'
 url_doi: https://link.springer.com/chapter/10.1007/978-3-030-01261-8_47
+url_pdf: https://openaccess.thecvf.com/content_ECCV_2018/papers/Nicholas_Rhinehart_R2P2_A_ReparameteRized_ECCV_2018_paper.pdf
 paper_versions:
 - retrieved_at: '2026-05-22T01:21:55+00:00'
   source: 'source-page'

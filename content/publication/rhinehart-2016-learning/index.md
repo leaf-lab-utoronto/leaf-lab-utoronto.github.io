@@ -54,6 +54,7 @@ abstract: >-
 publication: '*The IEEE Conference on Computer Vision and Pattern Recognition*'
 publication_short: '**CVPR**'
 url_pdf: https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Rhinehart_Learning_Action_Maps_CVPR_2016_paper.pdf
+url_doi: https://doi.org/10.1109/CVPR.2016.69
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

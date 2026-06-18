@@ -51,6 +51,7 @@ abstract: >-
 publication: '*IEEE Transactions on Pattern Analysis and Machine Intelligence*'
 publication_short: '**PAMI**'
 url_doi: https://ieeexplore.ieee.org/document/8481580
+url_pdf: https://arxiv.org/pdf/1612.07796
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

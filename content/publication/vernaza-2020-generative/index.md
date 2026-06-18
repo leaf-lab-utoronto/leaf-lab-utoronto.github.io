@@ -46,6 +46,7 @@ abstract: >-
   speaker upon an alert system recognizing hazardous trajectories of the probable future
   trajectories.
 publication: 'U.S. Patent 10,739,773'
+url_pdf: https://patentimages.storage.googleapis.com/de/b8/10/858d9e59d0fbba/US10739773.pdf
 paper_versions:
 - retrieved_at: '2026-05-22T01:21:55+00:00'
   source: 'source-page'

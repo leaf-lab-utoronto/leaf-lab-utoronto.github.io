@@ -54,6 +54,7 @@ abstract: >-
 publication: '*Conference on Computer Vision and Pattern Recognition*'
 publication_short: '**CVPR**'
 url_pdf: https://openaccess.thecvf.com/content_CVPR_2020/papers/Guan_Generative_Hybrid_Representations_for_Activity_Forecasting_With_No-Regret_Learning_CVPR_2020_paper.pdf
+url_doi: https://doi.org/10.1109/CVPR42600.2020.00025
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'
