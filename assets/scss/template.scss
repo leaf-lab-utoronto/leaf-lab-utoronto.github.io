@@ -472,8 +472,8 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 }
 
 .wg-collection:has(.homepage-recent-publications-marker) .pub-thumbnail img {
-  width: 280px;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .wg-collection:has(.homepage-recent-publications-marker) .btn-links,
