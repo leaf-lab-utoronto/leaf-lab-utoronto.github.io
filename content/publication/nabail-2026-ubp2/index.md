@@ -41,7 +41,7 @@ summary: ''
 result_media:
   src: result-candidates/ubp2-snippet.gif
   type: image
-  alt: UBP2 result animation
+  alt: UBP2 animation
 
 featured: false
 draft: false
