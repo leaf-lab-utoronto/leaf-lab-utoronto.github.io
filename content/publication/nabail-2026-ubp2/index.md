@@ -4,8 +4,8 @@
 title: 'UBP2: Uncertainty-Balanced Preference Planning for Efficient Preference-based Reinforcement Learning'
 authors:
 - Mohamed Nabail
-- Leo Cheng
-- Jingmin Wang
+- Leo Kaixuan Cheng*
+- Jingmin Wang*
 - Nicholas Rhinehart
 tags: ["reinforcement learning", "machine learning", "model-based control", "robotics", "reward learning"]
 date: '2026-06-17'
@@ -13,6 +13,7 @@ lastmod: 2026-06-17
 publishDate: '2026-06-17'
 url_pdf: https://arxiv.org/pdf/2606.19328
 url_doi: https://doi.org/10.48550/arXiv.2606.19328
+url_project: https://mohamedgnabail.github.io/ubp2/
 publication: '*arXiv:2606.19328*'
 publication_short: '**arXiv**'
 publication_types:
@@ -37,6 +38,11 @@ abstract: >-
 categories: []
 subtitle: ''
 summary: ''
+result_media:
+  src: result-candidates/ubp2-snippet.gif
+  type: image
+  alt: UBP2 animation
+
 featured: false
 draft: false
 
