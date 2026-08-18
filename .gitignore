@@ -5,6 +5,7 @@
 /resources/
 public/
 assets/jsconfig.json
+drafts/
 
 # Mac
 .DS_Store
