@@ -3,21 +3,19 @@
 // ------------------------------------------------------------
 $brand-blue:  #1E3765;
 $accent-teal: #007894;
-$navbar-bg:   $brand-blue;
+$navbar-bg:   #fff;
+$rule-color:  rgba(0, 0, 0, 0.1);
+$text-color:  #000;
 
 // ------------------------------------------------------------
 // Fixes annoying issues with layouts being different dependent
 // on the presence of a scrollbar.
 // ------------------------------------------------------------
-html { overflow-y: scroll; }
-
-body, h1, h2, h3, h4, h5, h6, nav, .nav-link, button, input, select, textarea {
-  font-family: Helvetica, Arial, sans-serif !important;
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  overflow-y: scroll;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 // ------------------------------------------------------------
@@ -32,10 +30,9 @@ body {
   .page-body:has(.compact-page-header) .article-style h2:first-child { margin-top: 0.5rem; }
 }
 
-// Custom paragraph spacing.
 p {
-  margin-top: 1em;
-  margin-bottom: 1.25em;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 
@@ -43,8 +40,29 @@ p {
 // ------------------------------------------------------------
 // Base link weight
 // ------------------------------------------------------------
-body { font-weight: 300; }
-a { font-weight: 300; }
+body {
+  color: $text-color;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+a { font-weight: inherit; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+strong {
+  font-weight: 400 !important;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
 
 // ------------------------------------------------------------
 // Make text underline on hover in .article-style.
@@ -76,7 +94,7 @@ a { font-weight: 300; }
 /* Make single-article pages wider */
 .article-container,
 .article-style {
-  max-width: 1000px;
+  max-width: 860px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -121,33 +139,57 @@ a { font-weight: 300; }
 // Navbar (top) styles
 // ------------------------------------------------------------
 nav#navbar-main {
-  font-size: 18px;
+  box-shadow: none;
+  border-bottom: 1px solid $rule-color;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
   font-weight: 300 !important;
   background-color: $navbar-bg;
-  height: 75px;
-  align-items: stretch;
+  min-height: 56px;
+  height: 56px;
+  align-items: center;
+  opacity: 0.98;
 
   // Ensure nav-links are not bold (since they're big already).
   a.nav-link {
-    color: #fff !important;
+    color: $text-color !important;
     font-weight: 300 !important;
+    line-height: 1.5;
     position: relative;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
   }
 
   a.nav-link:hover,
   a.nav-link:focus,
   a.nav-link.active {
-    color: #fff !important;
+    color: $brand-blue !important;
   }
 
   .navbar-toggler,
   .nav-icons .nav-link,
   .navbar-brand {
-    color: #fff !important;
+    color: $text-color !important;
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    min-height: 56px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400 !important;
+  }
+
+  .navbar-brand img {
+    filter: brightness(0) saturate(100%) invert(17%) sepia(33%) saturate(1645%) hue-rotate(182deg) brightness(91%) contrast(91%);
+    max-height: 34px;
+    width: auto;
   }
 
   // Spacing for items
-  li.nav-item { margin: 0 1rem; }
+  li.nav-item { margin: 0 0.55rem; }
 
   // Dropdown size
   .navbar .dropdown-menu { font-size: 16px; }
@@ -161,11 +203,11 @@ nav#navbar-main {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: 0.25rem;
     display: block;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: $brand-blue;
     transition: width 0.2s ease, left 0.2s ease;
     // transparent bg reset
     background-repeat: no-repeat;
@@ -199,19 +241,19 @@ nav#navbar-main {
 }
 
 // Keep active nav weight normal (theme sometimes bolds it)
-nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
+nav#navbar-main a.nav-link.active { font-weight: 400 !important; }
 
 @media (max-width: 991.98px) {
   nav#navbar-main .navbar-toggler {
-    min-width: 72px;
-    min-height: 52px;
-    padding: 0.55rem 0.75rem;
-    font-size: 1.55rem;
+    min-width: 48px;
+    min-height: 42px;
+    padding: 0.35rem 0.5rem;
+    font-size: 1.25rem;
   }
 
   nav#navbar-main .navbar-toggler .fa-bars {
-    font-size: 1.55rem;
-    transform: scaleX(1.35);
+    font-size: 1.25rem;
+    transform: scaleX(1.18);
   }
 
   nav#navbar-main .navbar-collapse {
@@ -237,6 +279,12 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 // ------------------------------------------------------------
 // Hero + sections spacing
 // ------------------------------------------------------------
+// Override the theme's alternating grey/white section backgrounds:
+// keep every homepage section white and demarcate them with a thin
+// rule instead of a color change.
+.home-section:nth-of-type(even) { background: #fff !important; }
+.home-section + .home-section { border-top: 1px solid $rule-color; }
+
 .hero-lead { max-width: 100%; }
 .home-section { padding: 30px 0; }
 .home-section:first-of-type { padding-top: 0; padding-bottom: 12px; }
@@ -251,12 +299,14 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 
 .homepage-welcome {
   max-width: 1120px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .homepage-research-interests {
   max-width: 1120px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -281,6 +331,7 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 
 .homepage-funders {
   max-width: 1120px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -347,11 +398,12 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 
 .homepage-welcome-copy-column {
   padding-left: 0.5rem;
+  min-width: 0;
 }
 
 .homepage-welcome-copy p {
   margin-top: 0;
-  margin-bottom: 0.85rem;
+  margin-bottom: 1rem;
 }
 
 .homepage-welcome-copy p:last-child {
@@ -476,6 +528,15 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
   height: 100%;
 }
 
+.result-media,
+.featured-image,
+.article-banner,
+.homepage-group-photo img {
+  border: 0;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+}
+
 .wg-collection:has(.homepage-recent-publications-marker) .btn-links,
 .wg-collection:has(.homepage-recent-publications-marker) .flex.space-x-3 {
   margin-top: 0.35rem;
@@ -487,8 +548,9 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 
 .avatar-square,
 .avatar-circle {
-  border-radius: 8px;
-  border: 1px solid #000;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
 }
 
 .people-widget .avatar {
@@ -512,7 +574,8 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 }
 
 .homepage-profile-photo {
-  border-radius: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
 }
 
 @media (max-width: 991.98px) {
@@ -544,10 +607,22 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 
   .homepage-welcome-copy-column {
     padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .homepage-welcome,
+  .homepage-research-interests,
+  .homepage-funders {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .homepage-welcome-copy {
+    max-width: 100%;
   }
 
   .homepage-welcome-copy p {
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -642,6 +717,83 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
   }
 }
 
+.btn-links .btn,
+.pub-list-item .btn,
+.page-link-btn-margin,
+.pub-collapse-toggle {
+  border: 1px solid $brand-blue !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  background: #fff !important;
+  color: $brand-blue !important;
+  font-size: 0.85rem;
+  font-weight: 400 !important;
+  line-height: 1.2;
+  margin: 0 0.35rem 0.35rem 0 !important;
+  padding: 0.22rem 0.72rem;
+  text-transform: none;
+}
+
+.btn-links .btn:hover,
+.btn-links .btn:focus,
+.pub-list-item .btn:hover,
+.pub-list-item .btn:focus,
+.page-link-btn-margin:hover,
+.page-link-btn-margin:focus,
+.pub-collapse-toggle:hover,
+.pub-collapse-toggle:focus {
+  border-color: $brand-blue !important;
+  background: $brand-blue !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.pub-list-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.pub-list-abstract {
+  border: 1px dashed $text-color;
+  margin: 0.2rem 0 0.65rem;
+  padding: 0.65rem 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.pub-list-abstract p {
+  margin: 0;
+}
+
+.pub-collapse {
+  margin-top: 0.1rem;
+}
+
+.pub-bib-panel {
+  border: 1px dashed $text-color;
+  margin: 0.2rem 0 0.65rem;
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+}
+
+.pub-bib-panel pre {
+  margin: 0 0 0.6rem;
+  padding: 0;
+  background: none;
+  border: 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.pub-bib-actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 // ------------------------------------------------------------
 // Article tags
 // ------------------------------------------------------------
@@ -660,11 +812,29 @@ nav#navbar-main a.nav-link.active { font-weight: 300 !important; }
 // ------------------------------------------------------------
 // Typography utils
 // ------------------------------------------------------------
-.pub-title { font-weight: normal; }
-.author-highlighted { color: $brand-blue; }
+.pub-title {
+  font-weight: 400;
+}
+
+.pub-title a,
+.pub-list-item .article-metadata a {
+  color: $brand-blue;
+  text-decoration: none;
+}
+
+.pub-title a:hover,
+.pub-title a:focus,
+.pub-list-item .article-metadata a:hover,
+.pub-list-item .article-metadata a:focus {
+  text-decoration: underline;
+}
+
+// Theme sets this to font-weight: bold (700); match the site's regular
+// body weight so highlighted (lab-member) authors aren't bolded.
+.author-highlighted { color: $brand-blue; font-weight: 300 !important; }
 
 a {
-  font-weight: normal;
+  font-weight: inherit;
 }
 
 // ------------------------------------------------------------
@@ -680,14 +850,14 @@ a {
 hr {
   border: 0;
   height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, $brand-blue, #ccc);
+  background: $rule-color;
+  background-image: none;
 }
 
 // ------------------------------------------------------------
 // Utilities
 // ------------------------------------------------------------
-.border-solid-1px-k { border: 1px solid #000; }
+.border-solid-1px-k { border: 0; }
 
 .page-link-btn-margin {
   margin: 0 0.5rem 0 0;
@@ -737,24 +907,7 @@ hr {
   height: 28px;
 }
 
-.footer-land {
-  margin: 0;
-}
-
-.footer-land h3 {
-  text-align: left;
-  font-size: 1.15rem;
-  margin: 0 0 0.4rem;
-}
-
-.footer-land p {
-  text-align: left;
-  font-size: 0.82rem;
-  line-height: 1.35;
-  margin: 0 0 0.5rem;
-}
-
-.footer-land .footer-copyright {
+.footer-copyright {
   margin-top: 0.8rem;
   margin-bottom: 0;
 }

@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: theme_leaf_lab_v2
-  font: font_helvetica
+  font: font_roboto
   font_size: S
 
 # SEO
@@ -59,11 +59,7 @@ footer:
       <div class="footer-logo-divider"></div>
       <a href="https://utoronto.ca" target="_blank"><img src="/images/uot-logo.png" alt="U of T Logo"></a>
     </div>
-    <div class="row footer-land"><div class="col-lg-12"><h3>Statement of Land Acknowledgement</h3>
-    <p>We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and the Mississaugas of the Credit. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.
-      <br><a href="https://indigenous.utoronto.ca/about/land-acknowledgement/">Read more about this Statement of Land Acknowledgement.</a>
-    </p>
-    <p class="footer-copyright">© {year} Nick Rhinehart.</p></div></div></div>'
+    <p class="footer-copyright">© {year} Nick Rhinehart.</p></div>'
     license:
       enable: false
       allow_derivatives: false

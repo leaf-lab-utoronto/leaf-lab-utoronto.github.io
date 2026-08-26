@@ -9,6 +9,7 @@
 <script defer>
   [...document.getElementsByClassName('nav-link')].filter(a => a.textContent.includes("Publications")).forEach(a => a.classList.add("active"))
 </script>
+{{ partial "pub_list_scripts.html" . }}
 
 <div class="universal-wrapper">
   <div class="row">
@@ -99,4 +100,3 @@
 </div>
 
 {{- end -}}
-

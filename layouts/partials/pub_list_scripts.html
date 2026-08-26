@@ -1,0 +1,16 @@
+<script defer>
+  window.addEventListener('load', function () {
+    if (!window.jQuery) return;
+    window.jQuery(document).on('shown.bs.collapse hidden.bs.collapse', '.pub-collapse', function () {
+      window.setTimeout(function () {
+        window.jQuery('#container-publications').isotope('layout');
+      }, 25);
+    });
+    window.jQuery(document).on('click', '.pub-bib-copy', function (e) {
+      e.preventDefault();
+      var code = document.getElementById(this.getAttribute('data-copy-target'));
+      if (!code) return;
+      navigator.clipboard.writeText(code.innerText).catch(function () {});
+    });
+  });
+</script>

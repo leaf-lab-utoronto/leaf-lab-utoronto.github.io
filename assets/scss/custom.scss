@@ -2,16 +2,16 @@
 
 @media (max-width: 991.98px) {
   nav#navbar-main .navbar-toggler {
-    min-width: 72px;
-    min-height: 52px;
-    padding: 0.55rem 0.75rem;
-    font-size: 1.55rem;
+    min-width: 48px;
+    min-height: 42px;
+    padding: 0.35rem 0.5rem;
+    font-size: 1.25rem;
   }
 
   nav#navbar-main .navbar-toggler .fa-bars,
   nav#navbar-main .navbar-toggler .fa-bars::before {
-    font-size: 1.55rem;
-    transform: scaleX(1.35);
+    font-size: 1.25rem;
+    transform: scaleX(1.18);
   }
 
   nav#navbar-main .navbar-collapse {
@@ -77,6 +77,8 @@
   height: 166px;
   overflow: hidden;
   background: #f4f6f8;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   transform-origin: top left;
 }
@@ -84,7 +86,7 @@
 @media (min-width: 768px) {
   .result-media-link:hover .result-media {
     transform: scale(2.2);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
   }
 
   /* Lift the section containing a hovered thumbnail above adjacent sections */

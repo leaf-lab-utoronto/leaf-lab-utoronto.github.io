@@ -1,0 +1,7 @@
+name = "Roboto"
+google_fonts = "family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@100;300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+
+heading_font = "Roboto"
+body_font = "Roboto"
+nav_font = "Roboto"
+mono_font = "Roboto Mono"

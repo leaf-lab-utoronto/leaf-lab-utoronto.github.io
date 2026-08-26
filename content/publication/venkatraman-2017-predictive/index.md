@@ -5,7 +5,7 @@ title: 'Predictive-state decoders: Encoding the future into recurrent networks'
 subtitle: ''
 summary: ''
 authors:
-- Arun Venkatraman
+- Arun Venkatraman*
 - Nicholas Rhinehart
 - Wen Sun
 - Lerrel Pinto
@@ -13,15 +13,15 @@ authors:
 - Byron Boots
 - Kris M. Kitani
 - J. A. Bagnell
+author_notes:
+- ""
+- "*"
 tags: ["imitation learning", "forecasting", "machine learning", "reinforcement learning"]
 categories: []
 date: '2017-01-01'
 lastmod: 2024-07-15T15:34:45-04:00
 featured: false
 draft: false
-author_notes:
-- "Equal Contribution"
-- "Equal Contribution"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

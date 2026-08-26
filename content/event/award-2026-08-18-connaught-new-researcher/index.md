@@ -1,5 +1,5 @@
 ---
-title: Prof. Rhinehart receives Connaught New Researcher Award
+title: Connaught New Researcher Award
 authors:
   - Nicholas Rhinehart
 

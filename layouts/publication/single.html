@@ -22,6 +22,7 @@
 <div class="pub">
 
   {{ partial "page_header.html" . }}
+  {{ partial "pub_list_scripts.html" . }}
 
   <div class="article-container">
 
@@ -29,12 +30,6 @@
     <div class="pub-result-media-single">
       {{ partial "publication_result_media.html" (dict "item" . "size" "single" "class" "result-media-single-link") }}
     </div>
-    {{ end }}
-
-    {{ $abstract := trim (.Params.abstract | default "" | plainify) " \n\r\t" }}
-    {{ if and $show_abstract $abstract }}
-    <h3>{{ i18n "abstract" }}</h3>
-    <p class="pub-abstract">{{ .Params.abstract | markdownify }}</p>
     {{ end }}
 
     {{ if $show_details }}

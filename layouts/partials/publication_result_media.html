@@ -53,7 +53,7 @@
 
 {{- if $src -}}
   <a href="{{ $item.RelPermalink }}" class="result-media-link {{ $class }}" aria-label="{{ $item.Title }}">
-    <div class="img-hover-zoom border-solid-1px-k pub-thumbnail result-media result-media-{{ $size }}">
+    <div class="img-hover-zoom pub-thumbnail result-media result-media-{{ $size }}">
       {{- if eq $kind "video" -}}
         <video class="result-media-object" autoplay muted loop playsinline preload="metadata" {{ with $poster }}poster="{{ . }}"{{ end }}>
           <source src="{{ $src }}">
@@ -71,12 +71,12 @@
     {{- $image := .Fit $imageSize -}}
     {{- if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end -}}
     <a href="{{ $item.RelPermalink }}" class="result-media-link {{ $class }}" aria-label="{{ $item.Title }}">
-      <div class="img-hover-zoom border-solid-1px-k pub-thumbnail result-media result-media-{{ $size }}">
+      <div class="img-hover-zoom pub-thumbnail result-media result-media-{{ $size }}">
         <img class="result-media-object" src="{{ $image.RelPermalink }}" height="166" width="250" alt="{{ $item.Title }}">
       </div>
     </a>
   {{- else -}}
-    <div class="img-hover-zoom border-solid-1px-k pub-thumbnail result-media result-media-{{ $size }} {{ $class }}">
+    <div class="img-hover-zoom pub-thumbnail result-media result-media-{{ $size }} {{ $class }}">
       <img class="result-media-object" src="/images/missing_publication_image.jpg" height="166" width="250" alt="placeholder">
     </div>
   {{- end -}}

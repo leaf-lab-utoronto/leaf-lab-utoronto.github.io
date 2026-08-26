@@ -14,10 +14,10 @@
 <div class="pub-list-item view-citation" style="flex-basis: 200px; flex-shrink: 0; flex-grow: 10;">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
-  <span class="article-metadata li-cite-author">
+  <span class="pub-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></span>.
+  <br><span class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item | markdownify }}.
   </span>
-  <br><span class="pub-title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></span>.
   <br>
   {{ if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}},
@@ -30,9 +30,44 @@
     <br>
     {{- $item.Params.highlight | markdownify -}}
   {{ end }}
-  {{ if $has_attachments }}
-  <div class="flex space-x-3">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  {{ $abstract := trim ($item.Params.abstract | default "" | plainify) " \n\r\t" }}
+  {{ $abstract_id := "" }}
+  {{ if and $abstract $item.File }}
+    {{ $abstract_id = printf "pub-abstract-%s" $item.File.UniqueID }}
+  {{ else if $abstract }}
+    {{ $abstract_id = printf "pub-abstract-%s" ($item.Title | anchorize) }}
+  {{ end }}
+  {{ $bib_resource := $item.Resources.GetMatch "cite.bib" }}
+  {{ $bib_id := "" }}
+  {{ if and $bib_resource $item.File }}
+    {{ $bib_id = printf "pub-bib-%s" $item.File.UniqueID }}
+  {{ else if $bib_resource }}
+    {{ $bib_id = printf "pub-bib-%s" ($item.Title | anchorize) }}
+  {{ end }}
+  {{ if or $abstract $has_attachments }}
+  <div class="flex space-x-3 pub-list-actions">
+    {{ if $abstract }}
+      <a class="btn btn-outline-primary btn-sm pub-collapse-toggle" data-toggle="collapse" href="#{{ $abstract_id }}" role="button" aria-expanded="false" aria-controls="{{ $abstract_id }}">Abs</a>
+    {{ end }}
+    {{ if $has_attachments }}
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ if $abstract }}
+  <div class="collapse pub-collapse" id="{{ $abstract_id }}">
+    <div class="pub-list-abstract">{{ $item.Params.abstract | markdownify }}</div>
+  </div>
+  {{ end }}
+  {{ with $bib_resource }}
+  <div class="collapse pub-collapse" id="{{ $bib_id }}">
+    <div class="pub-bib-panel">
+      <pre><code id="{{ $bib_id }}-code">{{ .Content }}</code></pre>
+      <div class="pub-bib-actions">
+        <button type="button" class="btn btn-outline-primary btn-sm pub-bib-copy" data-copy-target="{{ $bib_id }}-code">{{ i18n "btn_copy" }}</button>
+        <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}" download>{{ i18n "btn_download" }}</a>
+      </div>
+    </div>
   </div>
   {{ end }}
   {{ partial "tags" $item }}

@@ -40,10 +40,15 @@
   {{ i18n "btn_pdf" }}
 </a>
 {{ end }}
-{{ $resource := $page.Resources.GetMatch "cite.bib" }}
-{{ with $resource }}
-<a href="#" class="btn btn-outline-primary btn-sm page-link-btn-margin js-cite-modal"
-        data-filename="{{ .RelPermalink }}">
+{{ $bib_resource := $page.Resources.GetMatch "cite.bib" }}
+{{ with $bib_resource }}
+  {{ $bib_id := "" }}
+  {{ if $page.File }}
+    {{ $bib_id = printf "pub-bib-%s" $page.File.UniqueID }}
+  {{ else }}
+    {{ $bib_id = printf "pub-bib-%s" ($page.Title | anchorize) }}
+  {{ end }}
+<a class="btn btn-outline-primary btn-sm page-link-btn-margin pub-collapse-toggle" data-toggle="collapse" href="#{{ $bib_id }}" role="button" aria-expanded="false" aria-controls="{{ $bib_id }}">
   {{ i18n "btn_cite" }}
 </a>
 {{ end }}
