@@ -73,7 +73,7 @@ I welcome experienced researchers to consider a research visit and occasionally 
 
 # Undergraduate Researchers
 
-We sometimes involve undergraduates in our research, and welcome you to consider it. For these involvements to be meaningful to both of us, we're looking for a minimum of 10 hours/week, sustained over at least a semester. Shorter or lower-commitment arrangements are rarely productive for either of us, so please don't reach out unless you can realistically commit to that. Good research requires persistence. Prior research experience isn't required. We typically expect you to be strong in at least two of the following: programming, mathematics, and machine learning.
+We sometimes involve undergraduates in our research, and welcome you to consider it. For these involvements to be meaningful, we're looking for a minimum of 10 hours/week of effort sustained for at least one semester. Please don't reach out unless you can realistically commit to that. Good research requires time and persistence. Prior research experience isn't required. We typically expect you to be strong in at least two of the following: programming, mathematics, and machine learning.
 
 ---
 
@@ -81,11 +81,11 @@ We sometimes involve undergraduates in our research, and welcome you to consider
 
 **Email:** nick.rhinehart@utoronto.ca
 
-Include **[LEAF-interest]** in your subject line. Emails that follow this format are likelier to get replies:
+If you've carefully read this page and want to reach out, please include **[LEAF-interest]** in your subject line. Emails that follow this format are likelier to get replies:
 
 - **One or two specific things** from our recent [publications](/publication/) that connect to your background or interests.
 - **A concrete question or idea**, however small, rather than an open-ended request to discuss opportunities.
-- **Links to 2-3 of your representative papers**, ideally published or under review at our primary venues (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, RSS, CoRL, ICRA) and related to our research areas. This is the strongest signal of potential fit.
+- **Links to 2-3 of your representative papers**, ideally published or under review at our primary venues (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, RSS, CoRL, ICRA) and related to our research areas.
 - **Your CV**, which route (see above) you're asking about, and your funding situation if applicable.
 
 No response does not necessarily mean we are not interested. If you don't receive a response, yet have carefully read this page and strongly believe you are an excellent fit to do research with us, please try to contact us again.
