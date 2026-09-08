@@ -87,7 +87,8 @@ If you've carefully read this page and want to reach out, please include **[LEAF
 - **A concrete question or idea**, however small, rather than an open-ended request to discuss opportunities.
 - **Links to 2-3 of your representative papers**, ideally published or under review at our primary venues (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, RSS, CoRL, ICRA) and related to our research areas.
 - **Your CV**, which route (see above) you're asking about, and your funding situation if applicable.
-
+- **Written by you**: I often ignore application emails written by LLMs for a variety of reasons.
+ 
 No response does not necessarily mean we are not interested. If you don't receive a response, yet have carefully read this page and strongly believe you are an excellent fit to do research with us, please try to contact us again.
 
 ---
