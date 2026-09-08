@@ -1,6 +1,9 @@
 # IDEs
 .idea/
 
+# Local Claude settings
+.claude/settings.local.json
+
 # Hugo
 /resources/
 public/
