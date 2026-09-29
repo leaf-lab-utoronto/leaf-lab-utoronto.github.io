@@ -55,7 +55,7 @@ abstract: >-
   incurring significantly lower catastrophic failure rates during training than prior
   methods. Videos are at this url
   https://sites.google.com/view/conservative-safety-critics/home
-publication: '*International Conference on Represetation Learning*'
+publication: '*International Conference on Learning Representations*'
 publication_short: '**ICLR**'
 url_pdf: https://openreview.net/pdf?id=iaO86DUuKi
 url_doi: https://openreview.net/forum?id=iaO86DUuKi

@@ -75,8 +75,7 @@
       </div>
     
 
-      {{ $publications := sort .Pages "Title" "asc" }}
-      {{ $publications = sort $publications "Date" "desc" }}
+      {{ $publications := partial "pub_sorted_pages.html" .Pages }}
       <div id="container-publications">
         {{ range $index, $item := $publications }}
 

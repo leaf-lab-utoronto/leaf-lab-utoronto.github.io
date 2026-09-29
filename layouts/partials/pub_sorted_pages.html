@@ -1,0 +1,13 @@
+{{/* Pages sorted by year (desc), then preprints before accepted papers, then date (desc). */}}
+{{- $keyed := slice -}}
+{{- range . -}}
+  {{- $preprint := 0 -}}
+  {{- if in (.Params.publication_types | default slice) "preprint" }}{{ $preprint = 1 }}{{ else }}{{ $preprint = 0 }}{{ end -}}
+  {{- $key := printf "%s%d%s" (.Date.Format "2006") $preprint (.Date.Format "20060102150405") -}}
+  {{- $keyed = $keyed | append (dict "key" $key "page" .) -}}
+{{- end -}}
+{{- $out := slice -}}
+{{- range sort $keyed "key" "desc" -}}
+  {{- $out = $out | append .page -}}
+{{- end -}}
+{{- return $out -}}

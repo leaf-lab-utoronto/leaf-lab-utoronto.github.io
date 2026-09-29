@@ -56,7 +56,7 @@ abstract: >-
   that SMiRL can be used together with standard task rewards to accelerate reward-driven
   learning.
 url_pdf: https://openreview.net/pdf?id=cPZOyoDloxl
-publication: '*International Conference on Representation Learning*'
+publication: '*International Conference on Learning Representations*'
 publication_short: '**ICLR**'
 url_doi: https://openreview.net/forum?id=cPZOyoDloxl
 paper_versions:

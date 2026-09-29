@@ -58,7 +58,9 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication" }}</div>
-          <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}</div>
+          <div class="col-12 col-md-9">{{ .Params.publication | markdownify }}
+            {{ with .Params.spotlight }}<br><span class="pub-award">{{ . | markdownify }}</span>{{ end }}
+            {{ with .Params.highlight }}<br><span class="pub-award">{{ . | markdownify }}</span>{{ end }}</div>
         </div>
       </div>
       <div class="col-md-1"></div>

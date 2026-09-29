@@ -49,7 +49,7 @@ abstract: >-
   information flow in the graphical model between sub-task latent variables and their
   generated trajectories. We also show how our approach connects with the existing Options
   framework, which is commonly used to learn hierarchical policies.
-publication: '*International Conference on Learning Representations (ICLR)*'
+publication: '*International Conference on Learning Representations*'
 publication_short: '**ICLR**'
 url_pdf: https://arxiv.org/pdf/1810.01266
 url_doi: https://doi.org/10.48550/arXiv.1810.01266

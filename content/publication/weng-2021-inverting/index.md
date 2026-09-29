@@ -59,7 +59,7 @@ abstract: >-
   that SPFNet is effective for the SPF task, our forecast-then-detect pipeline outperforms
   the detect-then-forecast approaches to which we compared, and that pose forecasting
   performance improves with the addition of unlabeled data.
-publication: '*Conference on robot learning*'
+publication: '*Conference on Robot Learning*'
 publication_short: '**CoRL**'
 url_pdf: https://proceedings.mlr.press/v155/weng21a/weng21a.pdf
 url_doi: https://proceedings.mlr.press/v155/weng21a.html

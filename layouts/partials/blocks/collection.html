@@ -73,6 +73,9 @@
   {{ $query = sort $query "Title" "asc" }}
 {{ end }}
 {{ $query = sort $query $sort_by $sort_order }}
+{{ if and (or (eq $block.content.page_type "publication") (in ($block.content.filters.folders | default slice) "publication")) (eq $sort_by "Date") (not $sort_ascending) }}
+  {{ $query = partial "pub_sorted_pages.html" $query }}
+{{ end }}
 
 {{/* Offset and Limit */}}
 {{ if gt $items_offset 0 }}

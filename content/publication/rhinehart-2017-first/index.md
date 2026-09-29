@@ -51,7 +51,7 @@ publication: '*The IEEE International Conference on Computer Vision*'
 publication_short: '**ICCV**'
 url_pdf: https://openaccess.thecvf.com/content_ICCV_2017/papers/Rhinehart_First-Person_Activity_Forecasting_ICCV_2017_paper.pdf
 url_doi: https://doi.org/10.1109/ICCV.2017.399
-highlight: <span style="color:#DC4633">Best Paper Honorable Mention</span>
+highlight: Best Paper Honorable Mention
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'

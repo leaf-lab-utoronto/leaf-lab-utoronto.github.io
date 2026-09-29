@@ -26,9 +26,11 @@
     ({{ $item.Params.publication_short | markdownify -}}),
   {{ end }}
   {{- $item.Date.Format "2006" -}}.
-  {{ if $item.Params.highlight }}
-    <br>
-    {{- $item.Params.highlight | markdownify -}}
+  {{ with $item.Params.spotlight }}
+    <br><span class="pub-award">{{ . | markdownify }}</span>
+  {{ end }}
+  {{ with $item.Params.highlight }}
+    <br><span class="pub-award">{{ . | markdownify }}</span>
   {{ end }}
   {{ $abstract := trim ($item.Params.abstract | default "" | plainify) " \n\r\t" }}
   {{ $abstract_id := "" }}

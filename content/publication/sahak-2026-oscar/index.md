@@ -9,9 +9,10 @@ tags: ["robotics", "model-based control", "offroad navigation", "machine learnin
 date: '2026-06-01'
 publishDate: '2026-06-08T13:40:15.484155Z'
 publication_types:
-- 'preprint'
-publication: '*arXiv:2606.00990*'
-publication_short: '**arXiv**'
+- 'paper-conference'
+publication: '*Conference on Robot Learning*'
+publication_short: '**CoRL**'
+spotlight: Spotlight (top 4% of submissions)
 url_pdf: https://arxiv.org/pdf/2606.00990
 url_doi: https://doi.org/10.48550/arXiv.2606.00990
 abstract: >-

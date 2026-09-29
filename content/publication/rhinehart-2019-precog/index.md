@@ -56,7 +56,7 @@ url_pdf: https://openaccess.thecvf.com/content_ICCV_2019/papers/Rhinehart_PRECOG
 url_doi: https://doi.org/10.1109/ICCV.2019.00291
 url_project: https://sites.google.com/view/precog
 url_code: https://github.com/nrhinehart/precog
-highlight: <span style="color:#DC4633">Best Paper Award @ ICML 2019 Workshop on AI for Autonomous Driving</span>
+highlight: Best Paper Award @ ICML 2019 Workshop on AI for Autonomous Driving
 paper_versions:
 - retrieved_at: '2026-05-22T01:04:48+00:00'
   source: 'openalex'
