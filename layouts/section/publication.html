@@ -30,6 +30,7 @@
         <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
             <option value="*">Select publication type</option>
+            <option value=".peer-reviewed">Peer-reviewed</option>
             {{ range $index, $taxonomy := site.Taxonomies.publication_types }}
             <option value=".pubtype-{{ $index }}">
               {{ i18n (printf "pub_%s" (strings.Replace $index "-" "_")) | default (strings.Title $index) }}
@@ -85,7 +86,7 @@
           {{ $.Scratch.Set "pubtype" 0 }}
         {{ end }}
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }}{{ if ne ($.Scratch.Get "pubtype") "preprint" }} peer-reviewed{{ end }} year-{{ .Date.Format "2006" }}">
           {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "citation") "index" $index) }}
         </div>
 
