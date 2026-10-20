@@ -58,4 +58,6 @@ paper_versions:
   url: 'https://openalex.org/W2777985721'
   updated: '2026-03-20T23:20:44.827607'
   title: 'First-Person Activity Forecasting with Online Inverse Reinforcement Learning'
+venue_date: '2017-10-22'
+venue_date_source: https://doi.org/10.1109/ICCV.2017.244
 ---

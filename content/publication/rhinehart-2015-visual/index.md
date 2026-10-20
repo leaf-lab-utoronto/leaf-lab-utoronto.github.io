@@ -57,4 +57,6 @@ paper_versions:
   url: 'https://openalex.org/W2169950930'
   updated: '2025-11-06T03:46:38.306776'
   title: 'Visual chunking: A list prediction framework for region-based object detection'
+venue_date: '2015-05-26'
+venue_date_source: https://www.ieee-ras.org/images/conferences/icra2015/ICRA2015-CFP.pdf
 ---

@@ -1,0 +1,13 @@
+{{/* Accepted papers use the earlier recorded acceptance/venue date.
+     Preprints use the first arXiv submission date. Legacy entries fall back to Date. */}}
+{{- $date := .Date -}}
+{{- $types := .Params.publication_types | default slice -}}
+{{- if or (in $types "paper-conference") (in $types "article-journal") -}}
+  {{- $dates := slice -}}
+  {{- with .Params.acceptance_date }}{{ $dates = $dates | append (time.AsTime .) }}{{ end -}}
+  {{- with .Params.venue_date }}{{ $dates = $dates | append (time.AsTime .) }}{{ end -}}
+  {{- if $dates }}{{ $date = index (sort $dates) 0 }}{{ end -}}
+{{- else if in $types "preprint" -}}
+  {{- with .Params.arxiv_date }}{{ $date = time.AsTime . }}{{ end -}}
+{{- end -}}
+{{- return $date -}}

@@ -17,6 +17,8 @@ url_doi: https://doi.org/10.48550/arXiv.2603.28887
 url_project: https://orbis36.github.io/OccSim/
 publication: '*arXiv:2603.28887*'
 publication_short: '**arXiv**'
+arxiv_date: '2026-03-30T18:13:51Z'
+arxiv_date_source: https://arxiv.org/abs/2603.28887
 publication_types:
 - 'preprint'
 

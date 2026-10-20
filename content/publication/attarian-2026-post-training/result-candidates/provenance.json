@@ -1,0 +1,25 @@
+{
+  "kind": "animated-figure-preview",
+  "description": "Published still figures presented with crossfades; not experimental video footage.",
+  "sources": [
+    {
+      "file": "field-guide-ball.jpeg",
+      "url": "https://arxiv.org/html/2610.19143v1/figures/tasks/ball_to_bowl_1.jpeg"
+    },
+    {
+      "file": "field-guide-cups.jpeg",
+      "url": "https://arxiv.org/html/2610.19143v1/figures/tasks/stack_cups_1.jpeg"
+    },
+    {
+      "file": "field-guide-block.jpeg",
+      "url": "https://arxiv.org/html/2610.19143v1/figures/tasks/pick_up_block_1.jpeg"
+    },
+    {
+      "file": "field-guide-marker.jpg",
+      "url": "https://arxiv.org/html/2610.19143v1/figures/tasks/remove_marker.jpg"
+    }
+  ],
+  "generator": "scripts/create_publication_previews.py",
+  "duration_seconds": 24,
+  "fps": 20
+}

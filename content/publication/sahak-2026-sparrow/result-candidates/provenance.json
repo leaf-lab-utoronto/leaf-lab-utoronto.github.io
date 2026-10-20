@@ -1,0 +1,17 @@
+{
+  "kind": "animated-figure-preview",
+  "description": "Published still figures presented with crossfades; not experimental video footage.",
+  "sources": [
+    {
+      "file": "sparrow-intro.png",
+      "url": "https://arxiv.org/html/2609.21008v1/figures/intro.png"
+    },
+    {
+      "file": "sparrow-real.png",
+      "url": "https://arxiv.org/html/2609.21008v1/figures/real_world_sparrow.png"
+    }
+  ],
+  "generator": "scripts/create_publication_previews.py",
+  "duration_seconds": 24,
+  "fps": 20
+}

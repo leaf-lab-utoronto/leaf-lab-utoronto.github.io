@@ -73,4 +73,6 @@ paper_versions:
   url: 'https://openalex.org/W3112720093'
   updated: '2026-04-28T14:05:53.105641'
   title: 'ViNG: Learning Open-World Navigation with Visual Goals'
+venue_date: '2021-05-30'
+venue_date_source: https://www.ieee-ras.org/about-ras/ras-calendar/event/1908-icra-2021-call-for-papers-deadline
 ---

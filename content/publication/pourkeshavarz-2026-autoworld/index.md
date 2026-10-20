@@ -15,6 +15,8 @@ url_doi: https://doi.org/10.48550/arXiv.2603.28963
 url_project: https://mpourkeshavarz.github.io/AutoWorld/
 publication: '*arXiv:2603.28963*'
 publication_short: '**arXiv**'
+arxiv_date: '2026-03-30T20:10:21Z'
+arxiv_date_source: https://arxiv.org/abs/2603.28963
 publication_types:
 - 'preprint'
 

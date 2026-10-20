@@ -59,4 +59,6 @@ paper_versions:
   url: 'https://openalex.org/W2895192407'
   updated: '2026-02-09T09:26:11.010843'
   title: 'Directed-Info GAIL: Learning Hierarchical Policies from Unsegmented Demonstrations using Directed Information'
+venue_date: '2019-05-06'
+venue_date_source: https://iclr.cc/Conferences/2019
 ---

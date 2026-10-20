@@ -16,6 +16,8 @@ url_doi: https://doi.org/10.48550/arXiv.2606.19328
 url_project: https://mohamedgnabail.github.io/ubp2/
 publication: '*arXiv:2606.19328*'
 publication_short: '**arXiv**'
+arxiv_date: '2026-06-17T17:54:32Z'
+arxiv_date_source: https://arxiv.org/abs/2606.19328
 publication_types:
 - 'preprint'
 

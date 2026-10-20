@@ -58,4 +58,6 @@ paper_versions:
   url: 'https://openalex.org/W2895649888'
   updated: '2025-11-06T03:46:38.306776'
   title: 'First-Person Activity Forecasting from Video with Online Inverse Reinforcement Learning'
+venue_date: '2020-02-01'
+venue_date_source: https://api.crossref.org/works/10.1109/tpami.2018.2873794
 ---

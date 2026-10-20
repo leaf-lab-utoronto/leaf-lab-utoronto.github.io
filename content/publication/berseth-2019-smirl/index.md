@@ -65,4 +65,6 @@ paper_versions:
   url: 'https://openalex.org/W2995912970'
   updated: '2025-10-10T17:16:08.811792'
   title: 'SMiRL: Surprise Minimizing RL in Dynamic Environments'
+venue_date: '2021-05-03'
+venue_date_source: https://iclr.cc/Conferences/2021
 ---

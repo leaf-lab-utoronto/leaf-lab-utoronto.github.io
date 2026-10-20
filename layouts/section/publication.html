@@ -76,7 +76,7 @@
       </div>
     
 
-      {{ $publications := partial "pub_sorted_pages.html" .Pages }}
+      {{ $publications := partial "pub_archive_pages.html" .Pages }}
       <div id="container-publications">
         {{ range $index, $item := $publications }}
 
@@ -86,7 +86,8 @@
           {{ $.Scratch.Set "pubtype" 0 }}
         {{ end }}
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }}{{ if ne ($.Scratch.Get "pubtype") "preprint" }} peer-reviewed{{ end }} year-{{ .Date.Format "2006" }}">
+        {{ $publication_date := partial "publication_date.html" . }}
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }}{{ if ne ($.Scratch.Get "pubtype") "preprint" }} peer-reviewed{{ end }} year-{{ .Date.Format "2006" }}" data-publication-date="{{ $publication_date.Format "2006-01-02T15:04:05Z07:00" }}">
           {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "citation") "index" $index) }}
         </div>
 

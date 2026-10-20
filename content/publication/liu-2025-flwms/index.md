@@ -66,4 +66,8 @@ paper_versions:
   url: 'https://openreview.net/forum?id=OyX9cC9WaV'
   updated: '1776754749205'
   title: 'Towards foundational LiDAR world models with efficient latent flow matching'
+venue_date: '2025-12-02'
+venue_date_source: https://neurips.cc/Conferences/2025/Dates
+acceptance_date: '2025-09-18'
+acceptance_date_source: /event/pub-2025-09-18/
 ---

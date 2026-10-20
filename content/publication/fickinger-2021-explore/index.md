@@ -39,6 +39,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2024-07-15T19:34:53.532117Z'
+arxiv_date: '2021-07-12T17:58:40Z'
+arxiv_date_source: https://arxiv.org/abs/2107.07394
 publication_types:
 - 'preprint'
 abstract: >-

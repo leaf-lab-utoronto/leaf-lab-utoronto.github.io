@@ -66,4 +66,6 @@ paper_versions:
   url: 'https://openalex.org/W3035498040'
   updated: '2026-04-21T08:09:41.155169'
   title: 'Can Autonomous Vehicles Identify, Recover From, and Adapt to Distribution Shifts?'
+venue_date: '2020-07-12'
+venue_date_source: https://icml.cc/Conferences/2020/CallForSocials
 ---

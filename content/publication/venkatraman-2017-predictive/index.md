@@ -68,4 +68,6 @@ paper_versions:
   url: 'https://openalex.org/W2750941309'
   updated: '2026-02-09T09:26:11.010843'
   title: 'Predictive-State Decoders: Encoding the Future into Recurrent Networks'
+venue_date: '2017-12-04'
+venue_date_source: https://neurips.cc/Conferences/2017
 ---

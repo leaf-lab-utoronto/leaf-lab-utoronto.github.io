@@ -61,4 +61,6 @@ paper_versions:
   url: 'https://openalex.org/W2346513076'
   updated: '2025-11-06T03:46:38.306776'
   title: 'Learning Action Maps of Large Environments via First-Person Vision'
+venue_date: '2016-06-26'
+venue_date_source: https://cvpr2016.thecvf.com/files/CFP_CVPR2016.pdf
 ---

@@ -59,4 +59,6 @@ paper_versions:
   url: 'https://openalex.org/W2808879645'
   updated: '2026-02-09T09:26:11.010843'
   title: 'Learning Neural Parsers with Deterministic Differentiable Imitation Learning'
+venue_date: '2018-10-29'
+venue_date_source: https://proceedings.mlr.press/v87/
 ---

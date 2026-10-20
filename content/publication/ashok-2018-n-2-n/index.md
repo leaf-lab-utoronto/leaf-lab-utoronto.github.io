@@ -66,4 +66,6 @@ paper_versions:
   url: 'https://openalex.org/W2756085244'
   updated: '2026-02-09T09:26:11.010843'
   title: 'N2N Learning: Network to Network Compression via Policy Gradient Reinforcement Learning'
+venue_date: '2018-04-30'
+venue_date_source: https://iclr.cc/Conferences/2018
 ---

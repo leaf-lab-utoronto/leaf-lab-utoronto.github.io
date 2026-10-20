@@ -47,4 +47,6 @@ paper_versions:
   url: 'https://openalex.org/W7163173669'
   updated: '2026-06-03T06:26:03.838407'
   title: 'OSCAR: Obstacle Survival Curves for Adaptive Robot Navigation'
+acceptance_date: '2026-09-10'
+acceptance_date_source: /event/pub-2026-09-10-oscar/
 ---

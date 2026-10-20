@@ -64,4 +64,6 @@ paper_versions:
   url: 'https://openalex.org/W4407948601'
   updated: '2026-05-21T09:19:25.381259'
   title: 'DR-MPC: Deep Residual Model Predictive Control for Real-World Social Navigation'
+acceptance_date: '2025-02-04'
+acceptance_date_source: https://arxiv.org/pdf/2410.10646
 ---

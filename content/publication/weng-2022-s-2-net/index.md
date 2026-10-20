@@ -59,4 +59,6 @@ paper_versions:
 - retrieved_at: '2026-05-22T01:21:55+00:00'
   source: 'source-page'
   url: 'https://link.springer.com/chapter/10.1007/978-3-031-19812-0_32'
+venue_date: '2022-10-23'
+venue_date_source: https://eccv2022.ecva.net/program/
 ---

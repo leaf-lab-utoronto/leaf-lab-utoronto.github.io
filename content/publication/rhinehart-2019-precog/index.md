@@ -63,4 +63,6 @@ paper_versions:
   url: 'https://openalex.org/W2943516367'
   updated: '2026-04-28T14:05:53.105641'
   title: 'PRECOG: PREdiction Conditioned on Goals in Visual Multi-Agent Settings'
+venue_date: '2019-10-27'
+venue_date_source: https://iccv2019.thecvf.com/files/expo_iccv2019/ICCV19SpaceApp.pdf
 ---

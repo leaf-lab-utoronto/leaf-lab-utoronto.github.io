@@ -1,0 +1,17 @@
+{
+  "kind": "animated-figure-preview",
+  "description": "Published still figures presented with crossfades; not experimental video footage.",
+  "sources": [
+    {
+      "file": "wmpa-overview.png",
+      "url": "https://junwei0102.github.io/wmpa-webpage/static/images/wmpa_overview.png"
+    },
+    {
+      "file": "wmpa-episode.png",
+      "url": "https://junwei0102.github.io/wmpa-webpage/static/images/episode_cube_double.png"
+    }
+  ],
+  "generator": "scripts/create_publication_previews.py",
+  "duration_seconds": 24,
+  "fps": 20
+}

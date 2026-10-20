@@ -21,6 +21,8 @@ url_pdf: https://arxiv.org/pdf/2606.14801
 url_doi: https://doi.org/10.48550/arXiv.2606.14801
 publication: '*arXiv:2606.14801*'
 publication_short: '**arXiv**'
+arxiv_date: '2026-06-11T18:22:03Z'
+arxiv_date_source: https://arxiv.org/abs/2606.14801
 publication_types:
 - 'preprint'
 

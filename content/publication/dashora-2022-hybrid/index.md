@@ -68,4 +68,6 @@ paper_versions:
   url: 'https://openalex.org/W3217571039'
   updated: '2026-03-10T16:38:18.471706'
   title: 'Hybrid Imitative Planning with Geometric and Predictive Costs in Off-road Environments'
+venue_date: '2022-05-23'
+venue_date_source: https://www.ieee-ras.org/about-ras/latest-news/icra-2022-call-for-contributions
 ---

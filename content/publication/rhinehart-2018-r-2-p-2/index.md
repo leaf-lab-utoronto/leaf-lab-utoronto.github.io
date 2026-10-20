@@ -60,4 +60,6 @@ paper_versions:
 - retrieved_at: '2026-05-22T01:21:55+00:00'
   source: 'source-page'
   url: 'https://link.springer.com/chapter/10.1007/978-3-030-01261-8_47'
+venue_date: '2018-09-08'
+venue_date_source: https://eccv2018.org/event/eccv/
 ---

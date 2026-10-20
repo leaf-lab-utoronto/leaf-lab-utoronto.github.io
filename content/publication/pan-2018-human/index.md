@@ -62,4 +62,6 @@ paper_versions:
   url: 'https://openalex.org/W2808012189'
   updated: '2026-05-21T09:19:25.381259'
   title: 'Human-Interactive Subgoal Supervision for Efficient Inverse Reinforcement Learning'
+venue_date: '2018-07-10'
+venue_date_source: https://www.ifaamas.org/AAMAS/aamas2018/
 ---

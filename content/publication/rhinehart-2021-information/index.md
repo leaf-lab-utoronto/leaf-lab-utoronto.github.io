@@ -59,4 +59,6 @@ paper_versions:
   url: 'https://openalex.org/W3211993735'
   updated: '2026-04-17T18:11:37.981687'
   title: 'Information is Power: Intrinsic Control via Information Capture'
+venue_date: '2021-12-06'
+venue_date_source: https://neurips.cc/Conferences/2021
 ---

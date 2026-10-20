@@ -61,4 +61,6 @@ paper_versions:
   url: 'https://openalex.org/W3035613220'
   updated: '2026-04-28T14:05:53.105641'
   title: 'Generative Hybrid Representations for Activity Forecasting With No-Regret Learning'
+venue_date: '2020-06-14'
+venue_date_source: https://cvpr2020.thecvf.com/
 ---

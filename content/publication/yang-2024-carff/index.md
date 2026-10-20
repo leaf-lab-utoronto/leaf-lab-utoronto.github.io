@@ -61,4 +61,6 @@ paper_versions:
   source: 'arxiv-page'
   url: 'https://arxiv.org/abs/2401.18075'
   pdf_url: 'https://arxiv.org/pdf/2401.18075'
+venue_date: '2024-09-29'
+venue_date_source: https://eccv.ecva.net/Conferences/2024
 ---

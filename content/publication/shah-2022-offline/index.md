@@ -64,4 +64,6 @@ paper_versions:
   url: 'https://openalex.org/W4311992093'
   updated: '2026-02-09T09:26:11.010843'
   title: 'Offline Reinforcement Learning for Visual Navigation'
+venue_date: '2022-12-14'
+venue_date_source: https://proceedings.mlr.press/v205/
 ---

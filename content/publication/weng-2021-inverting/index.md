@@ -71,4 +71,6 @@ paper_versions:
   url: 'https://openalex.org/W3102823913'
   updated: '2026-03-20T23:20:44.827607'
   title: 'Inverting the Pose Forecasting Pipeline with SPF2: Sequential Pointcloud Forecasting for Sequential Pose Forecasting'
+venue_date: '2020-11-16'
+venue_date_source: https://proceedings.mlr.press/v155/
 ---

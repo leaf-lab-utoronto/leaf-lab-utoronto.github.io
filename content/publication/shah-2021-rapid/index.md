@@ -64,4 +64,6 @@ paper_versions:
   url: 'https://openalex.org/W4287215707'
   updated: '2026-03-25T23:56:10.502304'
   title: 'Rapid Exploration for Open-World Navigation with Latent Goal Models'
+venue_date: '2021-11-08'
+venue_date_source: https://proceedings.mlr.press/v164/
 ---

@@ -64,4 +64,6 @@ paper_versions:
   url: 'https://openalex.org/W4377866264'
   updated: '2026-03-11T14:59:36.786465'
   title: 'The Waymo Open Sim Agents Challenge'
+venue_date: '2023-12-10'
+venue_date_source: https://neurips.cc/Conferences/2023
 ---

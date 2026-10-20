@@ -66,4 +66,6 @@ paper_versions:
   url: 'https://openalex.org/W3096954237'
   updated: '2026-03-11T14:59:36.786465'
   title: 'Conservative Safety Critics for Exploration'
+venue_date: '2021-05-03'
+venue_date_source: https://iclr.cc/Conferences/2021
 ---

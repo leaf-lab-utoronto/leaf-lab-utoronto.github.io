@@ -64,4 +64,6 @@ paper_versions:
   url: 'https://openalex.org/W3103763075'
   updated: '2026-02-09T09:26:11.010843'
   title: 'Parrot: Data-Driven Behavioral Priors for Reinforcement Learning'
+venue_date: '2021-05-03'
+venue_date_source: https://iclr.cc/Conferences/2021
 ---

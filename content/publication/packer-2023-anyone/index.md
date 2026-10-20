@@ -68,4 +68,6 @@ paper_versions:
   url: 'https://openreview.net/forum?id=2CSj965d9O4'
   updated: '1683308420103'
   title: 'Is Anyone There? Learning a Planner Contingent on Perceptual Uncertainty'
+venue_date: '2022-12-14'
+venue_date_source: https://proceedings.mlr.press/v205/
 ---

@@ -63,4 +63,6 @@ paper_versions:
   url: 'https://openalex.org/W2896583015'
   updated: '2025-11-06T06:51:31.235846'
   title: 'Deep Imitative Models for Flexible Inference, Planning, and Control'
+venue_date: '2020-04-26'
+venue_date_source: https://iclr.cc/Conferences/2020
 ---

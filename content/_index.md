@@ -62,7 +62,7 @@ sections:
       text: |
         <div class="row homepage-group-photo">
           <div class="section-heading col-12 mb-3 text-center">
-            <h1 class="mb-0">Our team</h1>
+            <h1 class="mb-0">Our team (June, 2026)</h1>
           </div>
           <div class="col-12 text-center">
             <img src="/images/lab-group-photo.jpg" alt="LEAF Lab group photo" style="max-width:640px; width:100%; border-radius:8px; display:block; margin:0 auto;">
