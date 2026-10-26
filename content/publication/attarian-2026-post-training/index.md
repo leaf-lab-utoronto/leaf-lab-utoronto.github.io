@@ -18,6 +18,7 @@ publication_types:
 - 'preprint'
 publication: '*arXiv:2610.19143*'
 publication_short: '**arXiv**'
+highlight: R2RL Workshop Oral Presentation at CoRL
 url_pdf: https://arxiv.org/pdf/2610.19143
 url_doi: https://doi.org/10.48550/arXiv.2610.19143
 summary: "A comparison of adaptation strategies for vision-language-action models across offline and online data settings, evaluated in LIBERO and on a Franka robot."
