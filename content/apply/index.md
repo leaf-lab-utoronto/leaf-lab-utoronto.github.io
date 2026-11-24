@@ -5,7 +5,7 @@ date: 2022-10-24
 
 # Interested in the LEAF lab?
 
-We are regularly looking for exceptionally creative, talented, and self-motivated researchers, from undergraduates to postdocs. Our research typically requires strong programming, mathematics, and machine learning foundations. If you think this describes you and you are interested in working together, please read this page carefully before reaching out.
+**We are regularly looking for exceptionally creative, talented, and self-motivated researcher**. Our research typically requires strong programming, mathematics, and machine learning foundations. If you think this describes you and you are interested in working together, please read this page carefully before reaching out. <span style="color: red;">Please do not email me about graduate admissions. I will read your application if you express interest in my group in your application.</span>
 
 ---
 
@@ -79,16 +79,16 @@ We sometimes involve undergraduates in our research, and welcome you to consider
 
 # Contact
 
-**Email:** nick.rhinehart@utoronto.ca
+**Email:** nick DOT rhinehart AT utoronto.ca
 
-If you've carefully read this page and want to reach out, please include **[LEAF-interest]** in your subject line. Emails that follow this format are likelier to get replies:
+ <span style="color: red;">Please do not email me about graduate admissions. I will read your application if you express interest in my group in your application.</span>
 
-- **One or two specific things** from our recent [publications](/publication/) that connect to your background or interests.
-- **A concrete question or idea**, however small, rather than an open-ended request to discuss opportunities.
+Otherwise, if you've carefully read this page and want to reach out, please include **[LEAF-interest]** in your subject line. Emails that follow this format are likelier to get replies:
+
+- **Written by you without LLMs**: <span style="color: red;">I will delete your email if it's clearly not written by you without LLMs.</span>
 - **Links to 2-3 of your representative papers**, ideally published or under review at our primary venues (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, RSS, CoRL, ICRA) and related to our research areas.
 - **Your CV**, which route (see above) you're asking about, and your funding situation if applicable.
-- **Written by you**: I often ignore application emails written by LLMs for a variety of reasons.
- 
+
 No response does not necessarily mean we are not interested. If you don't receive a response, yet have carefully read this page and strongly believe you are an excellent fit to do research with us, please try to contact us again.
 
 ---
@@ -98,6 +98,11 @@ No response does not necessarily mean we are not interested. If you don't receiv
 <details>
 <summary><strong>Are you planning to hire graduate students in the upcoming cycle?</strong></summary>
 <p>Yes.</p>
+</details>
+
+<details>
+<summary><strong>Does it give me an advantage in graduate applications to email you?</strong></summary>
+<p>No.</p>
 </details>
 
 <details>
