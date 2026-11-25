@@ -5,7 +5,7 @@ date: 2022-10-24
 
 # Interested in the LEAF lab?
 
-**We are regularly looking for exceptionally creative, talented, and self-motivated researcher**. Our research typically requires strong programming, mathematics, and machine learning foundations. If you think this describes you and you are interested in working together, please read this page carefully before reaching out. <span style="color: red;">Please do not email me about graduate admissions. I will read your application if you express interest in my group in your application.</span>
+**We are regularly looking for exceptionally creative, talented, and self motivated researchers**. Our research typically requires strong programming, mathematics, and machine learning foundations. If you think this describes you and you are interested in working together, please read this page carefully before reaching out. <span style="color: red;">Please do not email me about graduate admissions. I will read your application if you express interest in my group in your application.</span>
 
 ---
 
@@ -85,7 +85,7 @@ We sometimes involve undergraduates in our research, and welcome you to consider
 
 Otherwise, if you've carefully read this page and want to reach out, please include **[LEAF-interest]** in your subject line. Emails that follow this format are likelier to get replies:
 
-- **Written by you without LLMs**: <span style="color: red;">I will delete your email if it's clearly not written by you without LLMs.</span>
+- **Written by you without using LLMs**: <span style="color: red;">I will delete your email if it’s obviously written by an LLM.</span>
 - **Links to 2-3 of your representative papers**, ideally published or under review at our primary venues (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, RSS, CoRL, ICRA) and related to our research areas.
 - **Your CV**, which route (see above) you're asking about, and your funding situation if applicable.
 
