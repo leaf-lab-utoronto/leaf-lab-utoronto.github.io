@@ -129,7 +129,7 @@
   translation: See all events
 
 - id: more_publications
-  translation: See all publications
+  translation: See all papers
 
 # Contact widget
 
@@ -209,7 +209,7 @@
   translation: Posts
 
 - id: publications
-  translation: Publications
+  translation: Papers
 
 - id: talks
   translation: Events

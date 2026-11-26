@@ -5,9 +5,9 @@
 
 {{ partial "page_header.html" . }}
 
-<!-- Mark the "publications" navbar item as active for tags, which are shown with the list.html format-->
+{{/* Keep the Papers menu item active on topic pages. */}}
 <script defer>
-  [...document.getElementsByClassName('nav-link')].filter(a => a.textContent.includes("Publications")).forEach(a => a.classList.add("active"))
+  document.querySelector('.nav-link[href="{{ "publication" | relLangURL }}"]')?.classList.add("active");
 </script>
 {{ partial "pub_list_scripts.html" . }}
 
@@ -33,7 +33,7 @@
         <div class="col-auto"></div>
         <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">Select publication type</option>
+            <option value="*">Select paper type</option>
             {{ range $index, $taxonomy := site.Taxonomies.publication_types }}
             <option value=".pubtype-{{ $index }}">
               {{ i18n (printf "pub_%s" (strings.Replace $index "-" "_")) | default (strings.Title $index) }}
@@ -64,9 +64,9 @@
           {{ end }}
         {{ end }}
         {{ if $badge_identified }}
-          <a class="badge badge-light" href="/publication/">All Publication Topics</a>
+          <a class="badge badge-light" href="/publication/">All Paper Topics</a>
         {{ else }}
-          <a class="badge badge-light badge-active" href="/publication/">All Publication Topics</a> 
+          <a class="badge badge-light badge-active" href="/publication/">All Paper Topics</a>
         {{ end }}
         {{ range site.Taxonomies.tags }}
           {{ if eq $tag_title .Page.Title }}

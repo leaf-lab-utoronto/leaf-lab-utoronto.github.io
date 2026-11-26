@@ -19,7 +19,7 @@ I am generally open to **co-advising** with other faculty in UTIAS and DCS. If y
 
 ## How to apply
 
-**Step 1: Apply** through one of the routes below. **Mention the PI's name in your application**, and describe your research interests with reference to specific papers or directions from our [publications](/publication/), not just a general interest in robotics or ML. Applications without the PI's name, or that show no specific engagement with our research, may be overlooked.
+**Step 1: Apply** through one of the routes below. **Mention the PI's name in your application**, and describe your research interests with reference to specific [papers](/publication/) or research directions from our lab, not just a general interest in robotics or ML. Applications without the PI's name, or that show no specific engagement with our research, may be overlooked.
 
 **Step 2: Interview**. Shortlisted candidates will be invited for a virtual interview to discuss background, goals, and potential research directions.
 
@@ -112,7 +112,7 @@ No response does not necessarily mean we are not interested. If you don't receiv
 
 <details>
 <summary><strong>I'm interested in a specific research direction. Can we discuss it before I apply?</strong></summary>
-<p>We'd love to, but there isn't enough time to discuss this with every applicant before the process. You can get a strong sense of our research by reading our recent <a href="/publication/">publications</a>. Please describe your research interests in your application. If you're selected for an interview, we will absolutely discuss mutual fit in detail.</p>
+<p>We'd love to, but there isn't enough time to discuss this with every applicant before the process. You can get a strong sense of our research by reading our recent <a href="/publication/">papers</a>. Please describe your research interests in your application. If you're selected for an interview, we will absolutely discuss mutual fit in detail.</p>
 </details>
 
 <details>

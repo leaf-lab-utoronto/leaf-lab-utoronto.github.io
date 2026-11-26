@@ -1,4 +1,5 @@
 ---
+title: Papers
 # Listing view
 # view: compact
 # type: landing
@@ -7,7 +8,7 @@ view: citation
 sections:
   - block: collection
     content:
-      title: Recent Publications
+      title: Recent papers
       text: ""
       count: 3
       filters:
@@ -20,7 +21,7 @@ sections:
   # - block: collection
   #   id: publications
   #   content:
-  #     title: Publications
+  #     title: Papers
   #     count: 0
   #     filters:
   #       folders:

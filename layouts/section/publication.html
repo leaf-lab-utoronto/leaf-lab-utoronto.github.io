@@ -29,7 +29,7 @@
         <div class="col-auto"></div>
         <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">Select publication type</option>
+            <option value="*">Select paper type</option>
             <option value=".peer-reviewed">Peer-reviewed</option>
             {{ range $index, $taxonomy := site.Taxonomies.publication_types }}
             <option value=".pubtype-{{ $index }}">
@@ -61,9 +61,9 @@
           {{ end }}
         {{ end }}
         {{ if $badge_identified }}
-          <a class="badge badge-light" href="/publication/">All Publication Topics</a>
+          <a class="badge badge-light" href="/publication/">All Paper Topics</a>
         {{ else }}
-          <a class="badge badge-light badge-active" href="/publication/">All Publication Topics</a> 
+          <a class="badge badge-light badge-active" href="/publication/">All Paper Topics</a>
         {{ end }}
         {{ range site.Taxonomies.tags }}
           {{ if eq $tag_title .Page.Title }}

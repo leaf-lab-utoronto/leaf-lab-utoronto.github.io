@@ -72,7 +72,7 @@ sections:
   - block: collection
     id: recent-publications
     content:
-      title: Recent publications
+      title: Recent papers
       text: '<span class="homepage-recent-publications-marker"></span>'
       count: 5
       filters:

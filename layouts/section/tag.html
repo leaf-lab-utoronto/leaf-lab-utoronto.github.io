@@ -28,7 +28,7 @@
         </div>
         <!-- <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
-            <option value="*">Publication type</option>
+            <option value="*">Paper type</option>
             {{ range $index, $taxonomy := site.Taxonomies.publication_types }}
             <option value=".pubtype-{{ $index }}">
               {{ i18n (printf "pub_%s" (strings.Replace $index "-" "_")) | default (strings.Title $index) }}
